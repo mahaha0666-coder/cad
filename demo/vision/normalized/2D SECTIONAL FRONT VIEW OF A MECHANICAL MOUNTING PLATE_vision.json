@@ -1,0 +1,298 @@
+{
+  "schema_version": "cad-vision-v1",
+  "drawing_key": "2d-sectional-front-view-of-a-mechanical-mounting-plate",
+  "image": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left",
+    "sha256": "100675d0ae612d52cdde5b84cdd097a3c64196a35614efa8a79d87de09364066"
+  },
+  "model": {
+    "name": "deepseek-v4-flash-vision-exp",
+    "prompt_version": "cad-vision-prompt-v1",
+    "detail": "original"
+  },
+  "drawing_type": "section_view",
+  "summary": "该图纸展示了一个机械安装板的二维剖面前视图。主体部分有交叉剖面线，表示材料被剖切。图纸包含多个圆形特征（孔或凸台）、一个顶部凸耳、一个底部凸耳，以及大量的直径、半径和线性尺寸标注。",
+  "observations": [
+    {
+      "id": "VIS_0001",
+      "observation_type": "section_view",
+      "description": "主体区域（中间带有剖面线的部分）以剖视图形式展示。",
+      "region_px": [
+        300.0,
+        235.0,
+        737.0,
+        615.0
+      ],
+      "region_normalized": [
+        0.15625,
+        0.2175925925925926,
+        0.38385416666666666,
+        0.5694444444444444
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0002",
+      "observation_type": "hatch",
+      "description": "剖切主体区域内可见交叉剖面线。",
+      "region_px": [
+        310.0,
+        245.0,
+        725.0,
+        605.0
+      ],
+      "region_normalized": [
+        0.16145833333333334,
+        0.22685185185185186,
+        0.3776041666666667,
+        0.5601851851851852
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0003",
+      "observation_type": "centerline",
+      "description": "贯穿整体图形的主要垂直中心线，以及贯穿各个孔和凸耳中心的水平中心线。",
+      "region_px": [
+        490.0,
+        40.0,
+        493.0,
+        910.0
+      ],
+      "region_normalized": [
+        0.2552083333333333,
+        0.037037037037037035,
+        0.25677083333333334,
+        0.8425925925925926
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0004",
+      "observation_type": "symmetry",
+      "description": "图形关于主垂直中心线大致对称。",
+      "region_px": [
+        300.0,
+        40.0,
+        737.0,
+        910.0
+      ],
+      "region_normalized": [
+        0.15625,
+        0.037037037037037035,
+        0.38385416666666666,
+        0.8425925925925926
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.7,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0005",
+      "observation_type": "feature_candidate",
+      "description": "顶部圆形凸耳，内部有一个同心孔。",
+      "region_px": [
+        335.0,
+        55.0,
+        485.0,
+        220.0
+      ],
+      "region_normalized": [
+        0.17447916666666666,
+        0.05092592592592592,
+        0.2526041666666667,
+        0.2037037037037037
+      ],
+      "candidate_feature": {
+        "value": "hole_with_counterbore"
+      },
+      "model_confidence": 0.6,
+      "status": "candidate",
+      "uncertainty": "无法确定精确尺寸或具体特征类型",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0006",
+      "observation_type": "feature_candidate",
+      "description": "底部圆形凸耳，内部有一个同心孔。",
+      "region_px": [
+        450.0,
+        685.0,
+        590.0,
+        910.0
+      ],
+      "region_normalized": [
+        0.234375,
+        0.6342592592592593,
+        0.3072916666666667,
+        0.8425925925925926
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.6,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0007",
+      "observation_type": "feature_candidate",
+      "description": "中央剖切区域内的一个中心孔。",
+      "region_px": [
+        450.0,
+        350.0,
+        580.0,
+        620.0
+      ],
+      "region_normalized": [
+        0.234375,
+        0.32407407407407407,
+        0.3020833333333333,
+        0.5740740740740741
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.6,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0008",
+      "observation_type": "feature_candidate",
+      "description": "剖切板左侧区域的一个孔。",
+      "region_px": [
+        310.0,
+        315.0,
+        420.0,
+        690.0
+      ],
+      "region_normalized": [
+        0.16145833333333334,
+        0.2916666666666667,
+        0.21875,
+        0.6388888888888888
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.6,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0009",
+      "observation_type": "feature_candidate",
+      "description": "剖切板右侧区域的一个孔。",
+      "region_px": [
+        635.0,
+        310.0,
+        745.0,
+        690.0
+      ],
+      "region_normalized": [
+        0.3307291666666667,
+        0.28703703703703703,
+        0.3880208333333333,
+        0.6388888888888888
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.6,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0010",
+      "observation_type": "leader_relation",
+      "description": "引线标签将尺寸和特征标注连接到特定几何形状。",
+      "region_px": [
+        320.0,
+        55.0,
+        750.0,
+        120.0
+      ],
+      "region_normalized": [
+        0.16666666666666666,
+        0.05092592592592592,
+        0.390625,
+        0.1111111111111111
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0011",
+      "observation_type": "technical_requirement",
+      "description": "显示尺寸标注：Ø34, Ø20, 34, 60, 64, Ø30, Ø20, R80, R25, R18, R16, Ø22, Ø40。",
+      "region_px": [
+        290.0,
+        50.0,
+        750.0,
+        900.0
+      ],
+      "region_normalized": [
+        0.15104166666666666,
+        0.046296296296296294,
+        0.390625,
+        0.8333333333333334
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": "图中的部分文本（如 34、38）非常小，辨识度可能有限",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0012",
+      "observation_type": "other",
+      "description": "图中可见坐标轴和 AutoCAD 界面元素。",
+      "region_px": [
+        30.0,
+        720.0,
+        100.0,
+        900.0
+      ],
+      "region_normalized": [
+        0.015625,
+        0.6666666666666666,
+        0.052083333333333336,
+        0.8333333333333334
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    }
+  ],
+  "statistics": {
+    "observation_count": 12,
+    "candidate_count": 12
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "cad-ocr-vision-batch-v1",
+  "drawing_count": 7,
+  "records": [
+    {
+      "drawing": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE",
+      "output": "demo/unified/2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_unified_features.json",
+      "feature_count": 54,
+      "fusion_status_counts": {
+        "cad_only": 14,
+        "confirmed": 26,
+        "conflict": 2,
+        "ocr_only": 1,
+        "vision_only": 11
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 41,
+        "dimension_candidate": 1,
+        "native_text_annotation": 1,
+        "vision_observation": 11
+      },
+      "vision_observation_count": 11,
+      "vision_attached_feature_count": 0,
+      "vision_only_feature_count": 11
+    },
+    {
+      "drawing": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET",
+      "output": "demo/unified/2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET_unified_features.json",
+      "feature_count": 54,
+      "fusion_status_counts": {
+        "cad_only": 30,
+        "confirmed": 9,
+        "conflict": 1,
+        "ocr_only": 1,
+        "vision_only": 13
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 40,
+        "ocr_text_observation": 1,
+        "vision_observation": 13
+      },
+      "vision_observation_count": 15,
+      "vision_attached_feature_count": 2,
+      "vision_only_feature_count": 13
+    },
+    {
+      "drawing": "2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION",
+      "output": "demo/unified/2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION_unified_features.json",
+      "feature_count": 26,
+      "fusion_status_counts": {
+        "confirmed": 19,
+        "conflict": 1,
+        "ocr_only": 1,
+        "vision_only": 5
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 20,
+        "ocr_text_observation": 1,
+        "vision_observation": 5
+      },
+      "vision_observation_count": 8,
+      "vision_attached_feature_count": 3,
+      "vision_only_feature_count": 5
+    },
+    {
+      "drawing": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE",
+      "output": "demo/unified/2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE_unified_features.json",
+      "feature_count": 34,
+      "fusion_status_counts": {
+        "cad_only": 8,
+        "confirmed": 7,
+        "conflict": 1,
+        "ocr_only": 6,
+        "vision_only": 12
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 15,
+        "dimension_candidate": 6,
+        "native_text_annotation": 1,
+        "vision_observation": 12
+      },
+      "vision_observation_count": 12,
+      "vision_attached_feature_count": 0,
+      "vision_only_feature_count": 12
+    },
+    {
+      "drawing": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT",
+      "output": "demo/unified/2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT_unified_features.json",
+      "feature_count": 24,
+      "fusion_status_counts": {
+        "cad_only": 4,
+        "confirmed": 8,
+        "ocr_only": 2,
+        "vision_only": 10
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 10,
+        "dimension_candidate": 2,
+        "native_text_annotation": 2,
+        "vision_observation": 10
+      },
+      "vision_observation_count": 10,
+      "vision_attached_feature_count": 0,
+      "vision_only_feature_count": 10
+    },
+    {
+      "drawing": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT",
+      "output": "demo/unified/2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_unified_features.json",
+      "feature_count": 24,
+      "fusion_status_counts": {
+        "cad_only": 6,
+        "confirmed": 5,
+        "conflict": 1,
+        "ocr_only": 2,
+        "vision_only": 10
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 10,
+        "dimension_candidate": 2,
+        "native_text_annotation": 2,
+        "vision_observation": 10
+      },
+      "vision_observation_count": 12,
+      "vision_attached_feature_count": 2,
+      "vision_only_feature_count": 10
+    },
+    {
+      "drawing": "test",
+      "output": "demo/unified/test_unified_features.json",
+      "feature_count": 29,
+      "fusion_status_counts": {
+        "confirmed": 19,
+        "conflict": 1,
+        "ocr_only": 1,
+        "vision_only": 8
+      },
+      "feature_type_counts": {
+        "dimension_annotation": 20,
+        "ocr_text_observation": 1,
+        "vision_observation": 8
+      },
+      "vision_observation_count": 10,
+      "vision_attached_feature_count": 2,
+      "vision_only_feature_count": 8
+    }
+  ]
+}

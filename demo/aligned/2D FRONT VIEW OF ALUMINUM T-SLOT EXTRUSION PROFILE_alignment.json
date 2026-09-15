@@ -1,0 +1,396 @@
+{
+  "schema_version": "cad-ocr-alignment-v1",
+  "drawing_key": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.dwg",
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        14.377110742166064,
+        0.055739015332626235,
+        -261.81575509279253
+      ],
+      [
+        -0.008400800054295093,
+        -14.385853379126235,
+        1711.009563984335
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 7,
+    "inlier_anchor_count": 7,
+    "rmse_px": 2.057927457886812,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "anchors": [
+    {
+      "text": "31",
+      "native_id": "NATIVE_H33D",
+      "ocr_id": "OCR_0026",
+      "cad": [
+        78.67125523983627,
+        54.23959038670523
+      ],
+      "pixel": [
+        874.5,
+        930.0
+      ],
+      "inlier": true,
+      "error_px": 2.2281187328245635
+    },
+    {
+      "text": "36",
+      "native_id": "NATIVE_H57D",
+      "ocr_id": "OCR_0027",
+      "cad": [
+        71.60830918520037,
+        52.47829764760269
+      ],
+      "pixel": [
+        771.5,
+        955.5
+      ],
+      "inlier": true,
+      "error_px": 0.8708657957104083
+    },
+    {
+      "text": "3XR0.5",
+      "native_id": "NATIVE_H697",
+      "ocr_id": "OCR_0024",
+      "cad": [
+        86.08731109806325,
+        57.21872014752653
+      ],
+      "pixel": [
+        979.5,
+        887.25
+      ],
+      "inlier": true,
+      "error_px": 0.45171259385739027
+    },
+    {
+      "text": "R1",
+      "native_id": "NATIVE_H440",
+      "ocr_id": "OCR_0006",
+      "cad": [
+        82.17718682067786,
+        94.72353920653134
+      ],
+      "pixel": [
+        927.0,
+        347.5
+      ],
+      "inlier": true,
+      "error_px": 2.07020001806237
+    },
+    {
+      "text": "R1.5",
+      "native_id": "NATIVE_H5FD",
+      "ocr_id": "OCR_0020",
+      "cad": [
+        66.12651302292942,
+        75.49516494942361
+      ],
+      "pixel": [
+        689.0,
+        624.5
+      ],
+      "inlier": true,
+      "error_px": 4.10190239770946
+    },
+    {
+      "text": "R2.2",
+      "native_id": "NATIVE_H6AD",
+      "ocr_id": "OCR_0028",
+      "cad": [
+        115.23721074794236,
+        51.13488700614722
+      ],
+      "pixel": [
+        1396.5,
+        973.75
+      ],
+      "inlier": true,
+      "error_px": 1.4748382843444112
+    },
+    {
+      "text": "R4",
+      "native_id": "NATIVE_H6C3",
+      "ocr_id": "OCR_0025",
+      "cad": [
+        119.87035423042684,
+        55.89741345975715
+      ],
+      "pixel": [
+        1464.5,
+        906.5
+      ],
+      "inlier": true,
+      "error_px": 0.6572777223000037
+    }
+  ],
+  "matches": [
+    {
+      "native_item_id": "NATIVE_H615",
+      "ocr_item_id": "OCR_0015",
+      "text_similarity": 1.0,
+      "distance_px": 0.35238544289020496,
+      "score": 0.9986780545891617,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H37B",
+      "ocr_item_id": "OCR_0023",
+      "text_similarity": 1.0,
+      "distance_px": 0.4716883429281635,
+      "score": 0.9982261687140194,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H41C",
+      "ocr_item_id": "OCR_0009",
+      "text_similarity": 1.0,
+      "distance_px": 0.5666795946809311,
+      "score": 0.9978709515199465,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H6C3",
+      "ocr_item_id": "OCR_0025",
+      "text_similarity": 1.0,
+      "distance_px": 0.6572777223000037,
+      "score": 0.997322208541375,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H57D",
+      "ocr_item_id": "OCR_0027",
+      "text_similarity": 1.0,
+      "distance_px": 0.8708657957104083,
+      "score": 0.996733253266086,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4B1",
+      "ocr_item_id": "OCR_0005",
+      "text_similarity": 1.0,
+      "distance_px": 0.9696022211885003,
+      "score": 0.9963254916705432,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H5E7",
+      "ocr_item_id": "OCR_0010",
+      "text_similarity": 1.0,
+      "distance_px": 1.099683449394476,
+      "score": 0.9958416870647707,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H5B1",
+      "ocr_item_id": "OCR_0013",
+      "text_similarity": 1.0,
+      "distance_px": 1.1413347938106757,
+      "score": 0.99571949452321,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3E7",
+      "ocr_item_id": "OCR_0012",
+      "text_similarity": 1.0,
+      "distance_px": 1.1663727283516303,
+      "score": 0.9956251022686814,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_HA69",
+      "ocr_item_id": "OCR_0019",
+      "text_similarity": 1.0,
+      "distance_px": 1.2167115928118941,
+      "score": 0.9954363315269554,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H649",
+      "ocr_item_id": "OCR_0011",
+      "text_similarity": 1.0,
+      "distance_px": 1.2306702083570955,
+      "score": 0.9953844867186609,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3CD",
+      "ocr_item_id": "OCR_0018",
+      "text_similarity": 1.0,
+      "distance_px": 1.234347485588452,
+      "score": 0.9953701969290434,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H401",
+      "ocr_item_id": "OCR_0021",
+      "text_similarity": 1.0,
+      "distance_px": 1.2702741720039528,
+      "score": 0.9952359718549851,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H549",
+      "ocr_item_id": "OCR_0001",
+      "text_similarity": 1.0,
+      "distance_px": 1.420397337723575,
+      "score": 0.9946725099835366,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H6AD",
+      "ocr_item_id": "OCR_0028",
+      "text_similarity": 1.0,
+      "distance_px": 1.4748382843444112,
+      "score": 0.9944683564337085,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H663",
+      "ocr_item_id": "OCR_0022",
+      "text_similarity": 1.0,
+      "distance_px": 1.4814018333258447,
+      "score": 0.9944442431250281,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H67D",
+      "ocr_item_id": "OCR_0014",
+      "text_similarity": 1.0,
+      "distance_px": 1.527322913631366,
+      "score": 0.9942720390738823,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H440",
+      "ocr_item_id": "OCR_0006",
+      "text_similarity": 1.0,
+      "distance_px": 2.07020001806237,
+      "score": 0.9922182499322661,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H597",
+      "ocr_item_id": "OCR_0029",
+      "text_similarity": 1.0,
+      "distance_px": 2.2055626451267605,
+      "score": 0.9917286400807747,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H33D",
+      "ocr_item_id": "OCR_0026",
+      "text_similarity": 1.0,
+      "distance_px": 2.2281187328245635,
+      "score": 0.9916095547519079,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H52F",
+      "ocr_item_id": "OCR_0002",
+      "text_similarity": 1.0,
+      "distance_px": 2.5470865927648805,
+      "score": 0.9904479252771317,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H515",
+      "ocr_item_id": "OCR_0003",
+      "text_similarity": 1.0,
+      "distance_px": 2.6857484977632393,
+      "score": 0.9899269431333879,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4FB",
+      "ocr_item_id": "OCR_0004",
+      "text_similarity": 1.0,
+      "distance_px": 3.0776791045393446,
+      "score": 0.9884582033579775,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H42E",
+      "ocr_item_id": "OCR_0008",
+      "text_similarity": 1.0,
+      "distance_px": 3.0824515770614216,
+      "score": 0.9884373065860197,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H5FD",
+      "ocr_item_id": "OCR_0020",
+      "text_similarity": 1.0,
+      "distance_px": 4.10190239770946,
+      "score": 0.9846143660085895,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H697",
+      "ocr_item_id": "OCR_0024",
+      "text_similarity": 1.0,
+      "distance_px": 0.45171259385739027,
+      "score": 0.9482980777730349,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H361",
+      "ocr_item_id": "OCR_0016",
+      "text_similarity": 0.8571428571428571,
+      "distance_px": 6.73690207148309,
+      "score": 0.8961266886605098,
+      "status": "conflict"
+    },
+    {
+      "native_item_id": "NATIVE_H6D9",
+      "ocr_item_id": "OCR_0007",
+      "text_similarity": 0.6666666666666666,
+      "distance_px": 7.379136568086018,
+      "score": 0.7878514045363441,
+      "status": "conflict"
+    }
+  ],
+  "unmatched": {
+    "native_item_ids": [
+      "NATIVE_H395",
+      "NATIVE_H456",
+      "NATIVE_H468",
+      "NATIVE_H46E",
+      "NATIVE_H488",
+      "NATIVE_H499",
+      "NATIVE_H49F",
+      "NATIVE_H4A5",
+      "NATIVE_H4AB",
+      "NATIVE_H4C7",
+      "NATIVE_H563",
+      "NATIVE_H5D5",
+      "NATIVE_H6EB",
+      "NATIVE_HB97"
+    ],
+    "ocr_item_ids": [
+      "OCR_0017"
+    ]
+  },
+  "candidate_count": 32,
+  "statistics": {
+    "confirmed": 26,
+    "conflict": 2,
+    "ambiguous": 0,
+    "cad_only": 14,
+    "ocr_only": 1
+  }
+}

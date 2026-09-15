@@ -1,0 +1,183 @@
+{
+  "schema_version": "cad-ocr-alignment-v1",
+  "drawing_key": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.dwg",
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        4.650140792199034,
+        -0.0024768614358794813,
+        420.3559175272898
+      ],
+      [
+        -0.011448121328789402,
+        -4.663109915844833,
+        1116.259177255805
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 5,
+    "inlier_anchor_count": 5,
+    "rmse_px": 0.5427247265270047,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "anchors": [
+    {
+      "text": "120°",
+      "native_id": "NATIVE_H370",
+      "ocr_id": "OCR_0008",
+      "cad": [
+        119.99999999999996,
+        82.00451012940039
+      ],
+      "pixel": [
+        978.5,
+        732.5
+      ],
+      "inlier": true,
+      "error_px": 0.3304725989204824
+    },
+    {
+      "text": "R10",
+      "native_id": "NATIVE_H32A",
+      "ocr_id": "OCR_0003",
+      "cad": [
+        169.60217878644085,
+        162.20205933222155
+      ],
+      "pixel": [
+        1208.0,
+        357.5
+      ],
+      "inlier": true,
+      "error_px": 0.773611349438741
+    },
+    {
+      "text": "R100",
+      "native_id": "NATIVE_H301",
+      "ocr_id": "OCR_0001",
+      "cad": [
+        211.92779111047466,
+        204.29747368014492
+      ],
+      "pixel": [
+        1406.0,
+        161.0
+      ],
+      "inlier": true,
+      "error_px": 0.6780603975881779
+    },
+    {
+      "text": "R16",
+      "native_id": "NATIVE_H318",
+      "ocr_id": "OCR_0004",
+      "cad": [
+        205.5594260022235,
+        163.14660674520454
+      ],
+      "pixel": [
+        1375.5,
+        353.5
+      ],
+      "inlier": true,
+      "error_px": 0.4932138929322892
+    },
+    {
+      "text": "R60",
+      "native_id": "NATIVE_H340",
+      "ocr_id": "OCR_0002",
+      "cad": [
+        148.09210825769688,
+        193.39271949137077
+      ],
+      "pixel": [
+        1108.5,
+        213.0
+      ],
+      "inlier": true,
+      "error_px": 0.2490745638207776
+    }
+  ],
+  "matches": [
+    {
+      "native_item_id": "NATIVE_H340",
+      "ocr_item_id": "OCR_0002",
+      "text_similarity": 1.0,
+      "distance_px": 0.2490745638207776,
+      "score": 0.9989774703856721,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H318",
+      "ocr_item_id": "OCR_0004",
+      "text_similarity": 1.0,
+      "distance_px": 0.4932138929322892,
+      "score": 0.998149447901504,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H370",
+      "ocr_item_id": "OCR_0008",
+      "text_similarity": 1.0,
+      "distance_px": 0.3304725989204824,
+      "score": 0.9975327277540482,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H301",
+      "ocr_item_id": "OCR_0001",
+      "text_similarity": 1.0,
+      "distance_px": 0.6780603975881779,
+      "score": 0.9974547735090444,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H32A",
+      "ocr_item_id": "OCR_0003",
+      "text_similarity": 1.0,
+      "distance_px": 0.773611349438741,
+      "score": 0.9970909574396047,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3CC",
+      "ocr_item_id": "OCR_0007",
+      "text_similarity": 0.6666666666666666,
+      "distance_px": 1.0945106379010199,
+      "score": 0.7619802517745379,
+      "status": "conflict"
+    }
+  ],
+  "unmatched": {
+    "native_item_ids": [
+      "NATIVE_H356",
+      "NATIVE_H38A",
+      "NATIVE_H3A4",
+      "NATIVE_H3B8",
+      "NATIVE_H455",
+      "NATIVE_H463"
+    ],
+    "ocr_item_ids": [
+      "OCR_0005",
+      "OCR_0006"
+    ]
+  },
+  "candidate_count": 6,
+  "statistics": {
+    "confirmed": 5,
+    "conflict": 1,
+    "ambiguous": 0,
+    "cad_only": 6,
+    "ocr_only": 2
+  }
+}

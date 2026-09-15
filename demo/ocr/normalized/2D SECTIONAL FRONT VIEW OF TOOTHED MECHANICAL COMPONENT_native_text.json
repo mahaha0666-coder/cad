@@ -1,0 +1,362 @@
+{
+  "schema_version": "cad-native-text-v1",
+  "drawing": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.dwg",
+    "source_format": "DWG",
+    "parser": "LibreDWG"
+  },
+  "source_structured_json": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_structured.json",
+  "cad_coordinate_system": "drawing_engineering_coordinates",
+  "cad_bounds": [
+    -16.0,
+    -20.13030214988504,
+    228.60656147220914,
+    228.60656147220917
+  ],
+  "items": [
+    {
+      "id": "NATIVE_H301",
+      "source_entity_ids": [
+        "H301",
+        "H3FB"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        211.92779111047466,
+        204.29747368014492
+      ],
+      "text_raw": "{\\H22.22222x;R100}",
+      "display_text_raw": "\\A1;{\\H22.22222x;R100}",
+      "text_clean": "R100",
+      "text_normalized": "R100",
+      "dimension_kind": "radius",
+      "measurement_raw": 100.00000000000006,
+      "parsed": {
+        "kind": "radius",
+        "value": 100.00000000000006,
+        "unit": null
+      },
+      "display_entity_id": "H3FB",
+      "dimension_type": "DIMENSION_RADIUS",
+      "block_id": "H303"
+    },
+    {
+      "id": "NATIVE_H318",
+      "source_entity_ids": [
+        "H318",
+        "H3ED"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        205.5594260022235,
+        163.14660674520454
+      ],
+      "text_raw": "{\\H22.22222x;R16}",
+      "display_text_raw": "\\A1;{\\H22.22222x;R16}",
+      "text_clean": "R16",
+      "text_normalized": "R16",
+      "dimension_kind": "radius",
+      "measurement_raw": 16,
+      "parsed": {
+        "kind": "radius",
+        "value": 16,
+        "unit": null
+      },
+      "display_entity_id": "H3ED",
+      "dimension_type": "DIMENSION_RADIUS",
+      "block_id": "H319"
+    },
+    {
+      "id": "NATIVE_H32A",
+      "source_entity_ids": [
+        "H32A",
+        "H483"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        169.60217878644085,
+        162.20205933222155
+      ],
+      "text_raw": "{\\H22.22222x;R10}",
+      "display_text_raw": "\\A1;{\\H22.22222x;R10}",
+      "text_clean": "R10",
+      "text_normalized": "R10",
+      "dimension_kind": "radius",
+      "measurement_raw": 9.99999999999997,
+      "parsed": {
+        "kind": "radius",
+        "value": 9.99999999999997,
+        "unit": null
+      },
+      "display_entity_id": "H483",
+      "dimension_type": "DIMENSION_RADIUS",
+      "block_id": "H32B"
+    },
+    {
+      "id": "NATIVE_H340",
+      "source_entity_ids": [
+        "H340",
+        "H473"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        148.09210825769688,
+        193.39271949137077
+      ],
+      "text_raw": "{\\H22.22222x;R60}",
+      "display_text_raw": "\\A1;{\\H22.22222x;R60}",
+      "text_clean": "R60",
+      "text_normalized": "R60",
+      "dimension_kind": "radius",
+      "measurement_raw": 59.99999999999994,
+      "parsed": {
+        "kind": "radius",
+        "value": 59.99999999999994,
+        "unit": null
+      },
+      "display_entity_id": "H473",
+      "dimension_type": "DIMENSION_RADIUS",
+      "block_id": "H341"
+    },
+    {
+      "id": "NATIVE_H356",
+      "source_entity_ids": [
+        "H356",
+        "H40F"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        120.00000000000001,
+        228.60656147220917
+      ],
+      "text_raw": "{\\H22.22222x;<>}",
+      "display_text_raw": "\\A1;{\\H22.22222x;60°}",
+      "text_clean": "60°",
+      "text_normalized": "60°",
+      "dimension_kind": "angle",
+      "measurement_raw": 1.0471975511966,
+      "parsed": {
+        "kind": "angle",
+        "value": 60.000000000000135,
+        "unit": null
+      },
+      "display_entity_id": "H40F",
+      "dimension_type": "DIMENSION_ANG2LN",
+      "block_id": "H357"
+    },
+    {
+      "id": "NATIVE_H370",
+      "source_entity_ids": [
+        "H370",
+        "H437"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        119.99999999999996,
+        82.00451012940039
+      ],
+      "text_raw": "{\\H22.22222x;<>}",
+      "display_text_raw": "\\A1;{\\H22.22222x;120°}",
+      "text_clean": "120°",
+      "text_normalized": "120°",
+      "dimension_kind": "angle",
+      "measurement_raw": 2.0943951023932,
+      "parsed": {
+        "kind": "angle",
+        "value": 120.00000000000027,
+        "unit": null
+      },
+      "display_entity_id": "H437",
+      "dimension_type": "DIMENSION_ANG2LN",
+      "block_id": "H371"
+    },
+    {
+      "id": "NATIVE_H38A",
+      "source_entity_ids": [
+        "H38A",
+        "H67C"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        57.62947216334145,
+        76.32768624665313
+      ],
+      "text_raw": "{\\H22.22222x;<>}",
+      "display_text_raw": "\\A1;{\\H22.22222x;110°}",
+      "text_clean": "110°",
+      "text_normalized": "110°",
+      "dimension_kind": "angle",
+      "measurement_raw": 1.91986217719376,
+      "parsed": {
+        "kind": "angle",
+        "value": 109.99999999999986,
+        "unit": null
+      },
+      "display_entity_id": "H67C",
+      "dimension_type": "DIMENSION_ANG2LN",
+      "block_id": "H38B"
+    },
+    {
+      "id": "NATIVE_H3A4",
+      "source_entity_ids": [
+        "H3A4"
+      ],
+      "source_entity_types": [
+        "DIMENSION"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        162.21118099286107,
+        126.95412718976834
+      ],
+      "text_raw": "{\\H22.22222x;%%C40}",
+      "display_text_raw": null,
+      "text_clean": "%%C40",
+      "text_normalized": "%%C40",
+      "dimension_kind": "radius",
+      "measurement_raw": 20.00000000000003,
+      "parsed": {
+        "kind": "radius",
+        "value": 20.00000000000003,
+        "unit": null
+      },
+      "dimension_type": "DIMENSION_RADIUS",
+      "block_id": "H3A5"
+    },
+    {
+      "id": "NATIVE_H3B8",
+      "source_entity_ids": [
+        "H3B8"
+      ],
+      "source_entity_types": [
+        "DIMENSION"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        163.56748098256756,
+        110.6934209973297
+      ],
+      "text_raw": "{\\H22.22222x;%%C60}",
+      "display_text_raw": null,
+      "text_clean": "%%C60",
+      "text_normalized": "%%C60",
+      "dimension_kind": "radius",
+      "measurement_raw": 30.00000000000006,
+      "parsed": {
+        "kind": "radius",
+        "value": 30.00000000000006,
+        "unit": null
+      },
+      "dimension_type": "DIMENSION_RADIUS",
+      "block_id": "H3B9"
+    },
+    {
+      "id": "NATIVE_H3CC",
+      "source_entity_ids": [
+        "H3CC",
+        "H447"
+      ],
+      "source_entity_types": [
+        "DIMENSION",
+        "MTEXT"
+      ],
+      "entity_type": "DIMENSION",
+      "position_cad": [
+        198.50810035099207,
+        100.30463679543257
+      ],
+      "text_raw": "{\\H22.22222x;5X%%C20}",
+      "display_text_raw": "\\A1;{\\H22.22222x;5X%%C20}",
+      "text_clean": "5X%%C20",
+      "text_normalized": "5X%%C20",
+      "dimension_kind": "diameter",
+      "measurement_raw": 19.99999999999997,
+      "parsed": {
+        "kind": "diameter",
+        "value": 19.99999999999997,
+        "unit": null
+      },
+      "display_entity_id": "H447",
+      "dimension_type": "DIMENSION_DIAMETER",
+      "block_id": "H3CD"
+    },
+    {
+      "id": "NATIVE_H455",
+      "source_entity_ids": [
+        "H455"
+      ],
+      "source_entity_types": [
+        "MTEXT"
+      ],
+      "entity_type": "MTEXT",
+      "position_cad": [
+        167.33528690145587,
+        126.95412718976834,
+        0.0
+      ],
+      "text_raw": "\\A1;{\\H22.22222x;%%C40}",
+      "display_text_raw": null,
+      "text_clean": "%%C40",
+      "text_normalized": "%%C40",
+      "dimension_kind": null,
+      "measurement_raw": null,
+      "parsed": null
+    },
+    {
+      "id": "NATIVE_H463",
+      "source_entity_ids": [
+        "H463"
+      ],
+      "source_entity_types": [
+        "MTEXT"
+      ],
+      "entity_type": "MTEXT",
+      "position_cad": [
+        168.6915868911624,
+        110.69342099732968,
+        0.0
+      ],
+      "text_raw": "\\A1;{\\H22.22222x;%%C60}",
+      "display_text_raw": null,
+      "text_clean": "%%C60",
+      "text_normalized": "%%C60",
+      "dimension_kind": null,
+      "measurement_raw": null,
+      "parsed": null
+    }
+  ],
+  "statistics": {
+    "native_text_item_count": 12,
+    "dimension_count": 10,
+    "linked_dimension_mtext_count": 8,
+    "standalone_text_count": 2
+  }
+}

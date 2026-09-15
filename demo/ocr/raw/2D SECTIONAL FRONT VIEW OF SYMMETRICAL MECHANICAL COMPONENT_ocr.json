@@ -1,0 +1,416 @@
+{
+  "schema_version": "cad-ocr-v1",
+  "drawing_key": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT",
+  "image": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left"
+  },
+  "engine": {
+    "name": "RapidOCR",
+    "version": "0.1.dev1",
+    "backend": "onnxruntime-cpu",
+    "onnxruntime_version": "1.29.0"
+  },
+  "preprocessing": {
+    "selected": "raw",
+    "crop": {
+      "name": "autocad-canvas",
+      "box_px": [
+        0,
+        60,
+        1750,
+        1025
+      ],
+      "working_size": [
+        1750,
+        965
+      ]
+    },
+    "alpha_handling": "source loaded as BGR; source alpha was not used"
+  },
+  "postprocessing": {
+    "adjacent_box_merge": {
+      "enabled": true,
+      "rule": "engineering_prefix_plus_adjacent_numeric",
+      "source_item_count": 10,
+      "merged_item_count": 0
+    }
+  },
+  "items": [
+    {
+      "id": "OCR_0001",
+      "text_raw": "R16",
+      "text_normalized": "R16",
+      "polygon_px": [
+        [
+          1182.0,
+          186.0
+        ],
+        [
+          1229.0,
+          186.0
+        ],
+        [
+          1229.0,
+          213.0
+        ],
+        [
+          1182.0,
+          213.0
+        ]
+      ],
+      "center_px": [
+        1205.5,
+        199.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "radius",
+        "value": 16,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0002",
+      "text_raw": "R80",
+      "text_normalized": "R80",
+      "polygon_px": [
+        [
+          856.0,
+          200.0
+        ],
+        [
+          902.0,
+          200.0
+        ],
+        [
+          902.0,
+          226.0
+        ],
+        [
+          856.0,
+          226.0
+        ]
+      ],
+      "center_px": [
+        879.0,
+        213.0
+      ],
+      "confidence": 0.99893,
+      "parsed": {
+        "kind": "radius",
+        "value": 80,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0003",
+      "text_raw": "R64",
+      "text_normalized": "R64",
+      "polygon_px": [
+        [
+          994.0,
+          197.0
+        ],
+        [
+          1040.0,
+          197.0
+        ],
+        [
+          1040.0,
+          223.0
+        ],
+        [
+          994.0,
+          223.0
+        ]
+      ],
+      "center_px": [
+        1017.0,
+        210.0
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "radius",
+        "value": 64,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0004",
+      "text_raw": "-090",
+      "text_normalized": "-090",
+      "polygon_px": [
+        [
+          1162.0,
+          351.0
+        ],
+        [
+          1209.0,
+          351.0
+        ],
+        [
+          1209.0,
+          377.0
+        ],
+        [
+          1162.0,
+          377.0
+        ]
+      ],
+      "center_px": [
+        1185.5,
+        364.0
+      ],
+      "confidence": 0.87285,
+      "parsed": {
+        "kind": "numeric",
+        "value": -90,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0005",
+      "text_raw": "026",
+      "text_normalized": "026",
+      "polygon_px": [
+        [
+          1258.0,
+          402.0
+        ],
+        [
+          1305.0,
+          402.0
+        ],
+        [
+          1305.0,
+          428.0
+        ],
+        [
+          1258.0,
+          428.0
+        ]
+      ],
+      "center_px": [
+        1281.5,
+        415.0
+      ],
+      "confidence": 0.99173,
+      "parsed": {
+        "kind": "numeric",
+        "value": 26,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0006",
+      "text_raw": "R10",
+      "text_normalized": "R10",
+      "polygon_px": [
+        [
+          1069.0,
+          572.0
+        ],
+        [
+          1118.0,
+          572.0
+        ],
+        [
+          1118.0,
+          597.0
+        ],
+        [
+          1069.0,
+          597.0
+        ]
+      ],
+      "center_px": [
+        1093.5,
+        584.5
+      ],
+      "confidence": 0.99989,
+      "parsed": {
+        "kind": "radius",
+        "value": 10,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0007",
+      "text_raw": "R28",
+      "text_normalized": "R28",
+      "polygon_px": [
+        [
+          1161.0,
+          583.0
+        ],
+        [
+          1208.0,
+          583.0
+        ],
+        [
+          1208.0,
+          608.0
+        ],
+        [
+          1161.0,
+          608.0
+        ]
+      ],
+      "center_px": [
+        1184.5,
+        595.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "radius",
+        "value": 28,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0008",
+      "text_raw": "R108",
+      "text_normalized": "R108",
+      "polygon_px": [
+        [
+          1076.0,
+          846.0
+        ],
+        [
+          1135.0,
+          846.0
+        ],
+        [
+          1135.0,
+          874.0
+        ],
+        [
+          1076.0,
+          874.0
+        ]
+      ],
+      "center_px": [
+        1105.5,
+        860.0
+      ],
+      "confidence": 0.99995,
+      "parsed": {
+        "kind": "radius",
+        "value": 108,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0009",
+      "text_raw": "30°",
+      "text_normalized": "30°",
+      "polygon_px": [
+        [
+          768.0,
+          958.0
+        ],
+        [
+          807.0,
+          958.0
+        ],
+        [
+          807.0,
+          985.0
+        ],
+        [
+          768.0,
+          985.0
+        ]
+      ],
+      "center_px": [
+        787.5,
+        971.5
+      ],
+      "confidence": 0.99254,
+      "parsed": {
+        "kind": "angle",
+        "value": 30,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0010",
+      "text_raw": "30°",
+      "text_normalized": "30°",
+      "polygon_px": [
+        [
+          1040.0,
+          958.0
+        ],
+        [
+          1070.0,
+          958.0
+        ],
+        [
+          1070.0,
+          983.0
+        ],
+        [
+          1040.0,
+          983.0
+        ]
+      ],
+      "center_px": [
+        1055.0,
+        970.5
+      ],
+      "confidence": 0.86653,
+      "parsed": {
+        "kind": "angle",
+        "value": 30,
+        "unit": null
+      }
+    }
+  ],
+  "statistics": {
+    "item_count": 10,
+    "high_confidence_count": 10,
+    "merged_item_count": 0
+  },
+  "comparison": {
+    "reference_file": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT_native_text.json",
+    "candidates": [
+      {
+        "mode": "raw",
+        "source_item_count": 10,
+        "merged_item_count": 0,
+        "recognized_unique": 9,
+        "matched_unique": 7,
+        "reference_unique": 9,
+        "precision": 0.7777777777777778,
+        "recall": 0.7777777777777778,
+        "selection_score": 0.7777777777777778
+      },
+      {
+        "mode": "gray",
+        "source_item_count": 11,
+        "merged_item_count": 0,
+        "recognized_unique": 10,
+        "matched_unique": 7,
+        "reference_unique": 9,
+        "precision": 0.7,
+        "recall": 0.7777777777777778,
+        "selection_score": 0.731111111111111
+      },
+      {
+        "mode": "invert",
+        "source_item_count": 10,
+        "merged_item_count": 0,
+        "recognized_unique": 9,
+        "matched_unique": 7,
+        "reference_unique": 9,
+        "precision": 0.7777777777777778,
+        "recall": 0.7777777777777778,
+        "selection_score": 0.7777777777777778
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "cad-ocr-batch-v1",
+  "dataset": "dataset/AutoCAD_2D_Drawings",
+  "pair_count": 6,
+  "records": [
+    {
+      "drawing": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE",
+      "dwg": "dataset/AutoCAD_2D_Drawings/2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.dwg",
+      "png": "dataset/AutoCAD_2D_Drawings/2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.png",
+      "ocr_items": 29,
+      "merged_items": 0,
+      "ocr_selected_preprocess": "gray",
+      "anchors": 7,
+      "registration_rmse_px": 2.057927457886812,
+      "fusion": {
+        "confirmed": 26,
+        "conflict": 2,
+        "ambiguous": 0,
+        "cad_only": 14,
+        "ocr_only": 1
+      },
+      "unified_features": 43
+    },
+    {
+      "drawing": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET",
+      "dwg": "dataset/AutoCAD_2D_Drawings/2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET.dwg",
+      "png": "dataset/AutoCAD_2D_Drawings/2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET.png",
+      "ocr_items": 11,
+      "merged_items": 0,
+      "ocr_selected_preprocess": "invert",
+      "anchors": 8,
+      "registration_rmse_px": 1.6621220528795244,
+      "fusion": {
+        "confirmed": 9,
+        "conflict": 1,
+        "ambiguous": 0,
+        "cad_only": 30,
+        "ocr_only": 1
+      },
+      "unified_features": 41
+    },
+    {
+      "drawing": "2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION",
+      "dwg": "dataset/AutoCAD_2D_Drawings/2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION.dwg",
+      "png": "dataset/AutoCAD_2D_Drawings/2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION.png",
+      "ocr_items": 21,
+      "merged_items": 1,
+      "ocr_selected_preprocess": "gray",
+      "anchors": 13,
+      "registration_rmse_px": 0.9204173682037529,
+      "fusion": {
+        "confirmed": 19,
+        "conflict": 1,
+        "ambiguous": 0,
+        "cad_only": 0,
+        "ocr_only": 1
+      },
+      "unified_features": 21
+    },
+    {
+      "drawing": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE",
+      "dwg": "dataset/AutoCAD_2D_Drawings/2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.dwg",
+      "png": "dataset/AutoCAD_2D_Drawings/2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.png",
+      "ocr_items": 14,
+      "merged_items": 0,
+      "ocr_selected_preprocess": "raw",
+      "anchors": 7,
+      "registration_rmse_px": 0.5451325315419248,
+      "fusion": {
+        "confirmed": 7,
+        "conflict": 1,
+        "ambiguous": 0,
+        "cad_only": 8,
+        "ocr_only": 6
+      },
+      "unified_features": 22
+    },
+    {
+      "drawing": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT",
+      "dwg": "dataset/AutoCAD_2D_Drawings/2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT.dwg",
+      "png": "dataset/AutoCAD_2D_Drawings/2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT.png",
+      "ocr_items": 10,
+      "merged_items": 0,
+      "ocr_selected_preprocess": "raw",
+      "anchors": 5,
+      "registration_rmse_px": 0.765973784432331,
+      "fusion": {
+        "confirmed": 8,
+        "conflict": 0,
+        "ambiguous": 0,
+        "cad_only": 4,
+        "ocr_only": 2
+      },
+      "unified_features": 14
+    },
+    {
+      "drawing": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT",
+      "dwg": "dataset/AutoCAD_2D_Drawings/2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.dwg",
+      "png": "dataset/AutoCAD_2D_Drawings/2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.png",
+      "ocr_items": 8,
+      "merged_items": 0,
+      "ocr_selected_preprocess": "raw",
+      "anchors": 5,
+      "registration_rmse_px": 0.5427247265270047,
+      "fusion": {
+        "confirmed": 5,
+        "conflict": 1,
+        "ambiguous": 0,
+        "cad_only": 6,
+        "ocr_only": 2
+      },
+      "unified_features": 14
+    }
+  ]
+}

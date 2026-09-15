@@ -1,0 +1,252 @@
+{
+  "schema_version": "cad-vision-v1",
+  "drawing_key": "2d-sectional-front-view-of-symmetrical-mechanical-component",
+  "image": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left",
+    "sha256": "87a733bdedea35c6d468648e26018d0d75e0ccdb840ce728c40e81b598134c5f"
+  },
+  "model": {
+    "name": "deepseek-v4-flash-vision-exp",
+    "prompt_version": "cad-vision-prompt-v1",
+    "detail": "original"
+  },
+  "drawing_type": "section_view",
+  "summary": "图中展示了一个对称机械零件的二维剖切前视图，包含剖面线、中心线、对称轴及多个半径和直径尺寸标注。",
+  "observations": [
+    {
+      "id": "VIS_0001",
+      "observation_type": "section_view",
+      "description": "零件的剖切前视图，内部填充有斜向剖面线。",
+      "region_px": [
+        352.0,
+        63.0,
+        619.0,
+        800.0
+      ],
+      "region_normalized": [
+        0.18333333333333332,
+        0.058333333333333334,
+        0.3223958333333333,
+        0.7407407407407407
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0002",
+      "observation_type": "symmetry",
+      "description": "一条贯穿零件中心的垂直点划线，表示零件的对称轴。",
+      "region_px": [
+        480.0,
+        60.0,
+        490.0,
+        810.0
+      ],
+      "region_normalized": [
+        0.25,
+        0.05555555555555555,
+        0.2552083333333333,
+        0.75
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0003",
+      "observation_type": "centerline",
+      "description": "穿过零件中心孔的水平点划线。",
+      "region_px": [
+        330.0,
+        400.0,
+        670.0,
+        420.0
+      ],
+      "region_normalized": [
+        0.171875,
+        0.37037037037037035,
+        0.3489583333333333,
+        0.3888888888888889
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0004",
+      "observation_type": "hatch",
+      "description": "剖切区域内由均匀斜线组成的剖面线。",
+      "region_px": [
+        352.0,
+        63.0,
+        619.0,
+        800.0
+      ],
+      "region_normalized": [
+        0.18333333333333332,
+        0.058333333333333334,
+        0.3223958333333333,
+        0.7407407407407407
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0005",
+      "observation_type": "feature_candidate",
+      "description": "中心位置的可疑圆形孔特征，标注有直径尺寸。",
+      "region_px": [
+        440.0,
+        370.0,
+        530.0,
+        450.0
+      ],
+      "region_normalized": [
+        0.22916666666666666,
+        0.3425925925925926,
+        0.2760416666666667,
+        0.4166666666666667
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": "具体尺寸数值需参考OCR识别",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0006",
+      "observation_type": "leader_relation",
+      "description": "指示顶部开口圆弧的半径引线。",
+      "region_px": [
+        440.0,
+        160.0,
+        490.0,
+        210.0
+      ],
+      "region_normalized": [
+        0.22916666666666666,
+        0.14814814814814814,
+        0.2552083333333333,
+        0.19444444444444445
+      ],
+      "candidate_feature": {
+        "value": "arc"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0007",
+      "observation_type": "leader_relation",
+      "description": "指示底部圆弧半径的引线。",
+      "region_px": [
+        550.0,
+        780.0,
+        640.0,
+        810.0
+      ],
+      "region_normalized": [
+        0.2864583333333333,
+        0.7222222222222222,
+        0.3333333333333333,
+        0.75
+      ],
+      "candidate_feature": {
+        "value": "arc"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0008",
+      "observation_type": "leader_relation",
+      "description": "指示零件右侧边缘轮廓的引线。",
+      "region_px": [
+        590.0,
+        330.0,
+        700.0,
+        360.0
+      ],
+      "region_normalized": [
+        0.3072916666666667,
+        0.3055555555555556,
+        0.3645833333333333,
+        0.3333333333333333
+      ],
+      "candidate_feature": {
+        "value": "edge"
+      },
+      "model_confidence": 0.7,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0009",
+      "observation_type": "title_block",
+      "description": "屏幕底部的软件标题栏区域，包含文件路径、图层等信息。",
+      "region_px": [
+        0.0,
+        960.0,
+        1200.0,
+        1080.0
+      ],
+      "region_normalized": [
+        0.0,
+        0.8888888888888888,
+        0.625,
+        1.0
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0010",
+      "observation_type": "other",
+      "description": "底部两条表示角度的尺寸线和相关标注引线。",
+      "region_px": [
+        380.0,
+        750.0,
+        620.0,
+        980.0
+      ],
+      "region_normalized": [
+        0.19791666666666666,
+        0.6944444444444444,
+        0.3229166666666667,
+        0.9074074074074074
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    }
+  ],
+  "statistics": {
+    "observation_count": 10,
+    "candidate_count": 10
+  }
+}

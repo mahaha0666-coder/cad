@@ -1,0 +1,1372 @@
+{
+  "schema_version": "cad-unified-features-v2",
+  "drawing": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.dwg",
+    "source_format": "DWG",
+    "parser": "LibreDWG"
+  },
+  "sources": {
+    "structured_json": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_structured.json",
+    "native_text_json": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_native_text.json",
+    "ocr_json": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_ocr.json",
+    "alignment_json": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_alignment.json",
+    "vision_json": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_vision.json"
+  },
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        4.650140792199034,
+        -0.0024768614358794813,
+        420.3559175272898
+      ],
+      [
+        -0.011448121328789402,
+        -4.663109915844833,
+        1116.259177255805
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 5,
+    "inlier_anchor_count": 5,
+    "rmse_px": 0.5427247265270047,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "features": [
+    {
+      "id": "UF_0001",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H340",
+        "H473"
+      ],
+      "ocr_item_ids": [
+        "OCR_0002"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R60",
+        "text_raw": "R60",
+        "dimension_kind": "radius",
+        "value": 59.99999999999994,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          148.09210825769688,
+          193.39271949137077
+        ],
+        "pixel_projected": [
+          1108.5260641702735,
+          212.7522929202254
+        ],
+        "pixel": [
+          1108.5,
+          213.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H340",
+          "text_raw": "{\\H22.22222x;R60}",
+          "display_text_raw": "\\A1;{\\H22.22222x;R60}",
+          "entity_ids": [
+            "H340",
+            "H473"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0002",
+          "text_raw": "R60",
+          "confidence": 0.99823,
+          "polygon_px": [
+            [
+              1080.0,
+              195.0
+            ],
+            [
+              1139.0,
+              198.0
+            ],
+            [
+              1137.0,
+              231.0
+            ],
+            [
+              1078.0,
+              228.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9989774703856721,
+        "text_similarity": 1.0,
+        "distance_px": 0.2490745638207776
+      }
+    },
+    {
+      "id": "UF_0002",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H318",
+        "H3ED"
+      ],
+      "ocr_item_ids": [
+        "OCR_0004"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R16",
+        "text_raw": "R16",
+        "dimension_kind": "radius",
+        "value": 16,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          205.5594260022235,
+          163.14660674520454
+        ],
+        "pixel_projected": [
+          1375.8320980626063,
+          353.1353483566545
+        ],
+        "pixel": [
+          1375.5,
+          353.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H318",
+          "text_raw": "{\\H22.22222x;R16}",
+          "display_text_raw": "\\A1;{\\H22.22222x;R16}",
+          "entity_ids": [
+            "H318",
+            "H3ED"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0004",
+          "text_raw": "R16",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              1346.0,
+              338.0
+            ],
+            [
+              1405.0,
+              338.0
+            ],
+            [
+              1405.0,
+              369.0
+            ],
+            [
+              1346.0,
+              369.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.998149447901504,
+        "text_similarity": 1.0,
+        "distance_px": 0.4932138929322892
+      }
+    },
+    {
+      "id": "UF_0003",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H370",
+        "H437"
+      ],
+      "ocr_item_ids": [
+        "OCR_0008"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "120°",
+        "text_raw": "120°",
+        "dimension_kind": "angle",
+        "value": 120.00000000000027,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          119.99999999999996,
+          82.00451012940039
+        ],
+        "pixel_projected": [
+          978.169698782466,
+          732.4893583679453
+        ],
+        "pixel": [
+          978.5,
+          732.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H370",
+          "text_raw": "{\\H22.22222x;<>}",
+          "display_text_raw": "\\A1;{\\H22.22222x;120°}",
+          "entity_ids": [
+            "H370",
+            "H437"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0008",
+          "text_raw": "120°",
+          "confidence": 0.97544,
+          "polygon_px": [
+            [
+              954.0,
+              717.0
+            ],
+            [
+              1003.0,
+              717.0
+            ],
+            [
+              1003.0,
+              748.0
+            ],
+            [
+              954.0,
+              748.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9975327277540482,
+        "text_similarity": 1.0,
+        "distance_px": 0.3304725989204824
+      }
+    },
+    {
+      "id": "UF_0004",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H301",
+        "H3FB"
+      ],
+      "ocr_item_ids": [
+        "OCR_0001"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R100",
+        "text_raw": "R100",
+        "dimension_kind": "radius",
+        "value": 100.00000000000006,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          211.92779111047466,
+          204.29747368014492
+        ],
+        "pixel_projected": [
+          1405.3439674367378,
+          161.17142689029743
+        ],
+        "pixel": [
+          1406.0,
+          161.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H301",
+          "text_raw": "{\\H22.22222x;R100}",
+          "display_text_raw": "\\A1;{\\H22.22222x;R100}",
+          "entity_ids": [
+            "H301",
+            "H3FB"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0001",
+          "text_raw": "R100",
+          "confidence": 0.99995,
+          "polygon_px": [
+            [
+              1369.0,
+              144.0
+            ],
+            [
+              1443.0,
+              144.0
+            ],
+            [
+              1443.0,
+              178.0
+            ],
+            [
+              1369.0,
+              178.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9974547735090444,
+        "text_similarity": 1.0,
+        "distance_px": 0.6780603975881779
+      }
+    },
+    {
+      "id": "UF_0005",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H32A",
+        "H483"
+      ],
+      "ocr_item_ids": [
+        "OCR_0003"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R10",
+        "text_raw": "R10",
+        "dimension_kind": "radius",
+        "value": 9.99999999999997,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          169.60217878644085,
+          162.20205933222155
+        ],
+        "pixel_projected": [
+          1208.6281755223717,
+          357.95151969289657
+        ],
+        "pixel": [
+          1208.0,
+          357.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H32A",
+          "text_raw": "{\\H22.22222x;R10}",
+          "display_text_raw": "\\A1;{\\H22.22222x;R10}",
+          "entity_ids": [
+            "H32A",
+            "H483"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0003",
+          "text_raw": "R10",
+          "confidence": 0.99984,
+          "polygon_px": [
+            [
+              1178.0,
+              340.0
+            ],
+            [
+              1238.0,
+              340.0
+            ],
+            [
+              1238.0,
+              375.0
+            ],
+            [
+              1178.0,
+              375.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9970909574396047,
+        "text_similarity": 1.0,
+        "distance_px": 0.773611349438741
+      }
+    },
+    {
+      "id": "UF_0006",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H3CC",
+        "H447"
+      ],
+      "ocr_item_ids": [
+        "OCR_0007"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "5X%%C20",
+        "text_raw": "5X%%C20",
+        "dimension_kind": "diameter",
+        "value": 19.99999999999997,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          198.50810035099207,
+          100.30463679543257
+        ],
+        "pixel_projected": [
+          1343.1980918646589,
+          646.2550859922433
+        ],
+        "pixel": [
+          1344.0,
+          647.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H3CC",
+          "text_raw": "{\\H22.22222x;5X%%C20}",
+          "display_text_raw": "\\A1;{\\H22.22222x;5X%%C20}",
+          "entity_ids": [
+            "H3CC",
+            "H447"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0007",
+          "text_raw": "5X020",
+          "confidence": 0.98836,
+          "polygon_px": [
+            [
+              1299.0,
+              631.0
+            ],
+            [
+              1389.0,
+              631.0
+            ],
+            [
+              1389.0,
+              663.0
+            ],
+            [
+              1299.0,
+              663.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "conflict",
+        "score": 0.7619802517745379,
+        "text_similarity": 0.6666666666666666,
+        "distance_px": 1.0945106379010199
+      }
+    },
+    {
+      "id": "UF_0007",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H356",
+        "H40F"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0011"
+      ],
+      "canonical": {
+        "text": "60°",
+        "text_raw": "60°",
+        "dimension_kind": "angle",
+        "value": 60.000000000000135,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          120.00000000000001,
+          228.60656147220917
+        ],
+        "pixel_projected": [
+          977.8065858150744,
+          48.867879068100365
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H356",
+          "text_raw": "{\\H22.22222x;<>}",
+          "display_text_raw": "\\A1;{\\H22.22222x;60°}",
+          "entity_ids": [
+            "H356",
+            "H40F"
+          ]
+        },
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0011",
+            "observation_type": "leader_relation",
+            "description": "尺寸标注引线指向中心孔 (Ø40, Ø60)、槽 (R60, R10)、齿 (R100, R16) 以及分布孔 (5XØ20)。",
+            "region_px": [
+              280.0,
+              70.0,
+              820.0,
+              810.0
+            ],
+            "model_confidence": 0.6,
+            "match_score": 0.782888,
+            "match_reason": "text_and_region",
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null,
+        "vision_match_score": 0.782888
+      }
+    },
+    {
+      "id": "UF_0008",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H38A",
+        "H67C"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0009"
+      ],
+      "canonical": {
+        "text": "110°",
+        "text_raw": "110°",
+        "dimension_kind": "angle",
+        "value": 109.99999999999986,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          57.62947216334145,
+          76.32768624665313
+        ],
+        "pixel_projected": [
+          688.1520237643883,
+          759.6750374761035
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H38A",
+          "text_raw": "{\\H22.22222x;<>}",
+          "display_text_raw": "\\A1;{\\H22.22222x;110°}",
+          "entity_ids": [
+            "H38A",
+            "H67C"
+          ]
+        },
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0009",
+            "observation_type": "feature_candidate",
+            "description": "布置在中心孔下方圆周上的均匀分布的孔，标注为 5XØ20。之间有标注为 120° 和 110° 的角度。",
+            "region_px": [
+              350.0,
+              580.0,
+              640.0,
+              810.0
+            ],
+            "model_confidence": 0.5,
+            "match_score": 0.934338,
+            "match_reason": "text_and_region",
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null,
+        "vision_match_score": 0.934338
+      }
+    },
+    {
+      "id": "UF_0009",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H3A4"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "%%C40",
+        "text_raw": "%%C40",
+        "dimension_kind": "radius",
+        "value": 20.00000000000003,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          162.21118099286107,
+          126.95412718976834
+        ],
+        "pixel_projected": [
+          1174.3462994312117,
+          522.4011146188776
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H3A4",
+          "text_raw": "{\\H22.22222x;%%C40}",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H3A4"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0010",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H3B8"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "%%C60",
+        "text_raw": "%%C60",
+        "dimension_kind": "radius",
+        "value": 30.00000000000006,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          163.56748098256756,
+          110.6934209973297
+        ],
+        "pixel_projected": [
+          1180.693560855893,
+          598.2110478166375
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H3B8",
+          "text_raw": "{\\H22.22222x;%%C60}",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H3B8"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0011",
+      "feature_type": "native_text_annotation",
+      "source_entity_ids": [
+        "H455"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "%%C40",
+        "text_raw": "%%C40",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          167.33528690145587,
+          126.95412718976834,
+          0.0
+        ],
+        "pixel_projected": [
+          1198.1741133403164,
+          522.3424532327344
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H455",
+          "text_raw": "\\A1;{\\H22.22222x;%%C40}",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H455"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0012",
+      "feature_type": "native_text_annotation",
+      "source_entity_ids": [
+        "H463"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "%%C60",
+        "text_raw": "%%C60",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          168.6915868911624,
+          110.69342099732968,
+          0.0
+        ],
+        "pixel_projected": [
+          1204.521374764998,
+          598.1523864304943
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H463",
+          "text_raw": "\\A1;{\\H22.22222x;%%C60}",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H463"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0013",
+      "feature_type": "dimension_candidate",
+      "source_entity_ids": [],
+      "ocr_item_ids": [
+        "OCR_0005"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "040",
+        "text_raw": "040",
+        "dimension_kind": "numeric",
+        "value": 40,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1198.5,
+          521.5
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": {
+          "item_id": "OCR_0005",
+          "text_raw": "040",
+          "confidence": 0.92555,
+          "polygon_px": [
+            [
+              1169.0,
+              505.0
+            ],
+            [
+              1228.0,
+              505.0
+            ],
+            [
+              1228.0,
+              538.0
+            ],
+            [
+              1169.0,
+              538.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "ocr_only",
+        "score": 0.92555
+      }
+    },
+    {
+      "id": "UF_0014",
+      "feature_type": "dimension_candidate",
+      "source_entity_ids": [],
+      "ocr_item_ids": [
+        "OCR_0006"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "060",
+        "text_raw": "060",
+        "dimension_kind": "numeric",
+        "value": 60,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1205.5,
+          598.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": {
+          "item_id": "OCR_0006",
+          "text_raw": "060",
+          "confidence": 0.95902,
+          "polygon_px": [
+            [
+              1175.0,
+              583.0
+            ],
+            [
+              1235.0,
+              580.0
+            ],
+            [
+              1236.0,
+              613.0
+            ],
+            [
+              1176.0,
+              616.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "ocr_only",
+        "score": 0.95902
+      }
+    },
+    {
+      "id": "UF_0015",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0001"
+      ],
+      "canonical": {
+        "text": "带齿机械部件的断面视图，用交叉剖面线显示剖切区域。",
+        "text_raw": "带齿机械部件的断面视图，用交叉剖面线显示剖切区域。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          510.0,
+          500.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0001",
+            "observation_type": "section_view",
+            "description": "带齿机械部件的断面视图，用交叉剖面线显示剖切区域。",
+            "region_px": [
+              260.0,
+              80.0,
+              760.0,
+              920.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0016",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0002"
+      ],
+      "canonical": {
+        "text": "主要实体区域覆盖有风格化的蓝色剖面线。",
+        "text_raw": "主要实体区域覆盖有风格化的蓝色剖面线。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          510.0,
+          500.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0002",
+            "observation_type": "hatch",
+            "description": "主要实体区域覆盖有风格化的蓝色剖面线。",
+            "region_px": [
+              290.0,
+              110.0,
+              730.0,
+              890.0
+            ],
+            "model_confidence": 0.6,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.6,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0017",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0003"
+      ],
+      "canonical": {
+        "text": "水平和垂直中心线在部件中心相交。",
+        "text_raw": "水平和垂直中心线在部件中心相交。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          480.0,
+          490.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0003",
+            "observation_type": "centerline",
+            "description": "水平和垂直中心线在部件中心相交。",
+            "region_px": [
+              460.0,
+              20.0,
+              500.0,
+              960.0
+            ],
+            "model_confidence": 0.6,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.6,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0018",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0004"
+      ],
+      "canonical": {
+        "text": "基于中心线和孔布局，观察到潜在的对称性。",
+        "text_raw": "基于中心线和孔布局，观察到潜在的对称性。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          480.0,
+          460.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0004",
+            "observation_type": "symmetry",
+            "description": "基于中心线和孔布局，观察到潜在的对称性。",
+            "region_px": [
+              450.0,
+              400.0,
+              510.0,
+              520.0
+            ],
+            "model_confidence": 0.4,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.4,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0019",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0005"
+      ],
+      "canonical": {
+        "text": "中心有一个较大的圆柱孔，标注直径为 Ø40。",
+        "text_raw": "中心有一个较大的圆柱孔，标注直径为 Ø40。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          480.0,
+          460.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0005",
+            "observation_type": "feature_candidate",
+            "description": "中心有一个较大的圆柱孔，标注直径为 Ø40。",
+            "region_px": [
+              450.0,
+              400.0,
+              510.0,
+              520.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0020",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0006"
+      ],
+      "canonical": {
+        "text": "中心孔周围有一个较大的同心圆形凹槽或止口，标注直径为 Ø60。",
+        "text_raw": "中心孔周围有一个较大的同心圆形凹槽或止口，标注直径为 Ø60。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          480.0,
+          460.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0006",
+            "observation_type": "feature_candidate",
+            "description": "中心孔周围有一个较大的同心圆形凹槽或止口，标注直径为 Ø60。",
+            "region_px": [
+              430.0,
+              380.0,
+              530.0,
+              540.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0021",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0007"
+      ],
+      "canonical": {
+        "text": "主凹槽上方有一个长圆形的槽/开口，标注为 R60 和 R10，表示外径和内圆角半径。",
+        "text_raw": "主凹槽上方有一个长圆形的槽/开口，标注为 R60 和 R10，表示外径和内圆角半径。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          480.0,
+          205.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0007",
+            "observation_type": "feature_candidate",
+            "description": "主凹槽上方有一个长圆形的槽/开口，标注为 R60 和 R10，表示外径和内圆角半径。",
+            "region_px": [
+              410.0,
+              170.0,
+              550.0,
+              240.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0022",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0008"
+      ],
+      "canonical": {
+        "text": "齿形外轮廓特征，最大齿顶圆半径标注为 R100，齿根圆角半径标注为 R16。",
+        "text_raw": "齿形外轮廓特征，最大齿顶圆半径标注为 R100，齿根圆角半径标注为 R16。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          510.0,
+          500.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0008",
+            "observation_type": "feature_candidate",
+            "description": "齿形外轮廓特征，最大齿顶圆半径标注为 R100，齿根圆角半径标注为 R16。",
+            "region_px": [
+              260.0,
+              80.0,
+              760.0,
+              920.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0023",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0010"
+      ],
+      "canonical": {
+        "text": "CAD 窗口的标题栏部分，显示 'Autodesk AutoCAD Mechanical 2024' 和文件名。",
+        "text_raw": "CAD 窗口的标题栏部分，显示 'Autodesk AutoCAD Mechanical 2024' 和文件名。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          640.0,
+          12.5
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0010",
+            "observation_type": "title_block",
+            "description": "CAD 窗口的标题栏部分，显示 'Autodesk AutoCAD Mechanical 2024' 和文件名。",
+            "region_px": [
+              0.0,
+              0.0,
+              1280.0,
+              25.0
+            ],
+            "model_confidence": 0.6,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.6,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0024",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0012"
+      ],
+      "canonical": {
+        "text": "角度标注 60°, 120°, 110° 用于描述特征之间的圆心角关系。",
+        "text_raw": "角度标注 60°, 120°, 110° 用于描述特征之间的圆心角关系。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          450.0,
+          390.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0012",
+            "observation_type": "other",
+            "description": "角度标注 60°, 120°, 110° 用于描述特征之间的圆心角关系。",
+            "region_px": [
+              300.0,
+              20.0,
+              600.0,
+              760.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    }
+  ],
+  "statistics": {
+    "feature_count": 24,
+    "fusion_status_counts": {
+      "cad_only": 6,
+      "confirmed": 5,
+      "conflict": 1,
+      "ocr_only": 2,
+      "vision_only": 10
+    },
+    "feature_type_counts": {
+      "dimension_annotation": 10,
+      "dimension_candidate": 2,
+      "native_text_annotation": 2,
+      "vision_observation": 10
+    },
+    "vision_observation_count": 12,
+    "vision_attached_feature_count": 2,
+    "vision_only_feature_count": 10
+  }
+}

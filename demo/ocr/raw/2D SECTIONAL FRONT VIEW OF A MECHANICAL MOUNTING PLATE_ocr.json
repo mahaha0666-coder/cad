@@ -1,0 +1,548 @@
+{
+  "schema_version": "cad-ocr-v1",
+  "drawing_key": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE",
+  "image": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left"
+  },
+  "engine": {
+    "name": "RapidOCR",
+    "version": "0.1.dev1",
+    "backend": "onnxruntime-cpu",
+    "onnxruntime_version": "1.29.0"
+  },
+  "preprocessing": {
+    "selected": "raw",
+    "crop": {
+      "name": "autocad-canvas",
+      "box_px": [
+        0,
+        60,
+        1750,
+        1025
+      ],
+      "working_size": [
+        1750,
+        965
+      ]
+    },
+    "alpha_handling": "source loaded as BGR; source alpha was not used"
+  },
+  "postprocessing": {
+    "adjacent_box_merge": {
+      "enabled": true,
+      "rule": "engineering_prefix_plus_adjacent_numeric",
+      "source_item_count": 14,
+      "merged_item_count": 0
+    }
+  },
+  "items": [
+    {
+      "id": "OCR_0001",
+      "text_raw": "034",
+      "text_normalized": "034",
+      "polygon_px": [
+        [
+          624.0,
+          60.0
+        ],
+        [
+          665.0,
+          60.0
+        ],
+        [
+          665.0,
+          82.0
+        ],
+        [
+          624.0,
+          82.0
+        ]
+      ],
+      "center_px": [
+        644.5,
+        71.0
+      ],
+      "confidence": 0.99899,
+      "parsed": {
+        "kind": "numeric",
+        "value": 34,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0002",
+      "text_raw": "020",
+      "text_normalized": "020",
+      "polygon_px": [
+        [
+          932.0,
+          78.0
+        ],
+        [
+          973.0,
+          78.0
+        ],
+        [
+          973.0,
+          99.0
+        ],
+        [
+          932.0,
+          99.0
+        ]
+      ],
+      "center_px": [
+        952.5,
+        88.5
+      ],
+      "confidence": 0.99902,
+      "parsed": {
+        "kind": "numeric",
+        "value": 20,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0003",
+      "text_raw": "R80",
+      "text_normalized": "R80",
+      "polygon_px": [
+        [
+          1204.0,
+          150.0
+        ],
+        [
+          1244.0,
+          150.0
+        ],
+        [
+          1244.0,
+          173.0
+        ],
+        [
+          1204.0,
+          173.0
+        ]
+      ],
+      "center_px": [
+        1224.0,
+        161.5
+      ],
+      "confidence": 0.99682,
+      "parsed": {
+        "kind": "radius",
+        "value": 80,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0004",
+      "text_raw": "020",
+      "text_normalized": "020",
+      "polygon_px": [
+        [
+          1429.0,
+          317.0
+        ],
+        [
+          1471.0,
+          317.0
+        ],
+        [
+          1471.0,
+          338.0
+        ],
+        [
+          1429.0,
+          338.0
+        ]
+      ],
+      "center_px": [
+        1450.0,
+        327.5
+      ],
+      "confidence": 0.98232,
+      "parsed": {
+        "kind": "numeric",
+        "value": 20,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0005",
+      "text_raw": "60",
+      "text_normalized": "60",
+      "polygon_px": [
+        [
+          531.0,
+          328.0
+        ],
+        [
+          553.0,
+          328.0
+        ],
+        [
+          553.0,
+          345.0
+        ],
+        [
+          531.0,
+          345.0
+        ]
+      ],
+      "center_px": [
+        542.0,
+        336.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "numeric",
+        "value": 60,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0006",
+      "text_raw": "8",
+      "text_normalized": "8",
+      "polygon_px": [
+        [
+          999.0,
+          329.0
+        ],
+        [
+          1014.0,
+          329.0
+        ],
+        [
+          1014.0,
+          350.0
+        ],
+        [
+          999.0,
+          350.0
+        ]
+      ],
+      "center_px": [
+        1006.5,
+        339.5
+      ],
+      "confidence": 0.99995,
+      "parsed": {
+        "kind": "numeric",
+        "value": 8,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0007",
+      "text_raw": "38",
+      "text_normalized": "38",
+      "polygon_px": [
+        [
+          859.0,
+          484.0
+        ],
+        [
+          884.0,
+          484.0
+        ],
+        [
+          884.0,
+          505.0
+        ],
+        [
+          859.0,
+          505.0
+        ]
+      ],
+      "center_px": [
+        871.5,
+        494.5
+      ],
+      "confidence": 0.9999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 38,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0008",
+      "text_raw": "030",
+      "text_normalized": "030",
+      "polygon_px": [
+        [
+          1008.0,
+          477.0
+        ],
+        [
+          1046.0,
+          477.0
+        ],
+        [
+          1046.0,
+          496.0
+        ],
+        [
+          1008.0,
+          496.0
+        ]
+      ],
+      "center_px": [
+        1027.0,
+        486.5
+      ],
+      "confidence": 0.99543,
+      "parsed": {
+        "kind": "numeric",
+        "value": 30,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0009",
+      "text_raw": "R16",
+      "text_normalized": "R16",
+      "polygon_px": [
+        [
+          1179.0,
+          622.0
+        ],
+        [
+          1218.0,
+          622.0
+        ],
+        [
+          1218.0,
+          644.0
+        ],
+        [
+          1179.0,
+          644.0
+        ]
+      ],
+      "center_px": [
+        1198.5,
+        633.0
+      ],
+      "confidence": 0.99997,
+      "parsed": {
+        "kind": "radius",
+        "value": 16,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0010",
+      "text_raw": "R18",
+      "text_normalized": "R18",
+      "polygon_px": [
+        [
+          1387.0,
+          621.0
+        ],
+        [
+          1427.0,
+          621.0
+        ],
+        [
+          1427.0,
+          643.0
+        ],
+        [
+          1387.0,
+          643.0
+        ]
+      ],
+      "center_px": [
+        1407.0,
+        632.0
+      ],
+      "confidence": 0.99995,
+      "parsed": {
+        "kind": "radius",
+        "value": 18,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0011",
+      "text_raw": "R25/",
+      "text_normalized": "R25/",
+      "polygon_px": [
+        [
+          886.0,
+          686.0
+        ],
+        [
+          928.0,
+          686.0
+        ],
+        [
+          928.0,
+          708.0
+        ],
+        [
+          886.0,
+          708.0
+        ]
+      ],
+      "center_px": [
+        907.0,
+        697.0
+      ],
+      "confidence": 0.99634,
+      "parsed": {
+        "kind": "radius",
+        "value": 25,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0012",
+      "text_raw": "64",
+      "text_normalized": "64",
+      "polygon_px": [
+        [
+          530.0,
+          701.0
+        ],
+        [
+          555.0,
+          701.0
+        ],
+        [
+          555.0,
+          722.0
+        ],
+        [
+          530.0,
+          722.0
+        ]
+      ],
+      "center_px": [
+        542.5,
+        711.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 64,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0013",
+      "text_raw": "040",
+      "text_normalized": "040",
+      "polygon_px": [
+        [
+          1235.0,
+          942.0
+        ],
+        [
+          1274.0,
+          942.0
+        ],
+        [
+          1274.0,
+          964.0
+        ],
+        [
+          1235.0,
+          964.0
+        ]
+      ],
+      "center_px": [
+        1254.5,
+        953.0
+      ],
+      "confidence": 0.99922,
+      "parsed": {
+        "kind": "numeric",
+        "value": 40,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0014",
+      "text_raw": "022",
+      "text_normalized": "022",
+      "polygon_px": [
+        [
+          838.0,
+          953.0
+        ],
+        [
+          877.0,
+          953.0
+        ],
+        [
+          877.0,
+          975.0
+        ],
+        [
+          838.0,
+          975.0
+        ]
+      ],
+      "center_px": [
+        857.5,
+        964.0
+      ],
+      "confidence": 0.9965,
+      "parsed": {
+        "kind": "numeric",
+        "value": 22,
+        "unit": null
+      }
+    }
+  ],
+  "statistics": {
+    "item_count": 14,
+    "high_confidence_count": 14,
+    "merged_item_count": 0
+  },
+  "comparison": {
+    "reference_file": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE_native_text.json",
+    "candidates": [
+      {
+        "mode": "raw",
+        "source_item_count": 14,
+        "merged_item_count": 0,
+        "recognized_unique": 13,
+        "matched_unique": 7,
+        "reference_unique": 14,
+        "precision": 0.5384615384615384,
+        "recall": 0.5,
+        "selection_score": 0.523076923076923
+      },
+      {
+        "mode": "gray",
+        "source_item_count": 15,
+        "merged_item_count": 0,
+        "recognized_unique": 14,
+        "matched_unique": 7,
+        "reference_unique": 14,
+        "precision": 0.5,
+        "recall": 0.5,
+        "selection_score": 0.5
+      },
+      {
+        "mode": "invert",
+        "source_item_count": 15,
+        "merged_item_count": 0,
+        "recognized_unique": 14,
+        "matched_unique": 7,
+        "reference_unique": 14,
+        "precision": 0.5,
+        "recall": 0.5,
+        "selection_score": 0.5
+      }
+    ]
+  }
+}

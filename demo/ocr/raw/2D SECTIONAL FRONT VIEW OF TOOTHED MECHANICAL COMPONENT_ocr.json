@@ -1,0 +1,345 @@
+{
+  "schema_version": "cad-ocr-v1",
+  "drawing_key": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT",
+  "image": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left"
+  },
+  "engine": {
+    "name": "RapidOCR",
+    "version": "0.1.dev1",
+    "backend": "onnxruntime-cpu",
+    "onnxruntime_version": "1.29.0"
+  },
+  "preprocessing": {
+    "selected": "raw",
+    "crop": {
+      "name": "autocad-canvas",
+      "box_px": [
+        0,
+        60,
+        1750,
+        1025
+      ],
+      "working_size": [
+        1750,
+        965
+      ]
+    },
+    "alpha_handling": "source loaded as BGR; source alpha was not used"
+  },
+  "postprocessing": {
+    "adjacent_box_merge": {
+      "enabled": true,
+      "rule": "engineering_prefix_plus_adjacent_numeric",
+      "source_item_count": 8,
+      "merged_item_count": 0
+    }
+  },
+  "items": [
+    {
+      "id": "OCR_0001",
+      "text_raw": "R100",
+      "text_normalized": "R100",
+      "polygon_px": [
+        [
+          1369.0,
+          144.0
+        ],
+        [
+          1443.0,
+          144.0
+        ],
+        [
+          1443.0,
+          178.0
+        ],
+        [
+          1369.0,
+          178.0
+        ]
+      ],
+      "center_px": [
+        1406.0,
+        161.0
+      ],
+      "confidence": 0.99995,
+      "parsed": {
+        "kind": "radius",
+        "value": 100,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0002",
+      "text_raw": "R60",
+      "text_normalized": "R60",
+      "polygon_px": [
+        [
+          1080.0,
+          195.0
+        ],
+        [
+          1139.0,
+          198.0
+        ],
+        [
+          1137.0,
+          231.0
+        ],
+        [
+          1078.0,
+          228.0
+        ]
+      ],
+      "center_px": [
+        1108.5,
+        213.0
+      ],
+      "confidence": 0.99823,
+      "parsed": {
+        "kind": "radius",
+        "value": 60,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0003",
+      "text_raw": "R10",
+      "text_normalized": "R10",
+      "polygon_px": [
+        [
+          1178.0,
+          340.0
+        ],
+        [
+          1238.0,
+          340.0
+        ],
+        [
+          1238.0,
+          375.0
+        ],
+        [
+          1178.0,
+          375.0
+        ]
+      ],
+      "center_px": [
+        1208.0,
+        357.5
+      ],
+      "confidence": 0.99984,
+      "parsed": {
+        "kind": "radius",
+        "value": 10,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0004",
+      "text_raw": "R16",
+      "text_normalized": "R16",
+      "polygon_px": [
+        [
+          1346.0,
+          338.0
+        ],
+        [
+          1405.0,
+          338.0
+        ],
+        [
+          1405.0,
+          369.0
+        ],
+        [
+          1346.0,
+          369.0
+        ]
+      ],
+      "center_px": [
+        1375.5,
+        353.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "radius",
+        "value": 16,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0005",
+      "text_raw": "040",
+      "text_normalized": "040",
+      "polygon_px": [
+        [
+          1169.0,
+          505.0
+        ],
+        [
+          1228.0,
+          505.0
+        ],
+        [
+          1228.0,
+          538.0
+        ],
+        [
+          1169.0,
+          538.0
+        ]
+      ],
+      "center_px": [
+        1198.5,
+        521.5
+      ],
+      "confidence": 0.92555,
+      "parsed": {
+        "kind": "numeric",
+        "value": 40,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0006",
+      "text_raw": "060",
+      "text_normalized": "060",
+      "polygon_px": [
+        [
+          1175.0,
+          583.0
+        ],
+        [
+          1235.0,
+          580.0
+        ],
+        [
+          1236.0,
+          613.0
+        ],
+        [
+          1176.0,
+          616.0
+        ]
+      ],
+      "center_px": [
+        1205.5,
+        598.0
+      ],
+      "confidence": 0.95902,
+      "parsed": {
+        "kind": "numeric",
+        "value": 60,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0007",
+      "text_raw": "5X020",
+      "text_normalized": "5X020",
+      "polygon_px": [
+        [
+          1299.0,
+          631.0
+        ],
+        [
+          1389.0,
+          631.0
+        ],
+        [
+          1389.0,
+          663.0
+        ],
+        [
+          1299.0,
+          663.0
+        ]
+      ],
+      "center_px": [
+        1344.0,
+        647.0
+      ],
+      "confidence": 0.98836
+    },
+    {
+      "id": "OCR_0008",
+      "text_raw": "120°",
+      "text_normalized": "120°",
+      "polygon_px": [
+        [
+          954.0,
+          717.0
+        ],
+        [
+          1003.0,
+          717.0
+        ],
+        [
+          1003.0,
+          748.0
+        ],
+        [
+          954.0,
+          748.0
+        ]
+      ],
+      "center_px": [
+        978.5,
+        732.5
+      ],
+      "confidence": 0.97544,
+      "parsed": {
+        "kind": "angle",
+        "value": 120,
+        "unit": null
+      }
+    }
+  ],
+  "statistics": {
+    "item_count": 8,
+    "high_confidence_count": 8,
+    "merged_item_count": 0
+  },
+  "comparison": {
+    "reference_file": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_native_text.json",
+    "candidates": [
+      {
+        "mode": "raw",
+        "source_item_count": 8,
+        "merged_item_count": 0,
+        "recognized_unique": 8,
+        "matched_unique": 5,
+        "reference_unique": 10,
+        "precision": 0.625,
+        "recall": 0.5,
+        "selection_score": 0.575
+      },
+      {
+        "mode": "gray",
+        "source_item_count": 9,
+        "merged_item_count": 0,
+        "recognized_unique": 9,
+        "matched_unique": 5,
+        "reference_unique": 10,
+        "precision": 0.5555555555555556,
+        "recall": 0.5,
+        "selection_score": 0.5333333333333333
+      },
+      {
+        "mode": "invert",
+        "source_item_count": 9,
+        "merged_item_count": 0,
+        "recognized_unique": 9,
+        "matched_unique": 5,
+        "reference_unique": 10,
+        "precision": 0.5555555555555556,
+        "recall": 0.5,
+        "selection_score": 0.5333333333333333
+      }
+    ]
+  }
+}

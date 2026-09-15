@@ -1,0 +1,8348 @@
+{
+  "schema_version": "cad-structured-v1",
+  "drawing": {
+    "source_file": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.dwg",
+    "source_format": "DWG",
+    "parser": "LibreDWG"
+  },
+  "layers": [
+    {
+      "id": "H10",
+      "name": "0",
+      "handle": [
+        0,
+        1,
+        16
+      ],
+      "source_index": 13
+    },
+    {
+      "id": "H276",
+      "name": "Dotted Line",
+      "handle": [
+        0,
+        2,
+        630
+      ],
+      "source_index": 148
+    },
+    {
+      "id": "H2AE",
+      "name": "*ADSK_CONSTRAINTS",
+      "handle": [
+        0,
+        2,
+        686
+      ],
+      "source_index": 163
+    },
+    {
+      "id": "H306",
+      "name": "Dimensions",
+      "handle": [
+        0,
+        2,
+        774
+      ],
+      "source_index": 216
+    },
+    {
+      "id": "H309",
+      "name": "Defpoints",
+      "handle": [
+        0,
+        2,
+        777
+      ],
+      "source_index": 218
+    },
+    {
+      "id": "H701",
+      "name": "Hashing",
+      "handle": [
+        0,
+        2,
+        1793
+      ],
+      "source_index": 472
+    }
+  ],
+  "blocks": [
+    {
+      "id": "H1F",
+      "name": "*Model_Space",
+      "handle": [
+        0,
+        1,
+        31
+      ],
+      "source_index": 23,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "H256",
+        "H275",
+        "H27C",
+        "H27D",
+        "H281",
+        "H285",
+        "H2C3",
+        "H2C7",
+        "H2C8",
+        "H2CA",
+        "H2CC",
+        "H2CD",
+        "H2D1",
+        "H2D2",
+        "H2D4",
+        "H2D7",
+        "H2D8",
+        "H2DC",
+        "H2DD",
+        "H2DF",
+        "H2E1",
+        "H2E2",
+        "H2E6",
+        "H2E7",
+        "H2E9",
+        "H2EA",
+        "H2EB",
+        "H2ED",
+        "H2F6",
+        "H33D",
+        "H361",
+        "H37B",
+        "H395",
+        "H3CD",
+        "H3E7",
+        "H401",
+        "H41C",
+        "H42E",
+        "H440",
+        "H456",
+        "H468",
+        "H46E",
+        "H488",
+        "H499",
+        "H49F",
+        "H4A5",
+        "H4AB",
+        "H4B1",
+        "H4C7",
+        "H4FB",
+        "H515",
+        "H52F",
+        "H549",
+        "H563",
+        "H57D",
+        "H597",
+        "H5B1",
+        "H5D5",
+        "H5E7",
+        "H5FD",
+        "H615",
+        "H649",
+        "H663",
+        "H67D",
+        "H697",
+        "H6AD",
+        "H6C3",
+        "H6D9",
+        "H6EB",
+        "H82A",
+        "HA69"
+      ],
+      "block_entity_id": "H20",
+      "endblk_entity_id": "H21",
+      "layout_id": "H22"
+    },
+    {
+      "id": "H58",
+      "name": "*Paper_Space",
+      "handle": [
+        0,
+        1,
+        88
+      ],
+      "source_index": 28,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "block_entity_id": "H5A",
+      "endblk_entity_id": "H5B",
+      "layout_id": "H59"
+    },
+    {
+      "id": "H5D",
+      "name": "*Paper_Space",
+      "handle": [
+        0,
+        1,
+        93
+      ],
+      "source_index": 32,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "block_entity_id": "H5F",
+      "endblk_entity_id": "H60",
+      "layout_id": "H5E"
+    },
+    {
+      "id": "H2B1",
+      "name": "_ClosedBlank",
+      "handle": [
+        0,
+        2,
+        689
+      ],
+      "source_index": 164,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "H2B2",
+        "H2B3",
+        "H2B4"
+      ],
+      "block_entity_id": "H2B5",
+      "endblk_entity_id": "H2B6",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H2F0",
+      "name": "*U",
+      "handle": [
+        0,
+        2,
+        752
+      ],
+      "source_index": 196,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H2F7"
+      ],
+      "block_entity_id": "H2F1",
+      "endblk_entity_id": "H2F2",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H2F3",
+      "name": "*U",
+      "handle": [
+        0,
+        2,
+        755
+      ],
+      "source_index": 199,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H302",
+        "H303",
+        "H304",
+        "H305"
+      ],
+      "block_entity_id": "H2F4",
+      "endblk_entity_id": "H2F5",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H33E",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        830
+      ],
+      "source_index": 220,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H102C",
+        "H102D",
+        "H102E",
+        "H102F",
+        "H1030",
+        "H1031",
+        "H1032",
+        "H1033",
+        "H1034",
+        "H1035"
+      ],
+      "block_entity_id": "H33F",
+      "endblk_entity_id": "H340",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H362",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        866
+      ],
+      "source_index": 226,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H89A",
+        "H89B",
+        "H89C",
+        "H89D",
+        "H89E",
+        "H89F",
+        "H8A0",
+        "H8A1",
+        "H8A2",
+        "H8A3"
+      ],
+      "block_entity_id": "H363",
+      "endblk_entity_id": "H364",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H37C",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        892
+      ],
+      "source_index": 232,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H886",
+        "H887",
+        "H888",
+        "H889",
+        "H88A",
+        "H88B",
+        "H88C",
+        "H88D",
+        "H88E",
+        "H88F"
+      ],
+      "block_entity_id": "H37D",
+      "endblk_entity_id": "H37E",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H396",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        918
+      ],
+      "source_index": 238,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H94C",
+        "H94D",
+        "H94E",
+        "H94F",
+        "H950",
+        "H951",
+        "H952",
+        "H953",
+        "H954",
+        "H955",
+        "H956",
+        "H957"
+      ],
+      "block_entity_id": "H397",
+      "endblk_entity_id": "H398",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H3CE",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        974
+      ],
+      "source_index": 244,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HD49",
+        "HD4A",
+        "HD4B",
+        "HD4C",
+        "HD4D",
+        "HD4E",
+        "HD4F",
+        "HD50",
+        "HD51",
+        "HD52"
+      ],
+      "block_entity_id": "H3CF",
+      "endblk_entity_id": "H3D0",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H3E8",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1000
+      ],
+      "source_index": 250,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HD21",
+        "HD22",
+        "HD23",
+        "HD24",
+        "HD25",
+        "HD26",
+        "HD27",
+        "HD28",
+        "HD29",
+        "HD2A"
+      ],
+      "block_entity_id": "H3E9",
+      "endblk_entity_id": "H3EA",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H402",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1026
+      ],
+      "source_index": 256,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HD17",
+        "HD18",
+        "HD19",
+        "HD1A",
+        "HD1B",
+        "HD1C",
+        "HD1D",
+        "HD1E",
+        "HD1F",
+        "HD20"
+      ],
+      "block_entity_id": "H403",
+      "endblk_entity_id": "H404",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H41D",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1053
+      ],
+      "source_index": 263,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H8CA",
+        "H8CB",
+        "H8CC",
+        "H8CD",
+        "H8CE",
+        "H8CF"
+      ],
+      "block_entity_id": "H41E",
+      "endblk_entity_id": "H41F",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H42F",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1071
+      ],
+      "source_index": 269,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H8D6",
+        "H8D7",
+        "H8D8",
+        "H8D9",
+        "H8DA",
+        "H8DB"
+      ],
+      "block_entity_id": "H430",
+      "endblk_entity_id": "H431",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H441",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1089
+      ],
+      "source_index": 275,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HBAD",
+        "HBAE",
+        "HBAF",
+        "HBB0",
+        "HBB1",
+        "HBB2",
+        "HBB3",
+        "HBB4"
+      ],
+      "block_entity_id": "H442",
+      "endblk_entity_id": "H443",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H4B2",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1202
+      ],
+      "source_index": 329,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HB53",
+        "HB54",
+        "HB55",
+        "HB56",
+        "HB57",
+        "HB58",
+        "HB59",
+        "HB5A"
+      ],
+      "block_entity_id": "H4B3",
+      "endblk_entity_id": "H4B4",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H4C8",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1224
+      ],
+      "source_index": 335,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H4D4",
+        "H4D5",
+        "H4D6",
+        "H4D7",
+        "H4D8",
+        "H4D9",
+        "H4DA",
+        "H4DB"
+      ],
+      "block_entity_id": "H4C9",
+      "endblk_entity_id": "H4CA",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H4FC",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1276
+      ],
+      "source_index": 349,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HF66",
+        "HF67",
+        "HF68",
+        "HF69",
+        "HF6A",
+        "HF6B",
+        "HF6C",
+        "HF6D",
+        "HF6E",
+        "HF6F"
+      ],
+      "block_entity_id": "H4FD",
+      "endblk_entity_id": "H4FE",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H516",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1302
+      ],
+      "source_index": 355,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H1036",
+        "H1037",
+        "H1038",
+        "H1039",
+        "H103A",
+        "H103B",
+        "H103C",
+        "H103D",
+        "H103E",
+        "H103F"
+      ],
+      "block_entity_id": "H517",
+      "endblk_entity_id": "H518",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H530",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1328
+      ],
+      "source_index": 361,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H1054",
+        "H1055",
+        "H1056",
+        "H1057",
+        "H1058",
+        "H1059",
+        "H105A",
+        "H105B",
+        "H105C",
+        "H105D"
+      ],
+      "block_entity_id": "H531",
+      "endblk_entity_id": "H532",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H54A",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1354
+      ],
+      "source_index": 367,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H104A",
+        "H104B",
+        "H104C",
+        "H104D",
+        "H104E",
+        "H104F",
+        "H1050",
+        "H1051",
+        "H1052",
+        "H1053"
+      ],
+      "block_entity_id": "H54B",
+      "endblk_entity_id": "H54C",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H564",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1380
+      ],
+      "source_index": 373,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H10FC",
+        "H10FD",
+        "H10FE",
+        "H10FF",
+        "H1100",
+        "H1101",
+        "H1102",
+        "H1103",
+        "H1104",
+        "H1105"
+      ],
+      "block_entity_id": "H565",
+      "endblk_entity_id": "H566",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H57E",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1406
+      ],
+      "source_index": 379,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H10BB",
+        "H10BC",
+        "H10BD",
+        "H10BE",
+        "H10BF",
+        "H10C0",
+        "H10C1",
+        "H10C2",
+        "H10C3",
+        "H10C4"
+      ],
+      "block_entity_id": "H57F",
+      "endblk_entity_id": "H580",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H598",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1432
+      ],
+      "source_index": 385,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H10B1",
+        "H10B2",
+        "H10B3",
+        "H10B4",
+        "H10B5",
+        "H10B6",
+        "H10B7",
+        "H10B8",
+        "H10B9",
+        "H10BA"
+      ],
+      "block_entity_id": "H599",
+      "endblk_entity_id": "H59A",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H5B2",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1458
+      ],
+      "source_index": 391,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HD0D",
+        "HD0E",
+        "HD0F",
+        "HD10",
+        "HD11",
+        "HD12",
+        "HD13",
+        "HD14",
+        "HD15",
+        "HD16"
+      ],
+      "block_entity_id": "H5B3",
+      "endblk_entity_id": "H5B4",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H5D6",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1494
+      ],
+      "source_index": 397,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H5E0",
+        "H5E1",
+        "H5E2",
+        "H5E3",
+        "H5E4",
+        "H5E5"
+      ],
+      "block_entity_id": "H5D7",
+      "endblk_entity_id": "H5D8",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H5E8",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1512
+      ],
+      "source_index": 409,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HD63",
+        "HD64",
+        "HD65",
+        "HD66",
+        "HD67",
+        "HD68",
+        "HD69",
+        "HD6A"
+      ],
+      "block_entity_id": "H5E9",
+      "endblk_entity_id": "H5EA",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H5FE",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1534
+      ],
+      "source_index": 415,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HAC8",
+        "HAC9",
+        "HACA",
+        "HACB",
+        "HACC",
+        "HACD",
+        "HACE",
+        "HACF",
+        "HAD0"
+      ],
+      "block_entity_id": "H5FF",
+      "endblk_entity_id": "H600",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H616",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1558
+      ],
+      "source_index": 421,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HDE5",
+        "HDE6",
+        "HDE7",
+        "HDE8",
+        "HDE9",
+        "HDEA",
+        "HDEB",
+        "HDEC",
+        "HDED",
+        "HDEE"
+      ],
+      "block_entity_id": "H617",
+      "endblk_entity_id": "H618",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H64A",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1610
+      ],
+      "source_index": 427,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HCBD",
+        "HCBE",
+        "HCBF",
+        "HCC0",
+        "HCC1",
+        "HCC2",
+        "HCC3",
+        "HCC4",
+        "HCC5",
+        "HCC6"
+      ],
+      "block_entity_id": "H64B",
+      "endblk_entity_id": "H64C",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H664",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1636
+      ],
+      "source_index": 433,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HCB3",
+        "HCB4",
+        "HCB5",
+        "HCB6",
+        "HCB7",
+        "HCB8",
+        "HCB9",
+        "HCBA",
+        "HCBB",
+        "HCBC"
+      ],
+      "block_entity_id": "H665",
+      "endblk_entity_id": "H666",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H67E",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1662
+      ],
+      "source_index": 439,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HCA9",
+        "HCAA",
+        "HCAB",
+        "HCAC",
+        "HCAD",
+        "HCAE",
+        "HCAF",
+        "HCB0",
+        "HCB1",
+        "HCB2"
+      ],
+      "block_entity_id": "H67F",
+      "endblk_entity_id": "H680",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H698",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1688
+      ],
+      "source_index": 445,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H101A",
+        "H101B",
+        "H101C",
+        "H101D",
+        "H101E",
+        "H101F",
+        "H1020",
+        "H1021"
+      ],
+      "block_entity_id": "H699",
+      "endblk_entity_id": "H69A",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H6AE",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1710
+      ],
+      "source_index": 451,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H10A9",
+        "H10AA",
+        "H10AB",
+        "H10AC",
+        "H10AD",
+        "H10AE",
+        "H10AF",
+        "H10B0"
+      ],
+      "block_entity_id": "H6AF",
+      "endblk_entity_id": "H6B0",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H6C4",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1732
+      ],
+      "source_index": 457,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HD7B",
+        "HD7C",
+        "HD7D",
+        "HD7E",
+        "HD7F",
+        "HD80",
+        "HD81",
+        "HD82"
+      ],
+      "block_entity_id": "H6C5",
+      "endblk_entity_id": "H6C6",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H6DA",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1754
+      ],
+      "source_index": 463,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HB96",
+        "HB97",
+        "HB98",
+        "HB99",
+        "HB9A",
+        "HB9B",
+        "HB9C"
+      ],
+      "block_entity_id": "H6DB",
+      "endblk_entity_id": "H6DC",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H6EC",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1772
+      ],
+      "source_index": 467,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HB8D",
+        "HB8E",
+        "HB8F",
+        "HB90",
+        "HB91",
+        "HB92",
+        "HB93",
+        "HB94",
+        "HB95"
+      ],
+      "block_entity_id": "H6ED",
+      "endblk_entity_id": "H6EE",
+      "layout_id": "H0"
+    },
+    {
+      "id": "HA6A",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        2666
+      ],
+      "source_index": 523,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "HDDB",
+        "HDDC",
+        "HDDD",
+        "HDDE",
+        "HDDF",
+        "HDE0",
+        "HDE1",
+        "HDE2",
+        "HDE3",
+        "HDE4"
+      ],
+      "block_entity_id": "HA6B",
+      "endblk_entity_id": "HA6C",
+      "layout_id": "H0"
+    },
+    {
+      "id": "HC46",
+      "name": "*U",
+      "handle": [
+        0,
+        2,
+        3142
+      ],
+      "source_index": 596,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "block_entity_id": "HC47",
+      "endblk_entity_id": "HC48",
+      "layout_id": "H0"
+    },
+    {
+      "id": "HC7B",
+      "name": "GENAXEH",
+      "handle": [
+        0,
+        2,
+        3195
+      ],
+      "source_index": 642,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "HC7C"
+      ],
+      "block_entity_id": "HC7D",
+      "endblk_entity_id": "HC7E",
+      "layout_id": "H0"
+    },
+    {
+      "id": "HC89",
+      "name": "_ACMFILLEDHALF",
+      "handle": [
+        0,
+        2,
+        3209
+      ],
+      "source_index": 656,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "HC8C",
+        "HC8D"
+      ],
+      "block_entity_id": "HC8A",
+      "endblk_entity_id": "HC8B",
+      "layout_id": "H0"
+    }
+  ],
+  "entities": [
+    {
+      "id": "H256",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        598
+      ],
+      "source_index": 146,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        80.0,
+        80.0,
+        0.0
+      ],
+      "radius": 3.4
+    },
+    {
+      "id": "H275",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        629
+      ],
+      "source_index": 147,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          63.5,
+          76.0
+        ],
+        [
+          61.5,
+          76.0
+        ],
+        [
+          60.0,
+          74.5
+        ],
+        [
+          60.0,
+          64.0
+        ],
+        [
+          64.0,
+          60.0
+        ],
+        [
+          74.5,
+          60.0
+        ],
+        [
+          76.0,
+          61.5
+        ],
+        [
+          76.0,
+          63.5
+        ]
+      ],
+      "flag": 16,
+      "closed": false
+    },
+    {
+      "id": "H27C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        636
+      ],
+      "source_index": 153,
+      "layer": "Dotted Line",
+      "layer_handle": [
+        5,
+        2,
+        630,
+        630
+      ],
+      "start": [
+        51.65284366658307,
+        80.0,
+        0.0
+      ],
+      "end": [
+        108.47527857765999,
+        80.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H27D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        637
+      ],
+      "source_index": 154,
+      "layer": "Dotted Line",
+      "layer_handle": [
+        5,
+        2,
+        630,
+        630
+      ],
+      "start": [
+        80.0,
+        107.77235896716275,
+        0.0
+      ],
+      "end": [
+        79.99999999999999,
+        52.65218468317926,
+        0.0
+      ]
+    },
+    {
+      "id": "H281",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        641
+      ],
+      "source_index": 155,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          64.5,
+          85.0
+        ],
+        [
+          64.5,
+          86.5
+        ],
+        [
+          64.0,
+          87.0
+        ],
+        [
+          62.49999999992021,
+          87.04999999999998
+        ],
+        [
+          62.049999999958,
+          87.5
+        ],
+        [
+          64.5,
+          90.0
+        ],
+        [
+          66.23187591328681,
+          90.0
+        ],
+        [
+          69.76740981921954,
+          88.53553390593274
+        ],
+        [
+          70.78553390593274,
+          87.51740981921954
+        ],
+        [
+          72.25,
+          83.9818759132868
+        ],
+        [
+          72.25,
+          80.0
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H285",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        645
+      ],
+      "source_index": 156,
+      "layer": "Dotted Line",
+      "layer_handle": [
+        5,
+        2,
+        630,
+        630
+      ],
+      "start": [
+        79.99999999999999,
+        80.0,
+        0.0
+      ],
+      "end": [
+        60.0,
+        100.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H2B2",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        690
+      ],
+      "source_index": 165,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.16666666666667,
+        0.0
+      ],
+      "end": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H2B3",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        691
+      ],
+      "source_index": 166,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        -1.0,
+        -0.16666666666667,
+        0.0
+      ]
+    },
+    {
+      "id": "H2B4",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        692
+      ],
+      "source_index": 167,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.16666666666667,
+        0.0
+      ],
+      "end": [
+        -1.0,
+        -0.16666666666667,
+        0.0
+      ]
+    },
+    {
+      "id": "H2C3",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        707
+      ],
+      "source_index": 174,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        63.5,
+        85.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 4.71238898038469,
+      "end_angle": 0.0
+    },
+    {
+      "id": "H2C7",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        711
+      ],
+      "source_index": 175,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        75.0,
+        96.5,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 4.71238898038469,
+      "end_angle": 0.0
+    },
+    {
+      "id": "H2C8",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        712
+      ],
+      "source_index": 176,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          75.0,
+          95.5
+        ],
+        [
+          73.5,
+          95.5
+        ],
+        [
+          73.0,
+          96.0
+        ],
+        [
+          72.95000000000002,
+          97.5
+        ],
+        [
+          72.5,
+          97.95000000000002
+        ],
+        [
+          72.5,
+          98.0
+        ],
+        [
+          70.0,
+          95.5
+        ],
+        [
+          70.0,
+          93.76812408671319
+        ],
+        [
+          71.46446609406726,
+          90.23259018078046
+        ],
+        [
+          72.48259018078046,
+          89.21446609406726
+        ],
+        [
+          76.0181240867132,
+          87.75
+        ],
+        [
+          80.0,
+          87.75
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2CA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        714
+      ],
+      "source_index": 177,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        97.50000000000001,
+        83.99999999999999,
+        0.0
+      ],
+      "end": [
+        96.5,
+        83.99999999999999,
+        0.0
+      ]
+    },
+    {
+      "id": "H2CC",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        716
+      ],
+      "source_index": 178,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        96.5,
+        84.99999999999999,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 3.14159265358979,
+      "end_angle": 4.71238898038469
+    },
+    {
+      "id": "H2CD",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        717
+      ],
+      "source_index": 179,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          95.5,
+          84.99999999999999
+        ],
+        [
+          95.5,
+          86.49999999999997
+        ],
+        [
+          96.0,
+          86.99999999999997
+        ],
+        [
+          97.5,
+          87.04999999999995
+        ],
+        [
+          97.95000000000002,
+          87.49999999999997
+        ],
+        [
+          95.5,
+          89.99999999999999
+        ],
+        [
+          93.76812408671319,
+          89.99999999999999
+        ],
+        [
+          90.23259018078046,
+          88.53553390593272
+        ],
+        [
+          89.21446609406726,
+          87.51740981921954
+        ],
+        [
+          87.75,
+          83.9818759132868
+        ],
+        [
+          87.75,
+          80.0
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2D1",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        721
+      ],
+      "source_index": 180,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        85.00000000000001,
+        96.5,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 3.14159265358979,
+      "end_angle": 4.71238898038469
+    },
+    {
+      "id": "H2D2",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        722
+      ],
+      "source_index": 181,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          85.00000000000001,
+          95.5
+        ],
+        [
+          86.50000000000001,
+          95.5
+        ],
+        [
+          87.00000000000001,
+          96.0
+        ],
+        [
+          87.05000000000004,
+          97.50000000007978
+        ],
+        [
+          87.50000000000001,
+          97.95000000004197
+        ],
+        [
+          90.00000000000001,
+          95.5
+        ],
+        [
+          90.00000000000001,
+          93.76812408671319
+        ],
+        [
+          88.53553390593275,
+          90.23259018078046
+        ],
+        [
+          87.51740981921954,
+          89.21446609406726
+        ],
+        [
+          83.9818759132868,
+          87.75
+        ],
+        [
+          80.0,
+          87.75
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2D4",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        724
+      ],
+      "source_index": 182,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          76.0,
+          96.5
+        ],
+        [
+          76.0,
+          98.5
+        ],
+        [
+          74.5,
+          100.0
+        ],
+        [
+          64.0,
+          100.0
+        ],
+        [
+          60.0,
+          96.0
+        ],
+        [
+          60.0,
+          85.5
+        ],
+        [
+          61.5,
+          84.0
+        ],
+        [
+          63.5,
+          84.0
+        ]
+      ],
+      "flag": 16,
+      "closed": false
+    },
+    {
+      "id": "H2D7",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        727
+      ],
+      "source_index": 183,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        63.5,
+        75.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 0.0,
+      "end_angle": 1.5707963267949
+    },
+    {
+      "id": "H2D8",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        728
+      ],
+      "source_index": 184,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          64.5,
+          75.0
+        ],
+        [
+          64.5,
+          73.5
+        ],
+        [
+          64.0,
+          73.0
+        ],
+        [
+          62.49999999992021,
+          72.95000000000002
+        ],
+        [
+          62.049999999958,
+          72.5
+        ],
+        [
+          64.5,
+          70.0
+        ],
+        [
+          66.23187591328681,
+          70.0
+        ],
+        [
+          69.76740981921954,
+          71.46446609406726
+        ],
+        [
+          70.78553390593274,
+          72.48259018078046
+        ],
+        [
+          72.25,
+          76.0181240867132
+        ],
+        [
+          72.25,
+          80.0
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2DC",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        732
+      ],
+      "source_index": 185,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        75.0,
+        63.5,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 0.0,
+      "end_angle": 1.5707963267949
+    },
+    {
+      "id": "H2DD",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        733
+      ],
+      "source_index": 186,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          75.0,
+          64.5
+        ],
+        [
+          73.5,
+          64.5
+        ],
+        [
+          73.0,
+          64.0
+        ],
+        [
+          72.95000000000002,
+          62.49999999992021
+        ],
+        [
+          72.5,
+          62.049999999958
+        ],
+        [
+          70.0,
+          64.5
+        ],
+        [
+          70.0,
+          66.23187591328681
+        ],
+        [
+          71.46446609406726,
+          69.76740981921954
+        ],
+        [
+          72.48259018078046,
+          70.78553390593274
+        ],
+        [
+          76.0181240867132,
+          72.25
+        ],
+        [
+          80.0,
+          72.25
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2DF",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        735
+      ],
+      "source_index": 187,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        97.5,
+        76.00000000000001,
+        0.0
+      ],
+      "end": [
+        96.5,
+        76.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "H2E1",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        737
+      ],
+      "source_index": 188,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        96.5,
+        75.00000000000001,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 1.5707963267949,
+      "end_angle": 3.14159265358979
+    },
+    {
+      "id": "H2E2",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        738
+      ],
+      "source_index": 189,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          95.5,
+          75.00000000000001
+        ],
+        [
+          95.5,
+          73.50000000000003
+        ],
+        [
+          96.0,
+          73.00000000000003
+        ],
+        [
+          97.5,
+          72.95000000000005
+        ],
+        [
+          97.95000000000002,
+          72.50000000000003
+        ],
+        [
+          95.5,
+          70.00000000000001
+        ],
+        [
+          93.76812408671319,
+          70.00000000000001
+        ],
+        [
+          90.23259018078046,
+          71.46446609406728
+        ],
+        [
+          89.21446609406726,
+          72.48259018078046
+        ],
+        [
+          87.75,
+          76.0181240867132
+        ],
+        [
+          87.75,
+          80.0
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2E6",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        742
+      ],
+      "source_index": 190,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        85.00000000000001,
+        63.5,
+        0.0
+      ],
+      "radius": 1.0,
+      "start_angle": 1.5707963267949,
+      "end_angle": 3.14159265358979
+    },
+    {
+      "id": "H2E7",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        743
+      ],
+      "source_index": 191,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          85.00000000000001,
+          64.5
+        ],
+        [
+          86.50000000000001,
+          64.5
+        ],
+        [
+          87.00000000000001,
+          64.0
+        ],
+        [
+          87.05000000000001,
+          62.49999999992021
+        ],
+        [
+          87.50000000000001,
+          62.049999999958
+        ],
+        [
+          90.00000000000001,
+          64.5
+        ],
+        [
+          90.00000000000001,
+          66.23187591328681
+        ],
+        [
+          88.53553390593275,
+          69.76740981921954
+        ],
+        [
+          87.51740981921954,
+          70.78553390593274
+        ],
+        [
+          83.9818759132868,
+          72.25
+        ],
+        [
+          80.0,
+          72.25
+        ]
+      ],
+      "flag": 1040,
+      "closed": false
+    },
+    {
+      "id": "H2E9",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        745
+      ],
+      "source_index": 192,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          84.00000000000001,
+          63.5
+        ],
+        [
+          84.00000000000001,
+          61.5
+        ],
+        [
+          85.50000000000001,
+          60.0
+        ],
+        [
+          96.0,
+          60.0
+        ],
+        [
+          100.0,
+          64.0
+        ],
+        [
+          100.0,
+          96.0
+        ],
+        [
+          96.0,
+          100.0
+        ],
+        [
+          85.50000000000001,
+          100.0
+        ],
+        [
+          84.00000000000001,
+          98.5
+        ],
+        [
+          84.00000000000001,
+          96.5
+        ]
+      ],
+      "flag": 16,
+      "closed": false
+    },
+    {
+      "id": "H2EA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        746
+      ],
+      "source_index": 193,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        98.00000000000001,
+        83.49999999999999,
+        0.0
+      ],
+      "end": [
+        98.0,
+        76.50000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "H2EB",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        747
+      ],
+      "source_index": 194,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        97.50000000000001,
+        83.49999999999999,
+        0.0
+      ],
+      "radius": 0.5,
+      "start_angle": 6.28318530717958,
+      "end_angle": 1.5707963267949
+    },
+    {
+      "id": "H2ED",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        749
+      ],
+      "source_index": 195,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        97.5,
+        76.50000000000001,
+        0.0
+      ],
+      "radius": 0.5,
+      "start_angle": 4.71238898038469,
+      "end_angle": 6.28318530717958
+    },
+    {
+      "id": "H2F6",
+      "type": "INSERT",
+      "handle": [
+        0,
+        2,
+        758
+      ],
+      "source_index": 202,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "block_name": "*U",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        755,
+        755
+      ],
+      "block_id": "H2F3",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": 0.0
+    },
+    {
+      "id": "H2F7",
+      "type": "LWPOLYLINE",
+      "handle": [
+        0,
+        2,
+        759
+      ],
+      "source_index": 203,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "vertices": [
+        [
+          2.7,
+          -3.2
+        ],
+        [
+          -2.7,
+          -3.2
+        ],
+        [
+          -3.2,
+          -2.7
+        ],
+        [
+          -3.2,
+          1.0
+        ],
+        [
+          -1.0,
+          3.2
+        ],
+        [
+          2.7,
+          3.2
+        ],
+        [
+          3.2,
+          2.7
+        ],
+        [
+          3.2,
+          -2.7
+        ]
+      ],
+      "flag": 528,
+      "closed": true
+    },
+    {
+      "id": "H302",
+      "type": "INSERT",
+      "handle": [
+        0,
+        2,
+        770
+      ],
+      "source_index": 212,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "block_name": "*U",
+      "position": [
+        65.0,
+        95.0,
+        0.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        752,
+        752
+      ],
+      "block_id": "H2F0",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": 0.0
+    },
+    {
+      "id": "H303",
+      "type": "INSERT",
+      "handle": [
+        0,
+        2,
+        771
+      ],
+      "source_index": 213,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "block_name": "*U",
+      "position": [
+        64.99999999999999,
+        65.00000000000001,
+        0.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        752,
+        752
+      ],
+      "block_id": "H2F0",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": 1.5707963267949
+    },
+    {
+      "id": "H304",
+      "type": "INSERT",
+      "handle": [
+        0,
+        2,
+        772
+      ],
+      "source_index": 214,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "block_name": "*U",
+      "position": [
+        94.99999999999997,
+        65.0,
+        0.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        752,
+        752
+      ],
+      "block_id": "H2F0",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": 3.14159265358979
+    },
+    {
+      "id": "H305",
+      "type": "INSERT",
+      "handle": [
+        0,
+        2,
+        773
+      ],
+      "source_index": 215,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "block_name": "*U",
+      "position": [
+        94.99999999999997,
+        95.0,
+        0.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        752,
+        752
+      ],
+      "block_id": "H2F0",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": 4.71238898038469
+    },
+    {
+      "id": "H33D",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        829
+      ],
+      "source_index": 219,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;31}",
+      "measurement": 31.0,
+      "text_position": [
+        78.67125523983627,
+        54.23959038670523
+      ],
+      "block_handle": [
+        5,
+        2,
+        830,
+        830
+      ],
+      "block_id": "H33E"
+    },
+    {
+      "id": "H361",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        865
+      ],
+      "source_index": 225,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;15.5}",
+      "measurement": 15.5,
+      "text_position": [
+        74.1593463575756,
+        80.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        866,
+        866
+      ],
+      "block_id": "H362"
+    },
+    {
+      "id": "H37B",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        891
+      ],
+      "source_index": 231,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;15.5}",
+      "measurement": 15.5,
+      "text_position": [
+        80.0,
+        73.54248314291908
+      ],
+      "block_handle": [
+        5,
+        2,
+        892,
+        892
+      ],
+      "block_id": "H37C"
+    },
+    {
+      "id": "H395",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        917
+      ],
+      "source_index": 237,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_ANG2LN",
+      "text": "{\\H11.11111x;<>}",
+      "measurement": 1.57079632679488,
+      "text_position": [
+        92.0663160420805,
+        80.00000000000003
+      ],
+      "block_handle": [
+        5,
+        2,
+        918,
+        918
+      ],
+      "block_id": "H396"
+    },
+    {
+      "id": "H3CD",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        973
+      ],
+      "source_index": 243,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;8}",
+      "measurement": 7.99999999999997,
+      "text_position": [
+        108.47527857765999,
+        80.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        974,
+        974
+      ],
+      "block_id": "H3CE"
+    },
+    {
+      "id": "H3E7",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        999
+      ],
+      "source_index": 249,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;14}",
+      "measurement": 14.09999999999991,
+      "text_position": [
+        117.65976995417395,
+        84.22033269802859
+      ],
+      "block_handle": [
+        5,
+        2,
+        1000,
+        1000
+      ],
+      "block_id": "H3E8"
+    },
+    {
+      "id": "H401",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1025
+      ],
+      "source_index": 255,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;20}",
+      "measurement": 19.99999999999996,
+      "text_position": [
+        121.97740235714082,
+        76.36514766135207
+      ],
+      "block_handle": [
+        5,
+        2,
+        1026,
+        1026
+      ],
+      "block_id": "H402"
+    },
+    {
+      "id": "H41C",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1052
+      ],
+      "source_index": 262,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R5}",
+      "measurement": 5.00000000000001,
+      "text_position": [
+        82.98211291814708,
+        90.03998024082284
+      ],
+      "block_handle": [
+        5,
+        2,
+        1053,
+        1053
+      ],
+      "block_id": "H41D"
+    },
+    {
+      "id": "H42E",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1070
+      ],
+      "source_index": 268,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R5}",
+      "measurement": 5.00000000000001,
+      "text_position": [
+        85.53369088112015,
+        92.7437199154333
+      ],
+      "block_handle": [
+        5,
+        2,
+        1071,
+        1071
+      ],
+      "block_id": "H42F"
+    },
+    {
+      "id": "H440",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1088
+      ],
+      "source_index": 274,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R1}",
+      "measurement": 1.0,
+      "text_position": [
+        82.17718682067786,
+        94.72353920653134
+      ],
+      "block_handle": [
+        5,
+        2,
+        1089,
+        1089
+      ],
+      "block_id": "H441"
+    },
+    {
+      "id": "H456",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1110
+      ],
+      "source_index": 280,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad1=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        86.79467480344626,
+        98.37008706894186
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H468",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1128
+      ],
+      "source_index": 286,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad2=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        73.6553453352169,
+        98.6975637061922
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H46E",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1134
+      ],
+      "source_index": 292,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad3=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        98.52809285926031,
+        86.26941664081117
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H488",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1160
+      ],
+      "source_index": 298,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad4=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        98.35108302659094,
+        73.92410244870698
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H499",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1177
+      ],
+      "source_index": 304,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad5=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        86.49391516469827,
+        61.70945122855203
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H49F",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1183
+      ],
+      "source_index": 310,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad6=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        75.03387259641678,
+        62.49999999991601
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H4A5",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1189
+      ],
+      "source_index": 316,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad7=0.4500",
+      "measurement": 0.5,
+      "text_position": [
+        61.60387946276692,
+        73.6710288680274
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H4AB",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1195
+      ],
+      "source_index": 322,
+      "layer": "*ADSK_CONSTRAINTS",
+      "layer_handle": [
+        5,
+        2,
+        686,
+        686
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "rad8=0.4500",
+      "measurement": 0.49999999999999,
+      "text_position": [
+        61.78176877749832,
+        86.38548742639405
+      ],
+      "block_handle": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "block_id": "H0"
+    },
+    {
+      "id": "H4B1",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1201
+      ],
+      "source_index": 328,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R0.45}",
+      "measurement": 0.45,
+      "text_position": [
+        79.35330036849527,
+        99.0588669064618
+      ],
+      "block_handle": [
+        5,
+        2,
+        1202,
+        1202
+      ],
+      "block_id": "H4B2"
+    },
+    {
+      "id": "H4C7",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1223
+      ],
+      "source_index": 334,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "",
+      "measurement": 6.80000000000001,
+      "text_position": [
+        85.21805622790981,
+        85.22047311616869
+      ],
+      "block_handle": [
+        5,
+        2,
+        1224,
+        1224
+      ],
+      "block_id": "H4C8"
+    },
+    {
+      "id": "H4D4",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1236
+      ],
+      "source_index": 339,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        84.65681475451281,
+        85.22047311616868,
+        0.0
+      ],
+      "end": [
+        84.47681475451277,
+        85.22047311616868,
+        0.0
+      ]
+    },
+    {
+      "id": "H4D5",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1237
+      ],
+      "source_index": 340,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        84.47681475451277,
+        85.22047311616868,
+        0.0
+      ],
+      "end": [
+        82.33047029780164,
+        82.71759235189242,
+        0.0
+      ]
+    },
+    {
+      "id": "H4D6",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1238
+      ],
+      "source_index": 341,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;∅6.8000",
+      "position": [
+        85.21805622790981,
+        85.22047311616869,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H4D8",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1240
+      ],
+      "source_index": 343,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        79.90999999999998,
+        79.99999999999999,
+        0.0
+      ],
+      "end": [
+        80.08999999999997,
+        79.99999999999999,
+        0.0
+      ]
+    },
+    {
+      "id": "H4D9",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1241
+      ],
+      "source_index": 344,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        79.99999999999997,
+        79.90999999999997,
+        0.0
+      ],
+      "end": [
+        79.99999999999997,
+        80.08999999999999,
+        0.0
+      ]
+    },
+    {
+      "id": "H4FB",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1275
+      ],
+      "source_index": 348,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;8}",
+      "measurement": 8.00000000000001,
+      "text_position": [
+        80.0,
+        102.35704367680148
+      ],
+      "block_handle": [
+        5,
+        2,
+        1276,
+        1276
+      ],
+      "block_id": "H4FC"
+    },
+    {
+      "id": "H515",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1301
+      ],
+      "source_index": 354,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;14}",
+      "measurement": 14.10000000000002,
+      "text_position": [
+        81.4242427042292,
+        105.7860656658576
+      ],
+      "block_handle": [
+        5,
+        2,
+        1302,
+        1302
+      ],
+      "block_id": "H516"
+    },
+    {
+      "id": "H52F",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1327
+      ],
+      "source_index": 360,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;20}",
+      "measurement": 20.00000000000001,
+      "text_position": [
+        74.86037727132862,
+        109.03751571522173
+      ],
+      "block_handle": [
+        5,
+        2,
+        1328,
+        1328
+      ],
+      "block_id": "H530"
+    },
+    {
+      "id": "H549",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1353
+      ],
+      "source_index": 366,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;23.6}",
+      "measurement": 23.59999999999997,
+      "text_position": [
+        84.25524099746508,
+        112.73842391908018
+      ],
+      "block_handle": [
+        5,
+        2,
+        1354,
+        1354
+      ],
+      "block_id": "H54A"
+    },
+    {
+      "id": "H563",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1379
+      ],
+      "source_index": 372,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;36.4}",
+      "measurement": 36.39999999999997,
+      "text_position": [
+        79.7716956622302,
+        115.38595665519108
+      ],
+      "block_handle": [
+        5,
+        2,
+        1380,
+        1380
+      ],
+      "block_id": "H564"
+    },
+    {
+      "id": "H57D",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1405
+      ],
+      "source_index": 378,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;36}",
+      "measurement": 35.90000000004201,
+      "text_position": [
+        71.60830918520037,
+        52.47829764760269
+      ],
+      "block_handle": [
+        5,
+        2,
+        1406,
+        1406
+      ],
+      "block_id": "H57E"
+    },
+    {
+      "id": "H597",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1431
+      ],
+      "source_index": 384,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;40}",
+      "measurement": 40.0,
+      "text_position": [
+        80.19015630179183,
+        49.79147636469179
+      ],
+      "block_handle": [
+        5,
+        2,
+        1432,
+        1432
+      ],
+      "block_id": "H598"
+    },
+    {
+      "id": "H5B1",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1457
+      ],
+      "source_index": 390,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;40}",
+      "measurement": 40.00000000000001,
+      "text_position": [
+        126.8485761026393,
+        81.23314981177856
+      ],
+      "block_handle": [
+        5,
+        2,
+        1458,
+        1458
+      ],
+      "block_id": "H5B2"
+    },
+    {
+      "id": "H5D5",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1493
+      ],
+      "source_index": 396,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "",
+      "measurement": 0.50000000000001,
+      "text_position": [
+        96.89508648427778,
+        83.56394993117374
+      ],
+      "block_handle": [
+        5,
+        2,
+        1494,
+        1494
+      ],
+      "block_id": "H5D6"
+    },
+    {
+      "id": "H5E0",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1504
+      ],
+      "source_index": 401,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.44454078168567,
+        83.56394993117374,
+        0.0
+      ],
+      "end": [
+        97.6245407816857,
+        83.56394993117374,
+        0.0
+      ]
+    },
+    {
+      "id": "H5E1",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1505
+      ],
+      "source_index": 402,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.6245407816857,
+        83.56394993117374,
+        0.0
+      ],
+      "end": [
+        97.78466464385296,
+        83.64617127125427,
+        0.0
+      ]
+    },
+    {
+      "id": "H5E2",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1506
+      ],
+      "source_index": 403,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;R0.5000",
+      "position": [
+        96.89508648427778,
+        83.56394993117374,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H5E7",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1511
+      ],
+      "source_index": 408,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R0.45}",
+      "measurement": 0.45,
+      "text_position": [
+        133.4483623359537,
+        86.32242413329408
+      ],
+      "block_handle": [
+        5,
+        2,
+        1512,
+        1512
+      ],
+      "block_id": "H5E8"
+    },
+    {
+      "id": "H5FD",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1533
+      ],
+      "source_index": 414,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R1.5}",
+      "measurement": 1.49999999999999,
+      "text_position": [
+        66.12651302292942,
+        75.49516494942361
+      ],
+      "block_handle": [
+        5,
+        2,
+        1534,
+        1534
+      ],
+      "block_id": "H5FE"
+    },
+    {
+      "id": "H615",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1557
+      ],
+      "source_index": 420,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;8}",
+      "measurement": 8.0,
+      "text_position": [
+        57.99422254834474,
+        80.0
+      ],
+      "block_handle": [
+        5,
+        2,
+        1558,
+        1558
+      ],
+      "block_id": "H616"
+    },
+    {
+      "id": "H649",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1609
+      ],
+      "source_index": 426,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;20}",
+      "measurement": 20.0,
+      "text_position": [
+        48.46695192801462,
+        84.88415087127265
+      ],
+      "block_handle": [
+        5,
+        2,
+        1610,
+        1610
+      ],
+      "block_id": "H64A"
+    },
+    {
+      "id": "H663",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1635
+      ],
+      "source_index": 432,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;23.6}",
+      "measurement": 23.59999999999998,
+      "text_position": [
+        45.80994851825244,
+        74.15241986387929
+      ],
+      "block_handle": [
+        5,
+        2,
+        1636,
+        1636
+      ],
+      "block_id": "H664"
+    },
+    {
+      "id": "H67D",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1661
+      ],
+      "source_index": 438,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;36.4}",
+      "measurement": 36.39999999999998,
+      "text_position": [
+        40.05310490049578,
+        80.56933108520872
+      ],
+      "block_handle": [
+        5,
+        2,
+        1662,
+        1662
+      ],
+      "block_id": "H67E"
+    },
+    {
+      "id": "H697",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1687
+      ],
+      "source_index": 444,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;3xR0.5}",
+      "measurement": 0.49999999999996,
+      "text_position": [
+        86.08731109806325,
+        57.21872014752653
+      ],
+      "block_handle": [
+        5,
+        2,
+        1688,
+        1688
+      ],
+      "block_id": "H698"
+    },
+    {
+      "id": "H6AD",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1709
+      ],
+      "source_index": 450,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R2.2}",
+      "measurement": 2.19999999999999,
+      "text_position": [
+        115.23721074794236,
+        51.13488700614722
+      ],
+      "block_handle": [
+        5,
+        2,
+        1710,
+        1710
+      ],
+      "block_id": "H6AE"
+    },
+    {
+      "id": "H6C3",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1731
+      ],
+      "source_index": 456,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R4}",
+      "measurement": 4.0,
+      "text_position": [
+        119.87035423042684,
+        55.89741345975715
+      ],
+      "block_handle": [
+        5,
+        2,
+        1732,
+        1732
+      ],
+      "block_id": "H6C4"
+    },
+    {
+      "id": "H6D9",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1753
+      ],
+      "source_index": 462,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R2.5}",
+      "measurement": 2.5,
+      "text_position": [
+        73.22294629246244,
+        93.78159127337541
+      ],
+      "block_handle": [
+        5,
+        2,
+        1754,
+        1754
+      ],
+      "block_id": "H6DA"
+    },
+    {
+      "id": "H6EB",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1771
+      ],
+      "source_index": 466,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R0.5}",
+      "measurement": 0.49999999999996,
+      "text_position": [
+        77.02557756561187,
+        93.31077169783337
+      ],
+      "block_handle": [
+        5,
+        2,
+        1772,
+        1772
+      ],
+      "block_id": "H6EC"
+    },
+    {
+      "id": "H886",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2182
+      ],
+      "source_index": 478,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        72.25,
+        75.9556240867132,
+        0.0
+      ],
+      "end": [
+        72.25,
+        73.36248314291907,
+        0.0
+      ]
+    },
+    {
+      "id": "H887",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2183
+      ],
+      "source_index": 479,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.75,
+        75.9556240867132,
+        0.0
+      ],
+      "end": [
+        87.75,
+        73.36248314291907,
+        0.0
+      ]
+    },
+    {
+      "id": "H888",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2184
+      ],
+      "source_index": 480,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        72.43,
+        73.54248314291908,
+        0.0
+      ],
+      "end": [
+        77.39908619924967,
+        73.54248314291908,
+        0.0
+      ]
+    },
+    {
+      "id": "H889",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2185
+      ],
+      "source_index": 481,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.57,
+        73.54248314291908,
+        0.0
+      ],
+      "end": [
+        82.60091380075033,
+        73.54248314291908,
+        0.0
+      ]
+    },
+    {
+      "id": "H88C",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2188
+      ],
+      "source_index": 484,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;15.5}",
+      "position": [
+        80.0,
+        73.54248314291908,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H89A",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2202
+      ],
+      "source_index": 488,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        75.95562408671323,
+        87.75000000000003,
+        0.0
+      ],
+      "end": [
+        73.9793463575756,
+        87.75000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "H89B",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2203
+      ],
+      "source_index": 489,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        75.95562408671323,
+        72.25000000000003,
+        0.0
+      ],
+      "end": [
+        73.9793463575756,
+        72.25000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "H89C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2204
+      ],
+      "source_index": 490,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        74.1593463575756,
+        87.57000000000002,
+        0.0
+      ],
+      "end": [
+        74.1593463575756,
+        81.11114587332881,
+        0.0
+      ]
+    },
+    {
+      "id": "H89D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2205
+      ],
+      "source_index": 491,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        74.1593463575756,
+        72.43000000000004,
+        0.0
+      ],
+      "end": [
+        74.1593463575756,
+        78.88885412667125,
+        0.0
+      ]
+    },
+    {
+      "id": "H8A0",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2208
+      ],
+      "source_index": 494,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;15.5}",
+      "position": [
+        74.1593463575756,
+        80.0,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H8CA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2250
+      ],
+      "source_index": 498,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        84.69216732640083,
+        90.03998024082283,
+        0.0
+      ],
+      "end": [
+        84.87216732640087,
+        90.03998024082283,
+        0.0
+      ]
+    },
+    {
+      "id": "H8CB",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2251
+      ],
+      "source_index": 499,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        84.87216732640087,
+        90.03998024082283,
+        0.0
+      ],
+      "end": [
+        85.48623568413802,
+        88.17077499135014,
+        0.0
+      ]
+    },
+    {
+      "id": "H8CC",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2252
+      ],
+      "source_index": 500,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R5}",
+      "position": [
+        82.98211291814708,
+        90.03998024082284,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H8D6",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2262
+      ],
+      "source_index": 504,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.24374528937389,
+        92.7437199154333,
+        0.0
+      ],
+      "end": [
+        87.4237452893739,
+        92.74371991543332,
+        0.0
+      ]
+    },
+    {
+      "id": "H8D7",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2263
+      ],
+      "source_index": 505,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.4237452893739,
+        92.74371991543332,
+        0.0
+      ],
+      "end": [
+        89.43973662277372,
+        91.89165433731625,
+        0.0
+      ]
+    },
+    {
+      "id": "H8D8",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2264
+      ],
+      "source_index": 506,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R5}",
+      "position": [
+        85.53369088112015,
+        92.7437199154333,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H94C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2380
+      ],
+      "source_index": 510,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        89.17027192024314,
+        72.52678435460464,
+        0.0
+      ],
+      "end": [
+        88.90195095152932,
+        72.79510532331847,
+        0.0
+      ]
+    },
+    {
+      "id": "H94D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2381
+      ],
+      "source_index": 511,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        89.17027192024314,
+        87.47321564539541,
+        0.0
+      ],
+      "end": [
+        88.90195095152932,
+        87.20489467668159,
+        0.0
+      ]
+    },
+    {
+      "id": "H94E",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        2382
+      ],
+      "source_index": 512,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "center": [
+        81.69705627484765,
+        80.00000000000003,
+        0.0
+      ],
+      "radius": 10.36925976723284,
+      "start_angle": 5.51514636364252,
+      "end_angle": 6.17582147721356
+    },
+    {
+      "id": "H94F",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        2383
+      ],
+      "source_index": 513,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "center": [
+        81.69705627484765,
+        80.00000000000003,
+        0.0
+      ],
+      "radius": 10.36925976723284,
+      "start_angle": 0.10736382996603,
+      "end_angle": 0.76803894353707
+    },
+    {
+      "id": "H952",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2386
+      ],
+      "source_index": 516,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;90°}",
+      "position": [
+        92.0663160420805,
+        80.0,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HA69",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        2665
+      ],
+      "source_index": 522,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;14}",
+      "measurement": 14.27631183774012,
+      "text_position": [
+        52.78458433098149,
+        76.03323857473009
+      ],
+      "block_handle": [
+        5,
+        2,
+        2666,
+        2666
+      ],
+      "block_id": "HA6A"
+    },
+    {
+      "id": "HAC8",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2760
+      ],
+      "source_index": 526,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        63.25138369707675,
+        75.49516494942361,
+        0.0
+      ],
+      "end": [
+        63.07138369707675,
+        75.49516494942361,
+        0.0
+      ]
+    },
+    {
+      "id": "HAC9",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2761
+      ],
+      "source_index": 527,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        63.07138369707675,
+        75.49516494942361,
+        0.0
+      ],
+      "end": [
+        62.91931430703707,
+        75.39885866399553,
+        0.0
+      ]
+    },
+    {
+      "id": "HACA",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2762
+      ],
+      "source_index": 528,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R1.5}",
+      "position": [
+        66.12651302292942,
+        75.49516494942361,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HACC",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2764
+      ],
+      "source_index": 530,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        61.41,
+        74.5,
+        0.0
+      ],
+      "end": [
+        61.58999999999999,
+        74.5,
+        0.0
+      ]
+    },
+    {
+      "id": "HACD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2765
+      ],
+      "source_index": 531,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        61.49999999999999,
+        74.41,
+        0.0
+      ],
+      "end": [
+        61.50000000000001,
+        74.59000000000002,
+        0.0
+      ]
+    },
+    {
+      "id": "HACE",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        2766
+      ],
+      "source_index": 532,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "center": [
+        61.49999999999999,
+        74.5,
+        0.0
+      ],
+      "radius": 1.49999999999999,
+      "start_angle": 0.44454907922506,
+      "end_angle": 1.52912966012823
+    },
+    {
+      "id": "HB53",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2899
+      ],
+      "source_index": 535,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        83.00537368213784,
+        99.05886690646182,
+        0.0
+      ],
+      "end": [
+        83.18537368213788,
+        99.05886690646182,
+        0.0
+      ]
+    },
+    {
+      "id": "HB54",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2900
+      ],
+      "source_index": 536,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        83.18537368213788,
+        99.05886690646182,
+        0.0
+      ],
+      "end": [
+        86.90748647171858,
+        97.71407409656805,
+        0.0
+      ]
+    },
+    {
+      "id": "HB55",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2901
+      ],
+      "source_index": 537,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R0.45}",
+      "position": [
+        79.35330036849527,
+        99.0588669064618,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HB57",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2903
+      ],
+      "source_index": 539,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.41000000000004,
+        97.50000000004195,
+        0.0
+      ],
+      "end": [
+        87.59000000000003,
+        97.50000000004196,
+        0.0
+      ]
+    },
+    {
+      "id": "HB58",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2904
+      ],
+      "source_index": 540,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.50000000000003,
+        97.41000000004195,
+        0.0
+      ],
+      "end": [
+        87.50000000000003,
+        97.59000000004195,
+        0.0
+      ]
+    },
+    {
+      "id": "HB8D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2957
+      ],
+      "source_index": 543,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        74.1504482397592,
+        93.31077169783337,
+        0.0
+      ],
+      "end": [
+        73.97044823975916,
+        93.31077169783339,
+        0.0
+      ]
+    },
+    {
+      "id": "HB8E",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2958
+      ],
+      "source_index": 544,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        73.97044823975916,
+        93.31077169783339,
+        0.0
+      ],
+      "end": [
+        73.61717833470107,
+        95.33017223267723,
+        0.0
+      ]
+    },
+    {
+      "id": "HB8F",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2959
+      ],
+      "source_index": 545,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R0.5}",
+      "position": [
+        77.02557756561187,
+        93.31077169783337,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HB91",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2961
+      ],
+      "source_index": 547,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        73.41000000000001,
+        96.00000000000001,
+        0.0
+      ],
+      "end": [
+        73.59000000000002,
+        96.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "HB92",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2962
+      ],
+      "source_index": 548,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        73.50000000000003,
+        95.91,
+        0.0
+      ],
+      "end": [
+        73.50000000000001,
+        96.09000000000002,
+        0.0
+      ]
+    },
+    {
+      "id": "HB93",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        2963
+      ],
+      "source_index": 549,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "center": [
+        73.50000000000001,
+        96.00000000000001,
+        0.0
+      ],
+      "radius": 0.49999999999996,
+      "start_angle": 4.8373889803847,
+      "end_angle": 5.24557449540048
+    },
+    {
+      "id": "HB96",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2966
+      ],
+      "source_index": 552,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        73.22294629246244,
+        93.78159127337541,
+        0.0
+      ],
+      "end": [
+        75.19617311901308,
+        93.3775547431291,
+        0.0
+      ]
+    },
+    {
+      "id": "HB97",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2967
+      ],
+      "source_index": 553,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R2.5}",
+      "position": [
+        70.34781696660978,
+        93.7815912733754,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HB99",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2969
+      ],
+      "source_index": 555,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        77.73169885428717,
+        92.83995394940439,
+        0.0
+      ],
+      "end": [
+        77.91169885428718,
+        92.83995394940439,
+        0.0
+      ]
+    },
+    {
+      "id": "HB9A",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2970
+      ],
+      "source_index": 556,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        77.82169885428718,
+        92.74995394940439,
+        0.0
+      ],
+      "end": [
+        77.82169885428718,
+        92.92995394940439,
+        0.0
+      ]
+    },
+    {
+      "id": "HBAD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2989
+      ],
+      "source_index": 559,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        83.6866955463941,
+        94.72353920653134,
+        0.0
+      ],
+      "end": [
+        83.86669554639411,
+        94.72353920653133,
+        0.0
+      ]
+    },
+    {
+      "id": "HBAE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2990
+      ],
+      "source_index": 560,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        83.86669554639411,
+        94.72353920653133,
+        0.0
+      ],
+      "end": [
+        84.3653595767629,
+        95.5051977416625,
+        0.0
+      ]
+    },
+    {
+      "id": "HBAF",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        2991
+      ],
+      "source_index": 561,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R1}",
+      "position": [
+        82.17718682067786,
+        94.72353920653134,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HBB1",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2993
+      ],
+      "source_index": 563,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        84.91000000000003,
+        96.50000000000003,
+        0.0
+      ],
+      "end": [
+        85.09000000000003,
+        96.50000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HBB2",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        2994
+      ],
+      "source_index": 564,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        85.00000000000003,
+        96.41000000000003,
+        0.0
+      ],
+      "end": [
+        85.00000000000003,
+        96.59000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HC7C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3196
+      ],
+      "source_index": 643,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "HC8D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3213
+      ],
+      "source_index": 660,
+      "layer": "Hashing",
+      "layer_handle": [
+        5,
+        2,
+        1793,
+        1793
+      ],
+      "start": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        -0.8,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "HCA9",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3241
+      ],
+      "source_index": 683,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        63.93750000000001,
+        61.80000000000005,
+        0.0
+      ],
+      "end": [
+        39.87310490049577,
+        61.80000000000004,
+        0.0
+      ]
+    },
+    {
+      "id": "HCAA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3242
+      ],
+      "source_index": 684,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        63.93750000000002,
+        98.20000000000005,
+        0.0
+      ],
+      "end": [
+        39.87310490049576,
+        98.20000000000005,
+        0.0
+      ]
+    },
+    {
+      "id": "HCAB",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3243
+      ],
+      "source_index": 685,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        40.05310490049577,
+        61.98000000000004,
+        0.0
+      ],
+      "end": [
+        40.05310490049577,
+        79.45750308370806,
+        0.0
+      ]
+    },
+    {
+      "id": "HCAC",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3244
+      ],
+      "source_index": 686,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        40.05310490049576,
+        98.02000000000004,
+        0.0
+      ],
+      "end": [
+        40.05310490049576,
+        81.68115908670943,
+        0.0
+      ]
+    },
+    {
+      "id": "HCAF",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3247
+      ],
+      "source_index": 689,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;36.4}",
+      "position": [
+        40.05310490049578,
+        80.56933108520872,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HCB3",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3251
+      ],
+      "source_index": 693,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        62.23750000000001,
+        68.20000000000005,
+        0.0
+      ],
+      "end": [
+        45.62994851825243,
+        68.20000000000005,
+        0.0
+      ]
+    },
+    {
+      "id": "HCB4",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3252
+      ],
+      "source_index": 694,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        62.23750000000003,
+        91.80000000000003,
+        0.0
+      ],
+      "end": [
+        45.62994851825242,
+        91.80000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HCB5",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3253
+      ],
+      "source_index": 695,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        45.80994851825243,
+        68.38000000000005,
+        0.0
+      ],
+      "end": [
+        45.80994851825243,
+        73.04059186237863,
+        0.0
+      ]
+    },
+    {
+      "id": "HCB6",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3254
+      ],
+      "source_index": 696,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        45.80994851825242,
+        91.62000000000002,
+        0.0
+      ],
+      "end": [
+        45.80994851825243,
+        75.26424786538,
+        0.0
+      ]
+    },
+    {
+      "id": "HCB9",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3257
+      ],
+      "source_index": 699,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;23.6}",
+      "position": [
+        45.80994851825244,
+        74.15241986387929,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HCBD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3261
+      ],
+      "source_index": 703,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        64.4374999999994,
+        70.00000000000003,
+        0.0
+      ],
+      "end": [
+        48.28695192801462,
+        70.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HCBE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3262
+      ],
+      "source_index": 704,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        64.43750000000003,
+        90.00000000000003,
+        0.0
+      ],
+      "end": [
+        48.28695192801461,
+        90.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HCBF",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3263
+      ],
+      "source_index": 705,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        48.46695192801462,
+        70.18000000000004,
+        0.0
+      ],
+      "end": [
+        48.46695192801461,
+        83.7730049979439,
+        0.0
+      ]
+    },
+    {
+      "id": "HCC0",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3264
+      ],
+      "source_index": 706,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        48.46695192801461,
+        89.82000000000002,
+        0.0
+      ],
+      "end": [
+        48.46695192801461,
+        85.99529674460146,
+        0.0
+      ]
+    },
+    {
+      "id": "HCC3",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3267
+      ],
+      "source_index": 709,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;20}",
+      "position": [
+        48.46695192801462,
+        84.88415087127265,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD0D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3341
+      ],
+      "source_index": 713,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        96.06250000000006,
+        100.00000000000006,
+        0.0
+      ],
+      "end": [
+        127.0285761026393,
+        100.00000000000006,
+        0.0
+      ]
+    },
+    {
+      "id": "HD0E",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3342
+      ],
+      "source_index": 714,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        96.06250000000006,
+        60.00000000000002,
+        0.0
+      ],
+      "end": [
+        127.02857610263932,
+        60.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HD0F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3343
+      ],
+      "source_index": 715,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        126.8485761026393,
+        99.82000000000005,
+        0.0
+      ],
+      "end": [
+        126.84857610263931,
+        82.3442956851074,
+        0.0
+      ]
+    },
+    {
+      "id": "HD10",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3344
+      ],
+      "source_index": 716,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        126.84857610263931,
+        60.18000000000003,
+        0.0
+      ],
+      "end": [
+        126.84857610263931,
+        80.12200393844984,
+        0.0
+      ]
+    },
+    {
+      "id": "HD13",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3347
+      ],
+      "source_index": 719,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;40}",
+      "position": [
+        126.8485761026393,
+        81.23314981177856,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD17",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3351
+      ],
+      "source_index": 723,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        95.56250000000003,
+        90.00000000000001,
+        0.0
+      ],
+      "end": [
+        122.15740235714084,
+        90.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HD18",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3352
+      ],
+      "source_index": 724,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        95.56250000000003,
+        70.00000000000006,
+        0.0
+      ],
+      "end": [
+        122.15740235714084,
+        70.00000000000007,
+        0.0
+      ]
+    },
+    {
+      "id": "HD19",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3353
+      ],
+      "source_index": 725,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        121.97740235714083,
+        89.82000000000002,
+        0.0
+      ],
+      "end": [
+        121.97740235714083,
+        77.4762935346809,
+        0.0
+      ]
+    },
+    {
+      "id": "HD1A",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3354
+      ],
+      "source_index": 726,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        121.97740235714083,
+        70.18000000000008,
+        0.0
+      ],
+      "end": [
+        121.97740235714083,
+        75.25400178802334,
+        0.0
+      ]
+    },
+    {
+      "id": "HD1D",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3357
+      ],
+      "source_index": 729,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;20}",
+      "position": [
+        121.97740235714082,
+        76.36514766135207,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD21",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3361
+      ],
+      "source_index": 733,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.56250000000006,
+        87.04999999999998,
+        0.0
+      ],
+      "end": [
+        117.83976995417397,
+        87.04999999999998,
+        0.0
+      ]
+    },
+    {
+      "id": "HD22",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3362
+      ],
+      "source_index": 734,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.56250000000006,
+        72.95000000000007,
+        0.0
+      ],
+      "end": [
+        117.83976995417397,
+        72.95000000000007,
+        0.0
+      ]
+    },
+    {
+      "id": "HD23",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3363
+      ],
+      "source_index": 735,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        117.65976995417397,
+        86.86999999999998,
+        0.0
+      ],
+      "end": [
+        117.65976995417397,
+        85.31442536706002,
+        0.0
+      ]
+    },
+    {
+      "id": "HD24",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3364
+      ],
+      "source_index": 736,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        117.65976995417397,
+        73.13000000000008,
+        0.0
+      ],
+      "end": [
+        117.65976995417397,
+        83.12624002899726,
+        0.0
+      ]
+    },
+    {
+      "id": "HD27",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3367
+      ],
+      "source_index": 739,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;14}",
+      "position": [
+        117.65976995417395,
+        84.22033269802859,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD49",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3401
+      ],
+      "source_index": 743,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        96.56250000000006,
+        84.00000000000001,
+        0.0
+      ],
+      "end": [
+        108.65527857766001,
+        84.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "HD4A",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3402
+      ],
+      "source_index": 744,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        96.56250000000006,
+        76.00000000000004,
+        0.0
+      ],
+      "end": [
+        108.65527857766001,
+        76.00000000000004,
+        0.0
+      ]
+    },
+    {
+      "id": "HD4B",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3403
+      ],
+      "source_index": 745,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        108.47527857766,
+        83.82000000000001,
+        0.0
+      ],
+      "end": [
+        108.47527857766,
+        81.11114587332882,
+        0.0
+      ]
+    },
+    {
+      "id": "HD4C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3404
+      ],
+      "source_index": 746,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        108.47527857766,
+        76.18000000000005,
+        0.0
+      ],
+      "end": [
+        108.47527857766,
+        78.88885412667126,
+        0.0
+      ]
+    },
+    {
+      "id": "HD4F",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3407
+      ],
+      "source_index": 749,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;8}",
+      "position": [
+        108.47527857765999,
+        80.0,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD63",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3427
+      ],
+      "source_index": 753,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        129.79628902231113,
+        86.32242413329406,
+        0.0
+      ],
+      "end": [
+        129.6162890223085,
+        86.32242413329408,
+        0.0
+      ]
+    },
+    {
+      "id": "HD64",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3428
+      ],
+      "source_index": 754,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        129.6162890223085,
+        86.32242413329408,
+        0.0
+      ],
+      "end": [
+        98.07868034603234,
+        72.74905633321785,
+        0.0
+      ]
+    },
+    {
+      "id": "HD65",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3429
+      ],
+      "source_index": 755,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R0.45}",
+      "position": [
+        133.4483623359537,
+        86.32242413329408,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD67",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3431
+      ],
+      "source_index": 757,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.41000000000001,
+        72.50000000000001,
+        0.0
+      ],
+      "end": [
+        97.59000000000002,
+        72.50000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "HD68",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3432
+      ],
+      "source_index": 758,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.50000000000001,
+        72.41000000000003,
+        0.0
+      ],
+      "end": [
+        97.50000000000001,
+        72.59000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HD7B",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3451
+      ],
+      "source_index": 761,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        118.17189600109532,
+        55.89741345975717,
+        0.0
+      ],
+      "end": [
+        117.99189600109534,
+        55.89741345975716,
+        0.0
+      ]
+    },
+    {
+      "id": "HD7C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3452
+      ],
+      "source_index": 762,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        117.99189600109534,
+        55.89741345975716,
+        0.0
+      ],
+      "end": [
+        99.92225634696513,
+        62.55490306598763,
+        0.0
+      ]
+    },
+    {
+      "id": "HD7D",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3453
+      ],
+      "source_index": 763,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R4}",
+      "position": [
+        119.87035423042684,
+        55.89741345975715,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HD7F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3455
+      ],
+      "source_index": 765,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        95.91,
+        63.99999999999999,
+        0.0
+      ],
+      "end": [
+        96.09,
+        64.0,
+        0.0
+      ]
+    },
+    {
+      "id": "HD80",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3456
+      ],
+      "source_index": 766,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        96.0,
+        63.91,
+        0.0
+      ],
+      "end": [
+        96.0,
+        64.09,
+        0.0
+      ]
+    },
+    {
+      "id": "HDDB",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3547
+      ],
+      "source_index": 769,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        62.8037349473172,
+        72.76148033068064,
+        0.0
+      ],
+      "end": [
+        52.60458433098148,
+        72.76148033068064,
+        0.0
+      ]
+    },
+    {
+      "id": "HDDC",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3548
+      ],
+      "source_index": 770,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        62.8037349473172,
+        87.03779216842076,
+        0.0
+      ],
+      "end": [
+        52.60458433098147,
+        87.03779216842076,
+        0.0
+      ]
+    },
+    {
+      "id": "HDDD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3549
+      ],
+      "source_index": 771,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        52.78458433098148,
+        72.94148033068065,
+        0.0
+      ],
+      "end": [
+        52.78458433098148,
+        74.93914590569874,
+        0.0
+      ]
+    },
+    {
+      "id": "HDDE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3550
+      ],
+      "source_index": 772,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        52.78458433098147,
+        86.85779216842076,
+        0.0
+      ],
+      "end": [
+        52.78458433098148,
+        77.1273312437615,
+        0.0
+      ]
+    },
+    {
+      "id": "HDE1",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3553
+      ],
+      "source_index": 775,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;14}",
+      "position": [
+        52.78458433098149,
+        76.03323857473009,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HDE5",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3557
+      ],
+      "source_index": 779,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        61.43750000000003,
+        84.00000000000003,
+        0.0
+      ],
+      "end": [
+        57.81422254834473,
+        84.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HDE6",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3558
+      ],
+      "source_index": 780,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        61.43750000000003,
+        76.00000000000003,
+        0.0
+      ],
+      "end": [
+        57.81422254834474,
+        76.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "HDE7",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3559
+      ],
+      "source_index": 781,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        57.99422254834473,
+        83.82000000000002,
+        0.0
+      ],
+      "end": [
+        57.99422254834473,
+        81.11114587332881,
+        0.0
+      ]
+    },
+    {
+      "id": "HDE8",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3560
+      ],
+      "source_index": 782,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        57.99422254834474,
+        76.18000000000004,
+        0.0
+      ],
+      "end": [
+        57.99422254834474,
+        78.88885412667125,
+        0.0
+      ]
+    },
+    {
+      "id": "HDEB",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3563
+      ],
+      "source_index": 785,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;8}",
+      "position": [
+        57.99422254834474,
+        80.0,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "HF66",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3942
+      ],
+      "source_index": 789,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        76.0,
+        98.5625,
+        0.0
+      ],
+      "end": [
+        76.0,
+        102.53704367680149,
+        0.0
+      ]
+    },
+    {
+      "id": "HF67",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3943
+      ],
+      "source_index": 790,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        84.00000000000001,
+        98.5625,
+        0.0
+      ],
+      "end": [
+        84.00000000000001,
+        102.53704367680149,
+        0.0
+      ]
+    },
+    {
+      "id": "HF68",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3944
+      ],
+      "source_index": 791,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        76.18,
+        102.35704367680148,
+        0.0
+      ],
+      "end": [
+        79.25106418594815,
+        102.35704367680148,
+        0.0
+      ]
+    },
+    {
+      "id": "HF69",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        3945
+      ],
+      "source_index": 792,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        83.82000000000001,
+        102.35704367680148,
+        0.0
+      ],
+      "end": [
+        80.74893581405185,
+        102.35704367680148,
+        0.0
+      ]
+    },
+    {
+      "id": "HF6C",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        3948
+      ],
+      "source_index": 795,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;8}",
+      "position": [
+        80.0,
+        102.35704367680148,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H101A",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4122
+      ],
+      "source_index": 799,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        90.48904327261987,
+        57.21872014752654,
+        0.0
+      ],
+      "end": [
+        90.66904327261986,
+        57.21872014752655,
+        0.0
+      ]
+    },
+    {
+      "id": "H101B",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4123
+      ],
+      "source_index": 800,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        90.66904327261986,
+        57.21872014752655,
+        0.0
+      ],
+      "end": [
+        92.0921807637194,
+        61.65253481558328,
+        0.0
+      ]
+    },
+    {
+      "id": "H101C",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4124
+      ],
+      "source_index": 801,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;3xR0.5}",
+      "position": [
+        86.08731109806325,
+        57.21872014752653,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H101E",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4126
+      ],
+      "source_index": 803,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        92.20999999999992,
+        62.29999999999996,
+        0.0
+      ],
+      "end": [
+        92.38999999999994,
+        62.29999999999995,
+        0.0
+      ]
+    },
+    {
+      "id": "H101F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4127
+      ],
+      "source_index": 804,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        92.29999999999993,
+        62.20999999999996,
+        0.0
+      ],
+      "end": [
+        92.29999999999993,
+        62.38999999999996,
+        0.0
+      ]
+    },
+    {
+      "id": "H102C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4140
+      ],
+      "source_index": 807,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        64.5,
+        74.9375,
+        0.0
+      ],
+      "end": [
+        64.5,
+        54.05959038670523,
+        0.0
+      ]
+    },
+    {
+      "id": "H102D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4141
+      ],
+      "source_index": 808,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        95.5,
+        72.9375,
+        0.0
+      ],
+      "end": [
+        95.5,
+        54.05959038670523,
+        0.0
+      ]
+    },
+    {
+      "id": "H102E",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4142
+      ],
+      "source_index": 809,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        64.68,
+        54.23959038670523,
+        0.0
+      ],
+      "end": [
+        77.34251047967255,
+        54.23959038670523,
+        0.0
+      ]
+    },
+    {
+      "id": "H102F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4143
+      ],
+      "source_index": 810,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        95.32,
+        54.23959038670523,
+        0.0
+      ],
+      "end": [
+        79.99999999999999,
+        54.23959038670523,
+        0.0
+      ]
+    },
+    {
+      "id": "H1032",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4146
+      ],
+      "source_index": 813,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;31}",
+      "position": [
+        78.67125523983627,
+        54.23959038670523,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H1036",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4150
+      ],
+      "source_index": 817,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        72.95000000000002,
+        97.5625,
+        0.0
+      ],
+      "end": [
+        72.95000000000002,
+        105.9660656658576,
+        0.0
+      ]
+    },
+    {
+      "id": "H1037",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4151
+      ],
+      "source_index": 818,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        87.05000000000004,
+        97.56250000007978,
+        0.0
+      ],
+      "end": [
+        87.05000000000004,
+        105.9660656658576,
+        0.0
+      ]
+    },
+    {
+      "id": "H1038",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4152
+      ],
+      "source_index": 819,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        73.13000000000002,
+        105.7860656658576,
+        0.0
+      ],
+      "end": [
+        80.0,
+        105.7860656658576,
+        0.0
+      ]
+    },
+    {
+      "id": "H1039",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4153
+      ],
+      "source_index": 820,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        86.87000000000003,
+        105.7860656658576,
+        0.0
+      ],
+      "end": [
+        82.8484854084584,
+        105.7860656658576,
+        0.0
+      ]
+    },
+    {
+      "id": "H103C",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4156
+      ],
+      "source_index": 823,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;14}",
+      "position": [
+        81.4242427042292,
+        105.7860656658576,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H104A",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4170
+      ],
+      "source_index": 827,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        68.2,
+        97.7625,
+        0.0
+      ],
+      "end": [
+        68.2,
+        112.91842391908017,
+        0.0
+      ]
+    },
+    {
+      "id": "H104B",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4171
+      ],
+      "source_index": 828,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        91.79999999999997,
+        97.76249999999999,
+        0.0
+      ],
+      "end": [
+        91.79999999999997,
+        112.91842391908017,
+        0.0
+      ]
+    },
+    {
+      "id": "H104C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4172
+      ],
+      "source_index": 829,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        68.38000000000001,
+        112.73842391908018,
+        0.0
+      ],
+      "end": [
+        81.5513258427584,
+        112.73842391908018,
+        0.0
+      ]
+    },
+    {
+      "id": "H104D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4173
+      ],
+      "source_index": 830,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        91.61999999999996,
+        112.73842391908018,
+        0.0
+      ],
+      "end": [
+        86.95915615217176,
+        112.73842391908018,
+        0.0
+      ]
+    },
+    {
+      "id": "H1050",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4176
+      ],
+      "source_index": 833,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;23.6}",
+      "position": [
+        84.25524099746508,
+        112.73842391908018,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H1054",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4180
+      ],
+      "source_index": 837,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        70.0,
+        95.56250000000001,
+        0.0
+      ],
+      "end": [
+        70.0,
+        109.21751571522174,
+        0.0
+      ]
+    },
+    {
+      "id": "H1055",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4181
+      ],
+      "source_index": 838,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        90.00000000000001,
+        95.5625,
+        0.0
+      ],
+      "end": [
+        90.00000000000001,
+        109.21751571522174,
+        0.0
+      ]
+    },
+    {
+      "id": "H1056",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4182
+      ],
+      "source_index": 839,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        70.18,
+        109.03751571522173,
+        0.0
+      ],
+      "end": [
+        73.32426554690842,
+        109.03751571522173,
+        0.0
+      ]
+    },
+    {
+      "id": "H1057",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4183
+      ],
+      "source_index": 840,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        89.82000000000001,
+        109.03751571522173,
+        0.0
+      ],
+      "end": [
+        76.39648899574881,
+        109.03751571522173,
+        0.0
+      ]
+    },
+    {
+      "id": "H105A",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4186
+      ],
+      "source_index": 843,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;20}",
+      "position": [
+        74.86037727132862,
+        109.03751571522173,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H10A9",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4265
+      ],
+      "source_index": 847,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        112.379816754559,
+        51.13488700614722,
+        0.0
+      ],
+      "end": [
+        112.19981675455853,
+        51.13488700614722,
+        0.0
+      ]
+    },
+    {
+      "id": "H10AA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4266
+      ],
+      "source_index": 848,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        112.19981675455853,
+        51.13488700614722,
+        0.0
+      ],
+      "end": [
+        97.86377285324006,
+        62.51988150760647,
+        0.0
+      ]
+    },
+    {
+      "id": "H10AB",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4267
+      ],
+      "source_index": 849,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;R2.2}",
+      "position": [
+        115.23721074794236,
+        51.13488700614722,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H10AD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4269
+      ],
+      "source_index": 851,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        95.91,
+        64.00000000000003,
+        0.0
+      ],
+      "end": [
+        96.09,
+        64.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "H10AE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4270
+      ],
+      "source_index": 852,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        96.0,
+        63.91000000000003,
+        0.0
+      ],
+      "end": [
+        96.0,
+        64.09000000000005,
+        0.0
+      ]
+    },
+    {
+      "id": "H10B1",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4273
+      ],
+      "source_index": 855,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        60.0,
+        63.9375,
+        0.0
+      ],
+      "end": [
+        60.0,
+        49.61147636469179,
+        0.0
+      ]
+    },
+    {
+      "id": "H10B2",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4274
+      ],
+      "source_index": 856,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        100.0,
+        63.9375,
+        0.0
+      ],
+      "end": [
+        100.0,
+        49.61147636469179,
+        0.0
+      ]
+    },
+    {
+      "id": "H10B3",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4275
+      ],
+      "source_index": 857,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        60.18,
+        49.79147636469179,
+        0.0
+      ],
+      "end": [
+        78.63085221952717,
+        49.79147636469179,
+        0.0
+      ]
+    },
+    {
+      "id": "H10B4",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4276
+      ],
+      "source_index": 858,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        99.82,
+        49.79147636469179,
+        0.0
+      ],
+      "end": [
+        81.74946038405649,
+        49.79147636469179,
+        0.0
+      ]
+    },
+    {
+      "id": "H10B7",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4279
+      ],
+      "source_index": 861,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;40}",
+      "position": [
+        80.19015630179183,
+        49.79147636469179,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H10BB",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4283
+      ],
+      "source_index": 865,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        62.049999999958,
+        72.4375,
+        0.0
+      ],
+      "end": [
+        62.049999999958,
+        52.29829764760269,
+        0.0
+      ]
+    },
+    {
+      "id": "H10BC",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4284
+      ],
+      "source_index": 866,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.95000000000002,
+        72.43750000000003,
+        0.0
+      ],
+      "end": [
+        97.95000000000002,
+        52.29829764760269,
+        0.0
+      ]
+    },
+    {
+      "id": "H10BD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4285
+      ],
+      "source_index": 867,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        62.229999999958,
+        52.47829764760269,
+        0.0
+      ],
+      "end": [
+        70.08720428056189,
+        52.47829764760269,
+        0.0
+      ]
+    },
+    {
+      "id": "H10BE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4286
+      ],
+      "source_index": 868,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        97.77000000000001,
+        52.47829764760269,
+        0.0
+      ],
+      "end": [
+        73.12941408983885,
+        52.47829764760269,
+        0.0
+      ]
+    },
+    {
+      "id": "H10C1",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4289
+      ],
+      "source_index": 871,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;36}",
+      "position": [
+        71.60830918520037,
+        52.47829764760269,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H10FC",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4348
+      ],
+      "source_index": 875,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        61.8,
+        96.0625,
+        0.0
+      ],
+      "end": [
+        61.8,
+        115.56595665519109,
+        0.0
+      ]
+    },
+    {
+      "id": "H10FD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4349
+      ],
+      "source_index": 876,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        98.19999999999997,
+        96.0625,
+        0.0
+      ],
+      "end": [
+        98.19999999999997,
+        115.56595665519109,
+        0.0
+      ]
+    },
+    {
+      "id": "H10FE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4350
+      ],
+      "source_index": 877,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        61.98,
+        115.38595665519108,
+        0.0
+      ],
+      "end": [
+        77.08892648085231,
+        115.38595665519108,
+        0.0
+      ]
+    },
+    {
+      "id": "H10FF",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        4351
+      ],
+      "source_index": 878,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "start": [
+        98.01999999999997,
+        115.38595665519108,
+        0.0
+      ],
+      "end": [
+        82.4544648436081,
+        115.38595665519108,
+        0.0
+      ]
+    },
+    {
+      "id": "H1102",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        4354
+      ],
+      "source_index": 881,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        774,
+        774
+      ],
+      "text": "\\A1;{\\H11.11111x;36.4}",
+      "position": [
+        79.7716956622302,
+        115.38595665519108,
+        0.0
+      ],
+      "text_height": 0.18
+    }
+  ],
+  "statistics": {
+    "raw_entity_counts": {
+      "ARC": 14,
+      "BLOCK": 42,
+      "CIRCLE": 1,
+      "DIMENSION_ANG2LN": 1,
+      "DIMENSION_DIAMETER": 1,
+      "DIMENSION_LINEAR": 19,
+      "DIMENSION_RADIUS": 20,
+      "ENDBLK": 42,
+      "HATCH": 1,
+      "INSERT": 5,
+      "LINE": 134,
+      "LWPOLYLINE": 12,
+      "MTEXT": 33,
+      "POINT": 88,
+      "SOLID": 53,
+      "TRACE": 1
+    },
+    "extracted_entity_counts": {
+      "ARC": 14,
+      "CIRCLE": 1,
+      "DIMENSION": 41,
+      "INSERT": 5,
+      "LINE": 134,
+      "LWPOLYLINE": 12,
+      "MTEXT": 33
+    },
+    "skipped_entity_counts": {
+      "BLOCK": 42,
+      "ENDBLK": 42,
+      "HATCH": 1,
+      "POINT": 88,
+      "SOLID": 53,
+      "TRACE": 1
+    }
+  }
+}

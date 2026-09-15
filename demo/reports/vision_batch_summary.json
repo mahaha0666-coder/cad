@@ -1,0 +1,55 @@
+{
+  "schema_version": "cad-vision-batch-v1",
+  "model": "deepseek-v4-flash-vision-exp",
+  "prompt_version": "cad-vision-prompt-v1",
+  "dataset_dir": "/home/lysq/CAD/dataset/AutoCAD_2D_Drawings",
+  "created_at": "2026-08-30T14:49:00.901000+00:00",
+  "total_images": 6,
+  "completed": 6,
+  "skipped_existing": 0,
+  "errors": 0,
+  "items": [
+    {
+      "drawing_key": "2d-front-view-of-aluminum-t-slot-extrusion-profile",
+      "source_file": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.png",
+      "output": "demo/vision/normalized/2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_vision.json",
+      "status": "completed",
+      "observation_count": 11
+    },
+    {
+      "drawing_key": "2d-orthographic-projection-of-a-mechanical-fixture-bracket",
+      "source_file": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET.png",
+      "output": "demo/vision/normalized/2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET_vision.json",
+      "status": "completed",
+      "observation_count": 15
+    },
+    {
+      "drawing_key": "2d-profile-drawing-with-radial-and-angular-dimension",
+      "source_file": "2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION.png",
+      "output": "demo/vision/normalized/2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION_vision.json",
+      "status": "completed",
+      "observation_count": 8
+    },
+    {
+      "drawing_key": "2d-sectional-front-view-of-a-mechanical-mounting-plate",
+      "source_file": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.png",
+      "output": "demo/vision/normalized/2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE_vision.json",
+      "status": "completed",
+      "observation_count": 12
+    },
+    {
+      "drawing_key": "2d-sectional-front-view-of-symmetrical-mechanical-component",
+      "source_file": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT.png",
+      "output": "demo/vision/normalized/2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT_vision.json",
+      "status": "completed",
+      "observation_count": 10
+    },
+    {
+      "drawing_key": "2d-sectional-front-view-of-toothed-mechanical-component",
+      "source_file": "2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT.png",
+      "output": "demo/vision/normalized/2D SECTIONAL FRONT VIEW OF TOOTHED MECHANICAL COMPONENT_vision.json",
+      "status": "completed",
+      "observation_count": 12
+    }
+  ]
+}

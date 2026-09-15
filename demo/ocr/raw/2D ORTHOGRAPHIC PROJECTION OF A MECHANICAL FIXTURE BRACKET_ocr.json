@@ -1,0 +1,434 @@
+{
+  "schema_version": "cad-ocr-v1",
+  "drawing_key": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET",
+  "image": {
+    "source_file": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left"
+  },
+  "engine": {
+    "name": "RapidOCR",
+    "version": "0.1.dev1",
+    "backend": "onnxruntime-cpu",
+    "onnxruntime_version": "1.29.0"
+  },
+  "preprocessing": {
+    "selected": "invert",
+    "crop": {
+      "name": "autocad-canvas",
+      "box_px": [
+        0,
+        60,
+        1750,
+        1025
+      ],
+      "working_size": [
+        1750,
+        965
+      ]
+    },
+    "alpha_handling": "source loaded as BGR; source alpha was not used"
+  },
+  "postprocessing": {
+    "adjacent_box_merge": {
+      "enabled": true,
+      "rule": "engineering_prefix_plus_adjacent_numeric",
+      "source_item_count": 11,
+      "merged_item_count": 0
+    }
+  },
+  "items": [
+    {
+      "id": "OCR_0001",
+      "text_raw": "R10.00",
+      "text_normalized": "R10.00",
+      "polygon_px": [
+        [
+          538.0,
+          153.0
+        ],
+        [
+          630.0,
+          153.0
+        ],
+        [
+          630.0,
+          186.0
+        ],
+        [
+          538.0,
+          186.0
+        ]
+      ],
+      "center_px": [
+        584.0,
+        169.5
+      ],
+      "confidence": 0.99996,
+      "parsed": {
+        "kind": "radius",
+        "value": 10,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0002",
+      "text_raw": "50.00",
+      "text_normalized": "50.00",
+      "polygon_px": [
+        [
+          1328.0,
+          193.0
+        ],
+        [
+          1403.0,
+          193.0
+        ],
+        [
+          1403.0,
+          225.0
+        ],
+        [
+          1328.0,
+          225.0
+        ]
+      ],
+      "center_px": [
+        1365.5,
+        209.0
+      ],
+      "confidence": 0.99505,
+      "parsed": {
+        "kind": "numeric",
+        "value": 50,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0003",
+      "text_raw": "R20.00",
+      "text_normalized": "R20.00",
+      "polygon_px": [
+        [
+          599.0,
+          234.0
+        ],
+        [
+          691.0,
+          234.0
+        ],
+        [
+          691.0,
+          265.0
+        ],
+        [
+          599.0,
+          265.0
+        ]
+      ],
+      "center_px": [
+        645.0,
+        249.5
+      ],
+      "confidence": 0.97252,
+      "parsed": {
+        "kind": "radius",
+        "value": 20,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0004",
+      "text_raw": "10.00",
+      "text_normalized": "10.00",
+      "polygon_px": [
+        [
+          799.0,
+          244.0
+        ],
+        [
+          871.0,
+          244.0
+        ],
+        [
+          871.0,
+          276.0
+        ],
+        [
+          799.0,
+          276.0
+        ]
+      ],
+      "center_px": [
+        835.0,
+        260.0
+      ],
+      "confidence": 0.99991,
+      "parsed": {
+        "kind": "numeric",
+        "value": 10,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0005",
+      "text_raw": "60.00",
+      "text_normalized": "60.00",
+      "polygon_px": [
+        [
+          860.0,
+          407.0
+        ],
+        [
+          936.0,
+          407.0
+        ],
+        [
+          936.0,
+          441.0
+        ],
+        [
+          860.0,
+          441.0
+        ]
+      ],
+      "center_px": [
+        898.0,
+        424.0
+      ],
+      "confidence": 0.97821,
+      "parsed": {
+        "kind": "numeric",
+        "value": 60,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0006",
+      "text_raw": "4xR5.00",
+      "text_normalized": "4XR5.00",
+      "polygon_px": [
+        [
+          1091.0,
+          596.0
+        ],
+        [
+          1195.0,
+          594.0
+        ],
+        [
+          1195.0,
+          628.0
+        ],
+        [
+          1091.0,
+          630.0
+        ]
+      ],
+      "center_px": [
+        1143.0,
+        612.0
+      ],
+      "confidence": 0.99987
+    },
+    {
+      "id": "OCR_0007",
+      "text_raw": "45.00",
+      "text_normalized": "45.00",
+      "polygon_px": [
+        [
+          570.0,
+          689.0
+        ],
+        [
+          645.0,
+          689.0
+        ],
+        [
+          645.0,
+          723.0
+        ],
+        [
+          570.0,
+          723.0
+        ]
+      ],
+      "center_px": [
+        607.5,
+        706.0
+      ],
+      "confidence": 0.97409,
+      "parsed": {
+        "kind": "numeric",
+        "value": 45,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0008",
+      "text_raw": "15.00",
+      "text_normalized": "15.00",
+      "polygon_px": [
+        [
+          1199.0,
+          689.0
+        ],
+        [
+          1275.0,
+          689.0
+        ],
+        [
+          1275.0,
+          723.0
+        ],
+        [
+          1199.0,
+          723.0
+        ]
+      ],
+      "center_px": [
+        1237.0,
+        706.0
+      ],
+      "confidence": 0.96027,
+      "parsed": {
+        "kind": "numeric",
+        "value": 15,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0009",
+      "text_raw": "75,00 50.00",
+      "text_normalized": "75,0050.00",
+      "polygon_px": [
+        [
+          1316.0,
+          689.0
+        ],
+        [
+          1489.0,
+          689.0
+        ],
+        [
+          1489.0,
+          722.0
+        ],
+        [
+          1316.0,
+          722.0
+        ]
+      ],
+      "center_px": [
+        1402.5,
+        705.5
+      ],
+      "confidence": 0.90969
+    },
+    {
+      "id": "OCR_0010",
+      "text_raw": "X",
+      "text_normalized": "X",
+      "polygon_px": [
+        [
+          71.0,
+          1005.0
+        ],
+        [
+          93.0,
+          1005.0
+        ],
+        [
+          93.0,
+          1024.0
+        ],
+        [
+          71.0,
+          1024.0
+        ]
+      ],
+      "center_px": [
+        82.0,
+        1014.5
+      ],
+      "confidence": 0.5248
+    },
+    {
+      "id": "OCR_0011",
+      "text_raw": "35.00",
+      "text_normalized": "35.00",
+      "polygon_px": [
+        [
+          859.0,
+          1000.0
+        ],
+        [
+          933.0,
+          1000.0
+        ],
+        [
+          933.0,
+          1024.0
+        ],
+        [
+          859.0,
+          1024.0
+        ]
+      ],
+      "center_px": [
+        896.0,
+        1012.0
+      ],
+      "confidence": 0.98952,
+      "parsed": {
+        "kind": "numeric",
+        "value": 35,
+        "unit": null
+      }
+    }
+  ],
+  "statistics": {
+    "item_count": 11,
+    "high_confidence_count": 10,
+    "merged_item_count": 0
+  },
+  "comparison": {
+    "reference_file": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET_native_text.json",
+    "candidates": [
+      {
+        "mode": "raw",
+        "source_item_count": 13,
+        "merged_item_count": 0,
+        "recognized_unique": 12,
+        "matched_unique": 9,
+        "reference_unique": 39,
+        "precision": 0.75,
+        "recall": 0.23076923076923078,
+        "selection_score": 0.5423076923076923
+      },
+      {
+        "mode": "gray",
+        "source_item_count": 12,
+        "merged_item_count": 0,
+        "recognized_unique": 12,
+        "matched_unique": 9,
+        "reference_unique": 39,
+        "precision": 0.75,
+        "recall": 0.23076923076923078,
+        "selection_score": 0.5423076923076923
+      },
+      {
+        "mode": "invert",
+        "source_item_count": 11,
+        "merged_item_count": 0,
+        "recognized_unique": 11,
+        "matched_unique": 9,
+        "reference_unique": 39,
+        "precision": 0.8181818181818182,
+        "recall": 0.23076923076923078,
+        "selection_score": 0.5832167832167832
+      }
+    ]
+  }
+}

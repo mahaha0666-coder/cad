@@ -1,0 +1,1038 @@
+{
+  "schema_version": "cad-ocr-v1",
+  "drawing_key": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE",
+  "image": {
+    "source_file": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left"
+  },
+  "engine": {
+    "name": "RapidOCR",
+    "version": "0.1.dev1",
+    "backend": "onnxruntime-cpu",
+    "onnxruntime_version": "1.29.0"
+  },
+  "preprocessing": {
+    "selected": "gray",
+    "crop": {
+      "name": "autocad-canvas",
+      "box_px": [
+        0,
+        60,
+        1750,
+        1025
+      ],
+      "working_size": [
+        1750,
+        965
+      ]
+    },
+    "alpha_handling": "source loaded as BGR; source alpha was not used"
+  },
+  "postprocessing": {
+    "adjacent_box_merge": {
+      "enabled": true,
+      "rule": "engineering_prefix_plus_adjacent_numeric",
+      "source_item_count": 29,
+      "merged_item_count": 0
+    }
+  },
+  "items": [
+    {
+      "id": "OCR_0001",
+      "text_raw": "23.6",
+      "text_normalized": "23.6",
+      "polygon_px": [
+        [
+          909.0,
+          67.0
+        ],
+        [
+          1000.0,
+          67.0
+        ],
+        [
+          1000.0,
+          111.0
+        ],
+        [
+          909.0,
+          111.0
+        ]
+      ],
+      "center_px": [
+        954.5,
+        89.0
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "numeric",
+        "value": 23.6,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0002",
+      "text_raw": "20",
+      "text_normalized": "20",
+      "polygon_px": [
+        [
+          789.0,
+          119.0
+        ],
+        [
+          847.0,
+          119.0
+        ],
+        [
+          847.0,
+          165.0
+        ],
+        [
+          789.0,
+          165.0
+        ]
+      ],
+      "center_px": [
+        818.0,
+        142.0
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 20,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0003",
+      "text_raw": "14",
+      "text_normalized": "14",
+      "polygon_px": [
+        [
+          887.0,
+          162.0
+        ],
+        [
+          941.0,
+          165.0
+        ],
+        [
+          938.0,
+          212.0
+        ],
+        [
+          884.0,
+          209.0
+        ]
+      ],
+      "center_px": [
+        912.5,
+        187.0
+      ],
+      "confidence": 0.99997,
+      "parsed": {
+        "kind": "numeric",
+        "value": 14,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0004",
+      "text_raw": "8",
+      "text_normalized": "8",
+      "polygon_px": [
+        [
+          877.0,
+          219.0
+        ],
+        [
+          905.0,
+          219.0
+        ],
+        [
+          905.0,
+          256.0
+        ],
+        [
+          877.0,
+          256.0
+        ]
+      ],
+      "center_px": [
+        891.0,
+        237.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 8,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0005",
+      "text_raw": "R0.45",
+      "text_normalized": "R0.45",
+      "polygon_px": [
+        [
+          829.0,
+          264.0
+        ],
+        [
+          942.0,
+          264.0
+        ],
+        [
+          942.0,
+          306.0
+        ],
+        [
+          829.0,
+          306.0
+        ]
+      ],
+      "center_px": [
+        885.5,
+        285.0
+      ],
+      "confidence": 0.99923,
+      "parsed": {
+        "kind": "radius",
+        "value": 0.45,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0006",
+      "text_raw": "R1",
+      "text_normalized": "R1",
+      "polygon_px": [
+        [
+          895.0,
+          326.0
+        ],
+        [
+          959.0,
+          326.0
+        ],
+        [
+          959.0,
+          369.0
+        ],
+        [
+          895.0,
+          369.0
+        ]
+      ],
+      "center_px": [
+        927.0,
+        347.5
+      ],
+      "confidence": 0.99963,
+      "parsed": {
+        "kind": "radius",
+        "value": 1,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0007",
+      "text_raw": "R2.5 R0.5",
+      "text_normalized": "R2.5R0.5",
+      "polygon_px": [
+        [
+          706.0,
+          337.0
+        ],
+        [
+          901.0,
+          343.0
+        ],
+        [
+          900.0,
+          391.0
+        ],
+        [
+          705.0,
+          385.0
+        ]
+      ],
+      "center_px": [
+        803.0,
+        364.0
+      ],
+      "confidence": 0.97713,
+      "parsed": {
+        "kind": "radius",
+        "value": 2.5,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0008",
+      "text_raw": "R5",
+      "text_normalized": "R5",
+      "polygon_px": [
+        [
+          937.0,
+          353.0
+        ],
+        [
+          1003.0,
+          353.0
+        ],
+        [
+          1003.0,
+          399.0
+        ],
+        [
+          937.0,
+          399.0
+        ]
+      ],
+      "center_px": [
+        970.0,
+        376.0
+      ],
+      "confidence": 0.99993,
+      "parsed": {
+        "kind": "radius",
+        "value": 5,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0009",
+      "text_raw": "R5",
+      "text_normalized": "R5",
+      "polygon_px": [
+        [
+          903.0,
+          391.0
+        ],
+        [
+          969.0,
+          391.0
+        ],
+        [
+          969.0,
+          438.0
+        ],
+        [
+          903.0,
+          438.0
+        ]
+      ],
+      "center_px": [
+        936.0,
+        414.5
+      ],
+      "confidence": 0.99992,
+      "parsed": {
+        "kind": "radius",
+        "value": 5,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0010",
+      "text_raw": "R0.45",
+      "text_normalized": "R0.45",
+      "polygon_px": [
+        [
+          1601.0,
+          447.0
+        ],
+        [
+          1720.0,
+          447.0
+        ],
+        [
+          1720.0,
+          489.0
+        ],
+        [
+          1601.0,
+          489.0
+        ]
+      ],
+      "center_px": [
+        1660.5,
+        468.0
+      ],
+      "confidence": 0.99931,
+      "parsed": {
+        "kind": "radius",
+        "value": 0.45,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0011",
+      "text_raw": "20",
+      "text_normalized": "20",
+      "polygon_px": [
+        [
+          410.0,
+          467.0
+        ],
+        [
+          467.0,
+          467.0
+        ],
+        [
+          467.0,
+          512.0
+        ],
+        [
+          410.0,
+          512.0
+        ]
+      ],
+      "center_px": [
+        438.5,
+        489.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 20,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0012",
+      "text_raw": "14",
+      "text_normalized": "14",
+      "polygon_px": [
+        [
+          1406.0,
+          477.0
+        ],
+        [
+          1462.0,
+          477.0
+        ],
+        [
+          1462.0,
+          522.0
+        ],
+        [
+          1406.0,
+          522.0
+        ]
+      ],
+      "center_px": [
+        1434.0,
+        499.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "numeric",
+        "value": 14,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0013",
+      "text_raw": "40",
+      "text_normalized": "40",
+      "polygon_px": [
+        [
+          1536.0,
+          517.0
+        ],
+        [
+          1595.0,
+          517.0
+        ],
+        [
+          1595.0,
+          567.0
+        ],
+        [
+          1536.0,
+          567.0
+        ]
+      ],
+      "center_px": [
+        1565.5,
+        542.0
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 40,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0014",
+      "text_raw": "36.4",
+      "text_normalized": "36.4",
+      "polygon_px": [
+        [
+          271.0,
+          529.0
+        ],
+        [
+          363.0,
+          529.0
+        ],
+        [
+          363.0,
+          574.0
+        ],
+        [
+          271.0,
+          574.0
+        ]
+      ],
+      "center_px": [
+        317.0,
+        551.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 36.4,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0015",
+      "text_raw": "8",
+      "text_normalized": "8",
+      "polygon_px": [
+        [
+          562.0,
+          541.0
+        ],
+        [
+          591.0,
+          541.0
+        ],
+        [
+          591.0,
+          579.0
+        ],
+        [
+          562.0,
+          579.0
+        ]
+      ],
+      "center_px": [
+        576.5,
+        560.0
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 8,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0016",
+      "text_raw": "5.5",
+      "text_normalized": "5.5",
+      "polygon_px": [
+        [
+          780.0,
+          535.0
+        ],
+        [
+          851.0,
+          535.0
+        ],
+        [
+          851.0,
+          582.0
+        ],
+        [
+          780.0,
+          582.0
+        ]
+      ],
+      "center_px": [
+        815.5,
+        558.5
+      ],
+      "confidence": 0.99923,
+      "parsed": {
+        "kind": "numeric",
+        "value": 5.5,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0017",
+      "text_raw": "06",
+      "text_normalized": "06",
+      "polygon_px": [
+        [
+          1028.0,
+          538.0
+        ],
+        [
+          1100.0,
+          535.0
+        ],
+        [
+          1102.0,
+          581.0
+        ],
+        [
+          1029.0,
+          584.0
+        ]
+      ],
+      "center_px": [
+        1064.75,
+        559.5
+      ],
+      "confidence": 0.9988,
+      "parsed": {
+        "kind": "numeric",
+        "value": 6,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0018",
+      "text_raw": "8",
+      "text_normalized": "8",
+      "polygon_px": [
+        [
+          1287.0,
+          540.0
+        ],
+        [
+          1315.0,
+          540.0
+        ],
+        [
+          1315.0,
+          579.0
+        ],
+        [
+          1287.0,
+          579.0
+        ]
+      ],
+      "center_px": [
+        1301.0,
+        559.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "numeric",
+        "value": 8,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0019",
+      "text_raw": "14",
+      "text_normalized": "14",
+      "polygon_px": [
+        [
+          475.0,
+          594.0
+        ],
+        [
+          530.0,
+          594.0
+        ],
+        [
+          530.0,
+          639.0
+        ],
+        [
+          475.0,
+          639.0
+        ]
+      ],
+      "center_px": [
+        502.5,
+        616.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "numeric",
+        "value": 14,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0020",
+      "text_raw": "R1.5",
+      "text_normalized": "R1.5",
+      "polygon_px": [
+        [
+          637.0,
+          601.0
+        ],
+        [
+          741.0,
+          601.0
+        ],
+        [
+          741.0,
+          648.0
+        ],
+        [
+          637.0,
+          648.0
+        ]
+      ],
+      "center_px": [
+        689.0,
+        624.5
+      ],
+      "confidence": 0.99993,
+      "parsed": {
+        "kind": "radius",
+        "value": 1.5,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0021",
+      "text_raw": "20",
+      "text_normalized": "20",
+      "polygon_px": [
+        [
+          1465.0,
+          588.0
+        ],
+        [
+          1525.0,
+          588.0
+        ],
+        [
+          1525.0,
+          636.0
+        ],
+        [
+          1465.0,
+          636.0
+        ]
+      ],
+      "center_px": [
+        1495.0,
+        612.0
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 20,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0022",
+      "text_raw": "23.6",
+      "text_normalized": "23.6",
+      "polygon_px": [
+        [
+          354.0,
+          622.0
+        ],
+        [
+          445.0,
+          622.0
+        ],
+        [
+          445.0,
+          665.0
+        ],
+        [
+          354.0,
+          665.0
+        ]
+      ],
+      "center_px": [
+        399.5,
+        643.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 23.6,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0023",
+      "text_raw": "15.5",
+      "text_normalized": "15.5",
+      "polygon_px": [
+        [
+          847.0,
+          629.0
+        ],
+        [
+          937.0,
+          629.0
+        ],
+        [
+          937.0,
+          676.0
+        ],
+        [
+          847.0,
+          676.0
+        ]
+      ],
+      "center_px": [
+        892.0,
+        652.5
+      ],
+      "confidence": 0.9999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 15.5,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0024",
+      "text_raw": "3xR0.5",
+      "text_normalized": "3XR0.5",
+      "polygon_px": [
+        [
+          910.0,
+          867.0
+        ],
+        [
+          1049.0,
+          865.0
+        ],
+        [
+          1049.0,
+          907.0
+        ],
+        [
+          910.0,
+          910.0
+        ]
+      ],
+      "center_px": [
+        979.5,
+        887.25
+      ],
+      "confidence": 0.99984
+    },
+    {
+      "id": "OCR_0025",
+      "text_raw": "R4",
+      "text_normalized": "R4",
+      "polygon_px": [
+        [
+          1432.0,
+          883.0
+        ],
+        [
+          1497.0,
+          883.0
+        ],
+        [
+          1497.0,
+          930.0
+        ],
+        [
+          1432.0,
+          930.0
+        ]
+      ],
+      "center_px": [
+        1464.5,
+        906.5
+      ],
+      "confidence": 0.99574,
+      "parsed": {
+        "kind": "radius",
+        "value": 4,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0026",
+      "text_raw": "31",
+      "text_normalized": "31",
+      "polygon_px": [
+        [
+          847.0,
+          906.0
+        ],
+        [
+          902.0,
+          906.0
+        ],
+        [
+          902.0,
+          954.0
+        ],
+        [
+          847.0,
+          954.0
+        ]
+      ],
+      "center_px": [
+        874.5,
+        930.0
+      ],
+      "confidence": 0.9993,
+      "parsed": {
+        "kind": "numeric",
+        "value": 31,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0027",
+      "text_raw": "36",
+      "text_normalized": "36",
+      "polygon_px": [
+        [
+          742.0,
+          933.0
+        ],
+        [
+          801.0,
+          933.0
+        ],
+        [
+          801.0,
+          978.0
+        ],
+        [
+          742.0,
+          978.0
+        ]
+      ],
+      "center_px": [
+        771.5,
+        955.5
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "numeric",
+        "value": 36,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0028",
+      "text_raw": "R2.2",
+      "text_normalized": "R2.2",
+      "polygon_px": [
+        [
+          1348.0,
+          950.0
+        ],
+        [
+          1446.0,
+          953.0
+        ],
+        [
+          1445.0,
+          997.0
+        ],
+        [
+          1347.0,
+          995.0
+        ]
+      ],
+      "center_px": [
+        1396.5,
+        973.75
+      ],
+      "confidence": 0.99998,
+      "parsed": {
+        "kind": "radius",
+        "value": 2.2,
+        "unit": null
+      }
+    },
+    {
+      "id": "OCR_0029",
+      "text_raw": "40",
+      "text_normalized": "40",
+      "polygon_px": [
+        [
+          866.0,
+          971.0
+        ],
+        [
+          926.0,
+          971.0
+        ],
+        [
+          926.0,
+          1016.0
+        ],
+        [
+          866.0,
+          1016.0
+        ]
+      ],
+      "center_px": [
+        896.0,
+        993.5
+      ],
+      "confidence": 0.99999,
+      "parsed": {
+        "kind": "numeric",
+        "value": 40,
+        "unit": null
+      }
+    }
+  ],
+  "statistics": {
+    "item_count": 29,
+    "high_confidence_count": 29,
+    "merged_item_count": 0
+  },
+  "comparison": {
+    "reference_file": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_native_text.json",
+    "candidates": [
+      {
+        "mode": "raw",
+        "source_item_count": 29,
+        "merged_item_count": 0,
+        "recognized_unique": 20,
+        "matched_unique": 16,
+        "reference_unique": 29,
+        "precision": 0.8,
+        "recall": 0.5517241379310345,
+        "selection_score": 0.7006896551724138
+      },
+      {
+        "mode": "gray",
+        "source_item_count": 29,
+        "merged_item_count": 0,
+        "recognized_unique": 19,
+        "matched_unique": 16,
+        "reference_unique": 29,
+        "precision": 0.8421052631578947,
+        "recall": 0.5517241379310345,
+        "selection_score": 0.7259528130671505
+      },
+      {
+        "mode": "invert",
+        "source_item_count": 30,
+        "merged_item_count": 0,
+        "recognized_unique": 19,
+        "matched_unique": 15,
+        "reference_unique": 29,
+        "precision": 0.7894736842105263,
+        "recall": 0.5172413793103449,
+        "selection_score": 0.6805807622504537
+      }
+    ]
+  }
+}

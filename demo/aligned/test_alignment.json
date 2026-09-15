@@ -1,0 +1,407 @@
+{
+  "schema_version": "cad-ocr-alignment-v1",
+  "drawing_key": "2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION.dwg",
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        5.556133282108234,
+        0.006378252138098071,
+        236.30052600761587
+      ],
+      [
+        0.0015893613047789328,
+        -5.557085716636162,
+        1008.2953815238
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 13,
+    "inlier_anchor_count": 13,
+    "rmse_px": 0.9204173682037529,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "anchors": [
+    {
+      "text": "10°",
+      "native_id": "NATIVE_H7CC",
+      "ocr_id": "OCR_0008",
+      "cad": [
+        95.43796088507698,
+        113.790899557273
+      ],
+      "pixel": [
+        766.5,
+        376.0
+      ],
+      "inlier": true,
+      "error_px": 0.7987911977688986
+    },
+    {
+      "text": "50",
+      "native_id": "NATIVE_H4D7",
+      "ocr_id": "OCR_0012",
+      "cad": [
+        268.0779604736709,
+        79.95499999999994
+      ],
+      "pixel": [
+        1725.5,
+        564.0
+      ],
+      "inlier": true,
+      "error_px": 0.8852783727985353
+    },
+    {
+      "text": "50°",
+      "native_id": "NATIVE_H419",
+      "ocr_id": "OCR_0010",
+      "cad": [
+        97.90082431565462,
+        82.52391521550355
+      ],
+      "pixel": [
+        781.5,
+        550.5
+      ],
+      "inlier": true,
+      "error_px": 0.9666249023891805
+    },
+    {
+      "text": "70",
+      "native_id": "NATIVE_H3E5",
+      "ocr_id": "OCR_0005",
+      "cad": [
+        195.04500000000002,
+        130.93666063867454
+      ],
+      "pixel": [
+        1321.5,
+        281.0
+      ],
+      "inlier": true,
+      "error_px": 0.6686366737747154
+    },
+    {
+      "text": "R10",
+      "native_id": "NATIVE_H45F",
+      "ocr_id": "OCR_0007",
+      "cad": [
+        23.50628119292356,
+        116.80939518010405
+      ],
+      "pixel": [
+        368.5,
+        359.0
+      ],
+      "inlier": true,
+      "error_px": 0.8766527709848475
+    },
+    {
+      "text": "R100",
+      "native_id": "NATIVE_H449",
+      "ocr_id": "OCR_MERGED_OCR_0016_OCR_0017",
+      "cad": [
+        22.23379384226639,
+        40.40683518377251
+      ],
+      "pixel": [
+        360.5,
+        784.5
+      ],
+      "inlier": true,
+      "error_px": 0.821854330775391
+    },
+    {
+      "text": "R10X3",
+      "native_id": "NATIVE_H32A",
+      "ocr_id": "OCR_0002",
+      "cad": [
+        65.82170800868634,
+        147.3704191786367
+      ],
+      "pixel": [
+        602.5,
+        190.0
+      ],
+      "inlier": true,
+      "error_px": 0.7136453585187232
+    },
+    {
+      "text": "R15",
+      "native_id": "NATIVE_H367",
+      "ocr_id": "OCR_0006",
+      "cad": [
+        258.1086490150023,
+        125.31370132836722
+      ],
+      "pixel": [
+        1671.5,
+        312.5
+      ],
+      "inlier": true,
+      "error_px": 0.35880211653530664
+    },
+    {
+      "text": "R15X3",
+      "native_id": "NATIVE_H499",
+      "ocr_id": "OCR_0020",
+      "cad": [
+        143.1256958428564,
+        24.10773783412152
+      ],
+      "pixel": [
+        1032.5,
+        874.5
+      ],
+      "inlier": true,
+      "error_px": 0.8220483196445703
+    },
+    {
+      "text": "R20",
+      "native_id": "NATIVE_H4C1",
+      "ocr_id": "OCR_0021",
+      "cad": [
+        114.78995430987071,
+        15.90035319141609
+      ],
+      "pixel": [
+        874.5,
+        921.0
+      ],
+      "inlier": true,
+      "error_px": 0.9346295078386043
+    },
+    {
+      "text": "R30",
+      "native_id": "NATIVE_H487",
+      "ocr_id": "OCR_0015",
+      "cad": [
+        162.40489788404568,
+        59.14708563888775
+      ],
+      "pixel": [
+        1139.0,
+        679.5
+      ],
+      "inlier": true,
+      "error_px": 0.3686776158942415
+    },
+    {
+      "text": "R70",
+      "native_id": "NATIVE_H4AF",
+      "ocr_id": "OCR_0019",
+      "cad": [
+        154.03621057826973,
+        30.8925547217468
+      ],
+      "pixel": [
+        1091.5,
+        836.5
+      ],
+      "inlier": true,
+      "error_px": 0.9199319374845308
+    },
+    {
+      "text": "R90",
+      "native_id": "NATIVE_H433",
+      "ocr_id": "OCR_0013",
+      "cad": [
+        11.96326388679833,
+        66.64318582093416
+      ],
+      "pixel": [
+        302.0,
+        636.5
+      ],
+      "inlier": true,
+      "error_px": 1.8964374084839934
+    }
+  ],
+  "matches": [
+    {
+      "native_item_id": "NATIVE_H397",
+      "ocr_item_id": "OCR_0009",
+      "text_similarity": 1.0,
+      "distance_px": 0.2816757211458332,
+      "score": 0.9989427160457032,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3FF",
+      "ocr_item_id": "OCR_0018",
+      "text_similarity": 1.0,
+      "distance_px": 0.303323212000428,
+      "score": 0.9988605379549984,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3E5",
+      "ocr_item_id": "OCR_0005",
+      "text_similarity": 1.0,
+      "distance_px": 0.6686366737747154,
+      "score": 0.9974916124733448,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3B1",
+      "ocr_item_id": "OCR_0011",
+      "text_similarity": 1.0,
+      "distance_px": 0.7078424844962256,
+      "score": 0.9973450906831391,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H475",
+      "ocr_item_id": "OCR_0003",
+      "text_similarity": 1.0,
+      "distance_px": 0.681329652380512,
+      "score": 0.9972690138035731,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4F1",
+      "ocr_item_id": "OCR_0014",
+      "text_similarity": 1.0,
+      "distance_px": 0.7156744635440865,
+      "score": 0.9972132207617097,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H351",
+      "ocr_item_id": "OCR_0001",
+      "text_similarity": 1.0,
+      "distance_px": 0.6159693548157572,
+      "score": 0.9971646149194409,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H449",
+      "ocr_item_id": "OCR_MERGED_OCR_0016_OCR_0017",
+      "text_similarity": 1.0,
+      "distance_px": 0.821854330775391,
+      "score": 0.9969080462595923,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H7CC",
+      "ocr_item_id": "OCR_0008",
+      "text_similarity": 1.0,
+      "distance_px": 0.7987911977688986,
+      "score": 0.9966865330083666,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4D7",
+      "ocr_item_id": "OCR_0012",
+      "text_similarity": 1.0,
+      "distance_px": 0.8852783727985353,
+      "score": 0.9966797061020055,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H487",
+      "ocr_item_id": "OCR_0015",
+      "text_similarity": 1.0,
+      "distance_px": 0.3686776158942415,
+      "score": 0.9964024589403966,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H419",
+      "ocr_item_id": "OCR_0010",
+      "text_similarity": 1.0,
+      "distance_px": 0.9666249023891805,
+      "score": 0.9960476566160407,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4AF",
+      "ocr_item_id": "OCR_0019",
+      "text_similarity": 1.0,
+      "distance_px": 0.9199319374845308,
+      "score": 0.994852255234433,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H499",
+      "ocr_item_id": "OCR_0020",
+      "text_similarity": 1.0,
+      "distance_px": 0.8220483196445703,
+      "score": 0.9940453188013327,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4C1",
+      "ocr_item_id": "OCR_0021",
+      "text_similarity": 1.0,
+      "distance_px": 0.9346295078386043,
+      "score": 0.9924486393456052,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H45F",
+      "ocr_item_id": "OCR_0007",
+      "text_similarity": 1.0,
+      "distance_px": 0.8766527709848475,
+      "score": 0.9922515521088068,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H433",
+      "ocr_item_id": "OCR_0013",
+      "text_similarity": 1.0,
+      "distance_px": 1.8964374084839934,
+      "score": 0.9919598597181851,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H367",
+      "ocr_item_id": "OCR_0006",
+      "text_similarity": 1.0,
+      "distance_px": 0.35880211653530664,
+      "score": 0.8986129920629926,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H32A",
+      "ocr_item_id": "OCR_0002",
+      "text_similarity": 1.0,
+      "distance_px": 0.7136453585187232,
+      "score": 0.8913723299055548,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3CB",
+      "ocr_item_id": "OCR_0004",
+      "text_similarity": 0.8,
+      "distance_px": 0.8719503266661177,
+      "score": 0.8822931862750021,
+      "status": "conflict"
+    }
+  ],
+  "unmatched": {
+    "native_item_ids": [],
+    "ocr_item_ids": [
+      "OCR_0022"
+    ]
+  },
+  "candidate_count": 20,
+  "statistics": {
+    "confirmed": 19,
+    "conflict": 1,
+    "ambiguous": 0,
+    "cad_only": 0,
+    "ocr_only": 1
+  }
+}

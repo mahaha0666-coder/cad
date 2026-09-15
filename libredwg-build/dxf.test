@@ -1,0 +1,385 @@
+#!/bin/sh
+# dxf.test
+#
+# Copyright (C) 2018-2025 Free Software Foundation, Inc.
+#
+# This program is free software, licensed under the terms of the GNU
+# General Public License as published by the Free Software Foundation,
+# either version 3 of the License, or (at your option) any later version.
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# test DXF specific content
+# Author: Reini Urban
+
+[ -z "$DATADIR" ] && DATADIR="/home/lysq/CAD/libredwg/libredwg/test/test-data"
+top_builddir="/home/lysq/CAD/libredwg-build"
+EXEEXT=""
+DEBUG_CLASSES=""
+TESTS_ENVIRONMENT=""
+# shellcheck disable=2157
+if [ -n "$VALGRIND" ] && [ -n "$LOG_COMPILER" ]; then
+    TESTPROG="$LOG_COMPILER $LOG_FLAGS"
+elif [ -n "" ]; then
+    TESTPROG=""
+elif [ -n "$TESTS_ENVIRONMENT" ]; then
+    TESTPROG="$TESTS_ENVIRONMENT "
+else
+    TESTPROG=""
+fi
+# shellcheck disable=SC2157
+if [ -n "" ]
+then
+    DXF2DWG="env ASAN_OPTIONS=detect_leaks=0 $TESTPROG ./dxf2dwg${EXEEXT}"
+else
+    DXF2DWG="$TESTPROG ./dxf2dwg${EXEEXT}"
+fi
+HAVE_ODA=""
+ODAFileConverter=""
+if [ -n "$HAVE_ODA" ]; then
+    baseFileConverter="$(basename "$ODAFileConverter")"
+fi
+XVFB_RUN=""
+if [ -n "$XVFB_RUN" ]; then
+    ODAFileConverter="$XVFB_RUN $ODAFileConverter"
+    baseFileConverter="$XVFB_RUN $baseFileConverter"
+fi
+
+i=0
+rm -f ./*dxf.log
+is_release="$(grep -c 'IS_RELEASE 1' $top_builddir/src/config.h)"
+
+# ODA can only write R12+ DWG's
+convert_year_dwg() {
+    r=
+    case $year in
+        2018) r=2018 ;;
+        2013) r=2013 ;;
+        2010) r=2010 ;;
+        2007) r=2007 ;;
+        2004) r=2004 ;;
+        2000) r=2000 ;;
+        r14) r=14 ;;
+        r13) r=13 ;;
+        r12) r=12 ;;
+        r11) r=12 ;;
+        r10) r=12 ;;
+        r9) r=12 ;;
+        *) return ;;
+    esac
+}
+# ODA cannot write r11 DXF
+convert_year_dxf() {
+    r=
+    case $year in
+        2018) r=2018 ;;
+        2013) r=2013 ;;
+        2010) r=2010 ;;
+        2007) r=2007 ;;
+        2004) r=2004 ;;
+        2000) r=2000 ;;
+        r14) r=14 ;;
+        r13) r=13 ;;
+        r12) r=12 ;;
+        r11) r=12 ;;
+        r10) r=10 ;;
+        r9) r=9 ;;
+        *) return ;;
+    esac
+}
+
+check_subentity() {
+    if [ -f "$dwg" ] && [ -f "$dxf" ]; then
+        $TESTPROG "./dwg2dxf${EXEEXT}" -y -v4 -o "$tgt" "$dwg" 2>/dev/null
+        grep -A8 ^VERTEX "$dxf" >tmp1
+        grep -A8 ^VERTEX "$tgt" >tmp2
+        d="$(diff -b -U1 tmp1 tmp2)"
+        test -z "$d" || echo "VERTEX $tgt $d"
+        grep -A8 ^SEQEND "$dxf" >tmp1
+        grep -A8 ^SEQEND "$tgt" >tmp2
+        d="$(diff -b -U1 tmp1 tmp2)"
+        test -z "$d" || echo "SEQEND $tgt $d"
+        grep -A8 ^POLYLINE "$dxf" >tmp1
+        grep -A8 ^POLYLINE "$tgt" >tmp2
+        d="$(diff -b -U1 tmp1 tmp2)"
+        test -z "$d" || echo "POLYLINE $tgt $d"
+        rm tmp1 tmp2
+        if [ -n "$HAVE_ODA" ]; then
+            base="$(basename "$tgt" .dxf)"
+            rm -f "$base.dwg.err"
+            convert_year_dwg
+            # shellcheck disable=SC2086,SC2154
+            if [ -n "$r" ]; then
+                echo timeout 30 "$baseFileConverter" .. . "ACAD$r" DWG 0 1 "$base.dxf"
+                timeout 30 $ODAFileConverter .. . "ACAD$r" DWG 0 1 "$base.dxf" \
+                        $ODAFileConverter_geometry >/dev/null 2>/dev/null
+                if test -f "$base.dwg.err"; then
+                    cat "$base.dwg.err"
+                    echo FAIL "$baseFileConverter" "$tgt" "$year"
+                    return 1
+                fi
+            else
+                echo empty $year
+            fi
+        fi
+#   else
+#       echo skip $dxf missing
+    fi
+}
+
+# check subentity owners
+for year in r14 2000 2004 2007 2010 2013 2018
+do
+    for base in PolyLine3D PolyLine2D
+    do
+        dwg="$DATADIR/${year}/${base}.dwg"
+        dxf="$DATADIR/${year}/${base}.dxf"
+        tgt="../${base}_${year}.dxf"
+        check_subentity
+    done
+done
+for year in r14 2000 2004 2007 2010 2013 2018
+do
+    for base in example Drawing
+    do
+        dwg="$DATADIR/${base}_${year}.dwg"
+        dxf="$DATADIR/${base}_${year}.dxf"
+        tgt="../${base}_${year}.dxf"
+        check_subentity
+    done
+done
+
+check_acdb_dxfname() {
+    if [ -f "$dwg" ] && [ -f "$dxf" ]; then
+        $TESTPROG "./dwg2dxf${EXEEXT}" -y -v0 -o "$tgt" "$dwg" 2>/dev/null >/dev/null
+        expect="$(grep -c "^$dxfname" "$dxf")"
+        if [ -n "$1" ]; then expect="$1"; fi
+        got=$(grep -c "^$dxfname" "$tgt")
+        if [ "$got" = "$expect" ]
+        then
+            echo "$tgt $dxfname ok"
+        else
+            echo "$tgt $dxfname fail: got $got != expect $expect"
+            i=$((i+1))
+            grep -2 "^$dxfname" "$tgt" >"$log"
+        fi
+    fi
+}
+
+# check handled ACDB* dxfname's
+# UNHANDLED: ACDBDETAILVIEWSTYLE ACDBSECTIONVIEWSTYLE
+for dwg in "$DATADIR"/sample_2*.dwg; do
+    dxf="$(echo "$dwg" | sed 's,.dwg,.dxf,')"
+    tgt="../$(basename "$dxf")"
+    log="$(basename "$tgt").log"
+    rm "./$log" 2>/dev/null
+    for dxfname in ACDBDICTIONARYWDFLT ACDBPLACEHOLDER LAYOUT
+    do
+        check_acdb_dxfname
+    done
+done
+
+# Note that UNSTABLE classes are now skipped, just the single CLASS entry
+for dwg in "$DATADIR"/example_*.dwg
+do
+    test -L "$dwg" && break
+    dxf="$(echo "$dwg" | sed 's,.dwg,.dxf,')"
+    tgt="../$(basename "$dxf")"
+    log="$(basename "$tgt").log"
+    rm "./$log" 2>/dev/null
+    for dxfname in ACDBPERSSUBENTMANAGER ACDBASSOCDEPENDENCY
+    do
+        if [ "$DEBUG_CLASSES" = "1" ]; then
+            check_acdb_dxfname
+        else
+            check_acdb_dxfname 1
+        fi
+    done
+done
+
+# shellcheck disable=SC2043
+for dwg in "$DATADIR"/2004/Underlay.dwg
+do
+    dxf="$(echo "$dwg" | sed 's,.dwg,.dxf,')"
+    tgt="../$(basename "$dxf" .dxf)_2004.dxf"
+    log="$(basename "$tgt").log"
+    rm "./$log" 2>/dev/null
+    for dxfname in PDFDEFINITION PDFUNDERLAY
+    do
+        check_acdb_dxfname
+    done
+done
+
+# check vertex - seqend order
+check_pline_order() {
+    if [ -f "$dwg" ] && [ -f "$dxf" ]; then
+        $TESTPROG "./dwg2dxf${EXEEXT}" -y -v0 -o "$tgt" "$dwg" 2>/dev/null >/dev/null
+        got="$(grep -E '^(POLYLINE|VERTEX|SEQEND)' "$tgt")"
+        expect="$(grep -E '^(POLYLINE|VERTEX|SEQEND)' "$dxf")"
+        if [ "$got" = "$expect" ]
+        then
+            echo "$tgt" pline order ok
+        else
+            echo "$tgt" pline order fail: "$got"
+            i=$((i+1))
+            echo "expect=$expect" >"$log"
+            echo "got=$got" >>"$log"
+        fi
+    fi
+}
+# check insert - attrib - seqend order
+check_insert_order() {
+    if [ -f "$dwg" ] && [ -f "$dxf" ]; then
+        $TESTPROG "./dwg2dxf${EXEEXT}" -y -v0 -o "$tgt" "$dwg" 2>/dev/null >/dev/null
+        got="$(grep -E '^(INSERT|ATTRIB|SEQEND)' "$tgt")"
+        expect="$(grep -E '^(INSERT|ATTRIB|SEQEND)' "$dxf")"
+        if [ "$got" = "$expect" ]
+        then
+            echo "$tgt" insert order ok
+        else
+            echo "$tgt" insert order fail: "$got"
+            i=$((i+1))
+            echo "expect=$expect" >"$log"
+            echo "got=$got" >>"$log"
+        fi
+    fi
+}
+
+check_roundtrip() {
+    if [ -f "$dwg" ] && [ -x dxf2dwg ]
+    then
+        dxf="$(basename "$dwg" .dwg).dxf"
+        tgt="$(basename "$dwg")"
+        log1="$(basename "$dwg" .dwg).log1"
+        log2="$(basename "$dwg" .dwg).log2"
+        if ! $TESTPROG "./dwg2dxf${EXEEXT}" -y -v2 -o "$dxf" "$dwg" 2>"$log1" >/dev/null; then
+            echo "dwg2dxf $dwg failed"
+            exit 1
+        fi
+        if ! $DXF2DWG -y -v0 -o "$tgt" "$dxf" 2>/dev/null >/dev/null; then
+            echo "$DXF2DWG -y -v0 -o $tgt $dxf failed with $?"
+            exit 1
+        fi
+        if ! $TESTPROG "./dwgread${EXEEXT}" -v2 "$tgt" 2>"$log2" >/dev/null; then
+            echo "dwgread $tgt failed with $?"
+            exit 1
+        fi
+        # check dwg (is_dxf) with ODA, can do all versions
+        if [ -n "$HAVE_ODA" ]; then
+            rm -f "$dxf.err"
+            convert_year_dxf
+            # shellcheck disable=SC2086,SC2154
+            if [ -n "$r" ]; then
+                echo timeout 30 "$baseFileConverter" . .. "ACAD$r" DXF 0 1 "$tgt"
+                timeout 30 $ODAFileConverter . .. "ACAD$r" DXF 0 1 "$tgt" \
+                        $ODAFileConverter_geometry >/dev/null 2>/dev/null
+                if test -f "$dxf.err"; then
+                    cat "$dxf.err"
+                    rm -- "$dxf.err"
+                    echo FAIL "$baseFileConverter" "$tgt" "$year"
+                    i=$((i+1))
+                fi
+            else
+                echo empty $year
+            fi
+        fi
+        # We dont write unstable entities yet. WIPEOUT is converted to POINT in encode, but skipped at out_dxf
+        if [ "$DEBUG_CLASSES" = "1" ] && [ -z "$is_release" ]; then
+            if [ "$log1" = "example_r13.log1" ]; then
+                expect="$(grep -E '^Add entity' "$log1" | grep -E -c -v 'entity (UNKNOWN_ENT|LIGHT)')"
+            else
+                expect="$(grep -E '^Add entity' "$log1" | grep -c -v 'entity UNKNOWN_ENT')"
+            fi
+        else
+            if [ "$log1" = "example_r14.log1" ]; then
+                expect="$(grep -E '^Add entity' "$log1" | grep -E -c -v 'entity (WIPEOUT|ARC_DIMENSION|HELIX|UNKNOWN_ENT|LIGHT|MULTILEADER)')"
+            elif [ "$log1" = "example_r13.log1" ]; then
+                expect="$(grep -E '^Add entity' "$log1" | grep -E -c -v 'entity (WIPEOUT|ARC_DIMENSION|HELIX|UNKNOWN_ENT|LIGHT|MINSERT)')"
+            else
+                expect="$(grep -E '^Add entity' "$log1" | grep -E -c -v 'entity (WIPEOUT|ARC_DIMENSION|HELIX|UNKNOWN_ENT)')"
+            fi
+        fi
+        got="$(grep -E -c '^Add entity' "$log2")"
+        rm "./$dxf" "./$tgt" 2>/dev/null
+        if [ "$got" -ge "$expect" ]
+        then
+            echo "$dxf" roundtrip ok
+            rm "$log1" "$log2" 2>/dev/null
+        else
+            echo "$dwg" "dxf roundtrip fail: expect $expect, got $got entities"
+            i=$((i+1))
+            echo "expect=$expect" >"$log"
+            echo "got=$got" >>"$log"
+            # shellcheck disable=SC2016
+             -nle'/^Add entity (\w+) / && print $1' "$log1" >"$log1".tmp
+            # shellcheck disable=SC2016
+             -nle'/^Add entity (\w+) / && print $1' "$log2" >"$log2".tmp
+            diff -b -U0 "$log1".tmp "$log2".tmp | grep -v '^@@' | tee "$log"
+            rm "$log1".tmp "$log2".tmp 2>/dev/null
+        fi
+    fi
+}
+
+for year in 2007 2018
+do
+    base=PolyLine3D
+    dwg="$DATADIR/${year}/${base}.dwg"
+    dxf="$DATADIR/2013/${base}.dxf"
+    tgt="../${base}_${year}.dxf"
+    log="$(basename "$tgt" .dxf)_pline.dxf.log"
+    rm "./$log" 2>/dev/null
+    check_pline_order
+done
+
+for year in 2000 2004 2007 2010 2013 2018 r14 r13
+do
+    base=example
+    dwg="$DATADIR/${base}_${year}.dwg"
+    dxf="$DATADIR/${base}_${year}.dxf"
+    tgt="../${base}_${year}.dxf"
+    log="$(basename "$tgt" .dxf)_pline.dxf.log"
+    rm "./$log" 2>/dev/null
+    check_pline_order
+done
+
+# r13,r14 deleted 2 INSERT's
+for year in 2000 2004 2007 2010 2013 2018 # r14 r13
+do
+    base=example
+    dwg="$DATADIR/${base}_${year}.dwg"
+    dxf="$DATADIR/${base}_${year}.dxf"
+    tgt="../${base}_${year}.dxf"
+    log="$(basename "$tgt" .dxf)_insert.dxf.log"
+    rm "./$log" 2>/dev/null
+    check_insert_order
+done
+
+for year in 2000 2004 2007 2010 2013 2018 r13 r14
+do
+    base=example
+    dwg="$DATADIR/${base}_${year}.dwg"
+    tgt="../${base}_${year}"
+    log="$tgt.dxf.log"
+    rm "./$log" 2>/dev/null
+    check_roundtrip
+done
+# FIXME
+#for d in r11/ACEB10 r11/entities-2d r10/entities r9/entities r2.10/entities r2.6/entities
+#do
+#    base="$(basename $d)"
+#    rel="$(dirname $d)"
+#    dwg="$DATADIR/$d.dwg"
+#    tgt="../${base}_${rel}"
+#    log="$tgt.dxf.log"
+#    rm "./$log" 2>/dev/null
+#    check_roundtrip
+#done
+
+if test "0" = "$i" ; then
+    rm ./*.dxf.log 2>/dev/null
+    exit 0
+else
+    echo "$(basename "$0"): $i failures"
+    ls -l ./*dxf.log
+    exit 1
+fi

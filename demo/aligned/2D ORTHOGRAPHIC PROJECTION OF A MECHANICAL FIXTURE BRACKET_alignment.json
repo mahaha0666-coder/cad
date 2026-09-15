@@ -1,0 +1,283 @@
+{
+  "schema_version": "cad-ocr-alignment-v1",
+  "drawing_key": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET.dwg",
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        6.026469795077196,
+        -0.0015363490228959922,
+        565.9606817192915
+      ],
+      [
+        0.009933230483313842,
+        -5.989981541929585,
+        1078.4942193553366
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 8,
+    "inlier_anchor_count": 8,
+    "rmse_px": 1.6621220528795244,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "anchors": [
+    {
+      "text": "10.00",
+      "native_id": "NATIVE_H70F",
+      "ocr_id": "OCR_0004",
+      "cad": [
+        44.81458390177364,
+        136.7259386202957
+      ],
+      "pixel": [
+        835.0,
+        260.0
+      ],
+      "inlier": true,
+      "error_px": 0.8256682830934495
+    },
+    {
+      "text": "15.00",
+      "native_id": "NATIVE_H729",
+      "ocr_id": "OCR_0008",
+      "cad": [
+        111.12286861215868,
+        62.49999999999997
+      ],
+      "pixel": [
+        1237.0,
+        706.0
+      ],
+      "inlier": true,
+      "error_px": 1.6504400823491656
+    },
+    {
+      "text": "35.00",
+      "native_id": "NATIVE_H773",
+      "ocr_id": "OCR_0011",
+      "cad": [
+        55.00000000000017,
+        10.92736091893829
+      ],
+      "pixel": [
+        896.0,
+        1012.0
+      ],
+      "inlier": true,
+      "error_px": 2.115228622577199
+    },
+    {
+      "text": "45.00",
+      "native_id": "NATIVE_H78D",
+      "ocr_id": "OCR_0007",
+      "cad": [
+        6.69023468765684,
+        62.5
+      ],
+      "pixel": [
+        607.5,
+        706.0
+      ],
+      "inlier": true,
+      "error_px": 2.2409072843419837
+    },
+    {
+      "text": "4XR5.00",
+      "native_id": "NATIVE_H743",
+      "ocr_id": "OCR_0006",
+      "cad": [
+        95.95537426384655,
+        77.88197280483676
+      ],
+      "pixel": [
+        1143.0,
+        612.0
+      ],
+      "inlier": true,
+      "error_px": 1.454267585491163
+    },
+    {
+      "text": "60.00",
+      "native_id": "NATIVE_H6C9",
+      "ocr_id": "OCR_0005",
+      "cad": [
+        55.0,
+        109.613708991674
+      ],
+      "pixel": [
+        898.0,
+        424.0
+      ],
+      "inlier": true,
+      "error_px": 1.7169351374553141
+    },
+    {
+      "text": "R10.00",
+      "native_id": "NATIVE_H6F9",
+      "ocr_id": "OCR_0001",
+      "cad": [
+        3.22137789904469,
+        151.53171896316502
+      ],
+      "pixel": [
+        584.0,
+        169.5
+      ],
+      "inlier": true,
+      "error_px": 1.770928830888571
+    },
+    {
+      "text": "R20.00",
+      "native_id": "NATIVE_H6E3",
+      "ocr_id": "OCR_0003",
+      "cad": [
+        12.99245528898633,
+        138.367697196766
+      ],
+      "pixel": [
+        645.0,
+        249.5
+      ],
+      "inlier": true,
+      "error_px": 1.0003550304357922
+    }
+  ],
+  "matches": [
+    {
+      "native_item_id": "NATIVE_H70F",
+      "ocr_item_id": "OCR_0004",
+      "text_similarity": 1.0,
+      "distance_px": 0.8256682830934495,
+      "score": 0.9968992439383996,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H6E3",
+      "ocr_item_id": "OCR_0003",
+      "text_similarity": 1.0,
+      "distance_px": 1.0003550304357922,
+      "score": 0.9948746686358658,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H6F9",
+      "ocr_item_id": "OCR_0001",
+      "text_similarity": 1.0,
+      "distance_px": 1.770928830888571,
+      "score": 0.9933570168841678,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H6C9",
+      "ocr_item_id": "OCR_0005",
+      "text_similarity": 1.0,
+      "distance_px": 1.7169351374553141,
+      "score": 0.9924719932345425,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H729",
+      "ocr_item_id": "OCR_0008",
+      "text_similarity": 1.0,
+      "distance_px": 1.6504400823491656,
+      "score": 0.9918243496911907,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H773",
+      "ocr_item_id": "OCR_0011",
+      "text_similarity": 1.0,
+      "distance_px": 2.115228622577199,
+      "score": 0.9915438926653355,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H6AE",
+      "ocr_item_id": "OCR_0002",
+      "text_similarity": 1.0,
+      "distance_px": 2.2983924928163058,
+      "score": 0.9911335281519389,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H78D",
+      "ocr_item_id": "OCR_0007",
+      "text_similarity": 1.0,
+      "distance_px": 2.2409072843419837,
+      "score": 0.9903010976837177,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H743",
+      "ocr_item_id": "OCR_0006",
+      "text_similarity": 1.0,
+      "distance_px": 1.454267585491163,
+      "score": 0.9445399965544082,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H759",
+      "ocr_item_id": "OCR_0009",
+      "text_similarity": 0.6666666666666666,
+      "distance_px": 44.98184368500563,
+      "score": 0.5934692528478956,
+      "status": "conflict"
+    }
+  ],
+  "unmatched": {
+    "native_item_ids": [
+      "NATIVE_H26B",
+      "NATIVE_H276",
+      "NATIVE_H285",
+      "NATIVE_H293",
+      "NATIVE_H29C",
+      "NATIVE_H2A4",
+      "NATIVE_H2A9",
+      "NATIVE_H2AE",
+      "NATIVE_H2BF",
+      "NATIVE_H2F3",
+      "NATIVE_H2FC",
+      "NATIVE_H36C",
+      "NATIVE_H374",
+      "NATIVE_H37A",
+      "NATIVE_H385",
+      "NATIVE_H38C",
+      "NATIVE_H392",
+      "NATIVE_H399",
+      "NATIVE_H3F7",
+      "NATIVE_H3FE",
+      "NATIVE_H57F",
+      "NATIVE_H58E",
+      "NATIVE_H594",
+      "NATIVE_H603",
+      "NATIVE_H605",
+      "NATIVE_H67C",
+      "NATIVE_H67E",
+      "NATIVE_H680",
+      "NATIVE_H682",
+      "NATIVE_H7A7"
+    ],
+    "ocr_item_ids": [
+      "OCR_0010"
+    ]
+  },
+  "candidate_count": 12,
+  "statistics": {
+    "confirmed": 9,
+    "conflict": 1,
+    "ambiguous": 0,
+    "cad_only": 30,
+    "ocr_only": 1
+  }
+}

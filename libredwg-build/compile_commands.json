@@ -1,0 +1,482 @@
+[
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/bits.c.o -c /home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "output": "CMakeFiles/redwg.dir/src/bits.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "CMakeFiles/redwg.dir/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/common.c.o -c /home/lysq/CAD/libredwg/libredwg/src/common.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/common.c",
+  "output": "CMakeFiles/redwg.dir/src/common.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "CMakeFiles/redwg.dir/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "CMakeFiles/redwg.dir/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/objects.c.o -c /home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "output": "CMakeFiles/redwg.dir/src/objects.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/decode.c.o -c /home/lysq/CAD/libredwg/libredwg/src/decode.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/decode.c",
+  "output": "CMakeFiles/redwg.dir/src/decode.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/decode2.c.o -c /home/lysq/CAD/libredwg/libredwg/src/decode2.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/decode2.c",
+  "output": "CMakeFiles/redwg.dir/src/decode2.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/decode_r11.c.o -c /home/lysq/CAD/libredwg/libredwg/src/decode_r11.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/decode_r11.c",
+  "output": "CMakeFiles/redwg.dir/src/decode_r11.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/decode_r2007.c.o -c /home/lysq/CAD/libredwg/libredwg/src/decode_r2007.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/decode_r2007.c",
+  "output": "CMakeFiles/redwg.dir/src/decode_r2007.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/dwg.c.o -c /home/lysq/CAD/libredwg/libredwg/src/dwg.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/dwg.c",
+  "output": "CMakeFiles/redwg.dir/src/dwg.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/hash.c.o -c /home/lysq/CAD/libredwg/libredwg/src/hash.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/hash.c",
+  "output": "CMakeFiles/redwg.dir/src/hash.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/dwg_api.c.o -c /home/lysq/CAD/libredwg/libredwg/src/dwg_api.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/dwg_api.c",
+  "output": "CMakeFiles/redwg.dir/src/dwg_api.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/dynapi.c.o -c /home/lysq/CAD/libredwg/libredwg/src/dynapi.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/dynapi.c",
+  "output": "CMakeFiles/redwg.dir/src/dynapi.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/dxfclasses.c.o -c /home/lysq/CAD/libredwg/libredwg/src/dxfclasses.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/dxfclasses.c",
+  "output": "CMakeFiles/redwg.dir/src/dxfclasses.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/free.c.o -c /home/lysq/CAD/libredwg/libredwg/src/free.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/free.c",
+  "output": "CMakeFiles/redwg.dir/src/free.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/geom.c.o -c /home/lysq/CAD/libredwg/libredwg/src/geom.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/geom.c",
+  "output": "CMakeFiles/redwg.dir/src/geom.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/out_dxf.c.o -c /home/lysq/CAD/libredwg/libredwg/src/out_dxf.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/out_dxf.c",
+  "output": "CMakeFiles/redwg.dir/src/out_dxf.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/out_json.c.o -c /home/lysq/CAD/libredwg/libredwg/src/out_json.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/out_json.c",
+  "output": "CMakeFiles/redwg.dir/src/out_json.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/out_geojson.c.o -c /home/lysq/CAD/libredwg/libredwg/src/out_geojson.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/out_geojson.c",
+  "output": "CMakeFiles/redwg.dir/src/out_geojson.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/out_dxfb.c.o -c /home/lysq/CAD/libredwg/libredwg/src/out_dxfb.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/out_dxfb.c",
+  "output": "CMakeFiles/redwg.dir/src/out_dxfb.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/encode.c.o -c /home/lysq/CAD/libredwg/libredwg/src/encode.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/encode.c",
+  "output": "CMakeFiles/redwg.dir/src/encode.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/encode2.c.o -c /home/lysq/CAD/libredwg/libredwg/src/encode2.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/encode2.c",
+  "output": "CMakeFiles/redwg.dir/src/encode2.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/in_dxf.c.o -c /home/lysq/CAD/libredwg/libredwg/src/in_dxf.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/in_dxf.c",
+  "output": "CMakeFiles/redwg.dir/src/in_dxf.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/in_json.c.o -c /home/lysq/CAD/libredwg/libredwg/src/in_json.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/in_json.c",
+  "output": "CMakeFiles/redwg.dir/src/in_json.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/reedsolomon.c.o -c /home/lysq/CAD/libredwg/libredwg/src/reedsolomon.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/reedsolomon.c",
+  "output": "CMakeFiles/redwg.dir/src/reedsolomon.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -Dredwg_EXPORTS -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -std=gnu99 -fPIC -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/redwg.dir/src/print.c.o -c /home/lysq/CAD/libredwg/libredwg/src/print.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/print.c",
+  "output": "CMakeFiles/redwg.dir/src/print.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwgread.dir/programs/dwgread.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwgread.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwgread.c",
+  "output": "CMakeFiles/dwgread.dir/programs/dwgread.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwg2dxf.dir/programs/dwg2dxf.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwg2dxf.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwg2dxf.c",
+  "output": "CMakeFiles/dwg2dxf.dir/programs/dwg2dxf.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwgrewrite.dir/programs/dwgrewrite.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwgrewrite.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwgrewrite.c",
+  "output": "CMakeFiles/dwgrewrite.dir/programs/dwgrewrite.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwgwrite.dir/programs/dwgwrite.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwgwrite.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwgwrite.c",
+  "output": "CMakeFiles/dwgwrite.dir/programs/dwgwrite.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dxf2dwg.dir/programs/dxf2dwg.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dxf2dwg.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dxf2dwg.c",
+  "output": "CMakeFiles/dxf2dwg.dir/programs/dxf2dwg.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwggrep.dir/programs/dwggrep.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwggrep.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwggrep.c",
+  "output": "CMakeFiles/dwggrep.dir/programs/dwggrep.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwglayers.dir/programs/dwglayers.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwglayers.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwglayers.c",
+  "output": "CMakeFiles/dwglayers.dir/programs/dwglayers.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwgbmp.dir/programs/dwgbmp.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwgbmp.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwgbmp.c",
+  "output": "CMakeFiles/dwgbmp.dir/programs/dwgbmp.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwg2SVG.dir/programs/dwg2SVG.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/dwg2SVG.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/dwg2SVG.c",
+  "output": "CMakeFiles/dwg2SVG.dir/programs/dwg2SVG.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dwg2SVG.dir/programs/escape.c.o -c /home/lysq/CAD/libredwg/libredwg/programs/escape.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/programs/escape.c",
+  "output": "CMakeFiles/dwg2SVG.dir/programs/escape.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/bits_test.dir/bits_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/bits_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/bits_test.c",
+  "output": "test/unit-testing/CMakeFiles/bits_test.dir/bits_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/bits_test.dir/__/__/src/bits.c.o -c /home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "output": "test/unit-testing/CMakeFiles/bits_test.dir/__/__/src/bits.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/bits_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/bits_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/bits_test.dir/__/__/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "test/unit-testing/CMakeFiles/bits_test.dir/__/__/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/bits_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/bits_test.dir/__/__/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/bits_test.dir/__/__/src/objects.c.o -c /home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "output": "test/unit-testing/CMakeFiles/bits_test.dir/__/__/src/objects.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/hash_test.dir/hash_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/hash_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/hash_test.c",
+  "output": "test/unit-testing/CMakeFiles/hash_test.dir/hash_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/hash_test.dir/__/__/src/bits.c.o -c /home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "output": "test/unit-testing/CMakeFiles/hash_test.dir/__/__/src/bits.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/hash_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/hash_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/hash_test.dir/__/__/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "test/unit-testing/CMakeFiles/hash_test.dir/__/__/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/hash_test.dir/__/__/src/hash.c.o -c /home/lysq/CAD/libredwg/libredwg/src/hash.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/hash.c",
+  "output": "test/unit-testing/CMakeFiles/hash_test.dir/__/__/src/hash.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/hash_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/hash_test.dir/__/__/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/common_test.dir/common_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/common_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/common_test.c",
+  "output": "test/unit-testing/CMakeFiles/common_test.dir/common_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/common_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/common_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/common_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/common_test.dir/__/__/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/common_test.dir/__/__/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "test/unit-testing/CMakeFiles/common_test.dir/__/__/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/decode_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/decode_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/decode_test.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/decode_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/dwg.c.o -c /home/lysq/CAD/libredwg/libredwg/src/dwg.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/dwg.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/dwg.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/bits.c.o -c /home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/bits.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/hash.c.o -c /home/lysq/CAD/libredwg/libredwg/src/hash.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/hash.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/hash.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/decode_r2007.c.o -c /home/lysq/CAD/libredwg/libredwg/src/decode_r2007.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/decode_r2007.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/decode_r2007.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/objects.c.o -c /home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/objects.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/print.c.o -c /home/lysq/CAD/libredwg/libredwg/src/print.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/print.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/print.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include -I/home/lysq/CAD/libredwg-build/test/unit-testing  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/decode_test.dir/__/__/src/decode2.c.o -c /home/lysq/CAD/libredwg/libredwg/src/decode2.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/decode2.c",
+  "output": "test/unit-testing/CMakeFiles/decode_test.dir/__/__/src/decode2.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dxf_test.dir/dxf_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/dxf_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/dxf_test.c",
+  "output": "test/unit-testing/CMakeFiles/dxf_test.dir/dxf_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dxf_test.dir/__/__/src/dynapi.c.o -c /home/lysq/CAD/libredwg/libredwg/src/dynapi.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/dynapi.c",
+  "output": "test/unit-testing/CMakeFiles/dxf_test.dir/__/__/src/dynapi.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dxf_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/dxf_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dxf_test.dir/__/__/src/objects.c.o -c /home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "output": "test/unit-testing/CMakeFiles/dxf_test.dir/__/__/src/objects.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dxf_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/dxf_test.dir/__/__/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dynapi_test.dir/dynapi_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/dynapi_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/dynapi_test.c",
+  "output": "test/unit-testing/CMakeFiles/dynapi_test.dir/dynapi_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dynapi_test.dir/__/__/src/bits.c.o -c /home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "output": "test/unit-testing/CMakeFiles/dynapi_test.dir/__/__/src/bits.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dynapi_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/dynapi_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dynapi_test.dir/__/__/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "test/unit-testing/CMakeFiles/dynapi_test.dir/__/__/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dynapi_test.dir/__/__/src/objects.c.o -c /home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/objects.c",
+  "output": "test/unit-testing/CMakeFiles/dynapi_test.dir/__/__/src/objects.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/dynapi_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/dynapi_test.dir/__/__/src/classes.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/add_test.dir/add_test.c.o -c /home/lysq/CAD/libredwg/libredwg/test/unit-testing/add_test.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/test/unit-testing/add_test.c",
+  "output": "test/unit-testing/CMakeFiles/add_test.dir/add_test.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/add_test.dir/__/__/src/bits.c.o -c /home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/bits.c",
+  "output": "test/unit-testing/CMakeFiles/add_test.dir/__/__/src/bits.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/add_test.dir/__/__/src/codepages.c.o -c /home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/codepages.c",
+  "output": "test/unit-testing/CMakeFiles/add_test.dir/__/__/src/codepages.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/add_test.dir/__/__/src/logging.c.o -c /home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/logging.c",
+  "output": "test/unit-testing/CMakeFiles/add_test.dir/__/__/src/logging.c.o"
+},
+{
+  "directory": "/home/lysq/CAD/libredwg-build/test/unit-testing",
+  "command": "/usr/bin/cc -DDLL_EXPORT -DENABLE_SHARED -I/home/lysq/CAD/libredwg-build/src -I/home/lysq/CAD/libredwg/libredwg/src -I/home/lysq/CAD/libredwg/libredwg/include  -DLTO -O3 -DNDEBUG -W -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wcast-align -Wmissing-field-initializers -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks -Wno-error=array-bounds -o CMakeFiles/add_test.dir/__/__/src/classes.c.o -c /home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "file": "/home/lysq/CAD/libredwg/libredwg/src/classes.c",
+  "output": "test/unit-testing/CMakeFiles/add_test.dir/__/__/src/classes.c.o"
+}
+]

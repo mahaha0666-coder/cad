@@ -1,0 +1,3929 @@
+{
+  "schema_version": "cad-structured-v1",
+  "drawing": {
+    "source_file": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.dwg",
+    "source_format": "DWG",
+    "parser": "LibreDWG"
+  },
+  "layers": [
+    {
+      "id": "H10",
+      "name": "0",
+      "handle": [
+        0,
+        1,
+        16
+      ],
+      "source_index": 13
+    },
+    {
+      "id": "H24F",
+      "name": "Dotted",
+      "handle": [
+        0,
+        2,
+        591
+      ],
+      "source_index": 145
+    },
+    {
+      "id": "H282",
+      "name": "*ADSK_CONSTRAINTS",
+      "handle": [
+        0,
+        2,
+        642
+      ],
+      "source_index": 170
+    },
+    {
+      "id": "H2B7",
+      "name": "Hashing",
+      "handle": [
+        0,
+        2,
+        695
+      ],
+      "source_index": 199
+    },
+    {
+      "id": "H327",
+      "name": "Dimensions",
+      "handle": [
+        0,
+        2,
+        807
+      ],
+      "source_index": 208
+    },
+    {
+      "id": "H32A",
+      "name": "Defpoints",
+      "handle": [
+        0,
+        2,
+        810
+      ],
+      "source_index": 211
+    }
+  ],
+  "blocks": [
+    {
+      "id": "H1F",
+      "name": "*Model_Space",
+      "handle": [
+        0,
+        1,
+        31
+      ],
+      "source_index": 23,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "H25C",
+        "H25D",
+        "H25E",
+        "H25F",
+        "H260",
+        "H261",
+        "H262",
+        "H263",
+        "H264",
+        "H265",
+        "H266",
+        "H267",
+        "H292",
+        "H293",
+        "H294",
+        "H295",
+        "H296",
+        "H29D",
+        "H2A0",
+        "H2A9",
+        "H2AB",
+        "H2AC",
+        "H2AD",
+        "H2AE",
+        "H2B6",
+        "H2FE",
+        "H2FF",
+        "H326",
+        "H329",
+        "H340",
+        "H356",
+        "H36C",
+        "H382",
+        "H398",
+        "H3AA",
+        "H3C0",
+        "H3DB",
+        "H3F6",
+        "H411",
+        "H427",
+        "H43D",
+        "H44F",
+        "H450",
+        "H451",
+        "H452",
+        "H469",
+        "H46A",
+        "H484"
+      ],
+      "block_entity_id": "H20",
+      "endblk_entity_id": "H21",
+      "layout_id": "H22"
+    },
+    {
+      "id": "H58",
+      "name": "*Paper_Space",
+      "handle": [
+        0,
+        1,
+        88
+      ],
+      "source_index": 28,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "block_entity_id": "H5A",
+      "endblk_entity_id": "H5B",
+      "layout_id": "H59"
+    },
+    {
+      "id": "H5D",
+      "name": "*Paper_Space",
+      "handle": [
+        0,
+        1,
+        93
+      ],
+      "source_index": 32,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "block_entity_id": "H5F",
+      "endblk_entity_id": "H60",
+      "layout_id": "H5E"
+    },
+    {
+      "id": "H283",
+      "name": "_ClosedBlank",
+      "handle": [
+        0,
+        2,
+        643
+      ],
+      "source_index": 171,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "H284",
+        "H285",
+        "H286"
+      ],
+      "block_entity_id": "H287",
+      "endblk_entity_id": "H288",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H32B",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        811
+      ],
+      "source_index": 212,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H567",
+        "H568",
+        "H569",
+        "H56A",
+        "H56B",
+        "H56C",
+        "H56D",
+        "H56E"
+      ],
+      "block_entity_id": "H32C",
+      "endblk_entity_id": "H32D",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H341",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        833
+      ],
+      "source_index": 218,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H6F7",
+        "H6F8",
+        "H6F9",
+        "H6FA",
+        "H6FB",
+        "H6FC",
+        "H6FD"
+      ],
+      "block_entity_id": "H342",
+      "endblk_entity_id": "H343",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H357",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        855
+      ],
+      "source_index": 224,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H6D5",
+        "H6D6",
+        "H6D7",
+        "H6D8",
+        "H6D9",
+        "H6DA",
+        "H6DB",
+        "H6DC"
+      ],
+      "block_entity_id": "H358",
+      "endblk_entity_id": "H359",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H36D",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        877
+      ],
+      "source_index": 230,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H503",
+        "H504",
+        "H505",
+        "H506",
+        "H507",
+        "H508",
+        "H509",
+        "H50A"
+      ],
+      "block_entity_id": "H36E",
+      "endblk_entity_id": "H36F",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H383",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        899
+      ],
+      "source_index": 236,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H513",
+        "H514",
+        "H515",
+        "H516",
+        "H517",
+        "H518",
+        "H519",
+        "H51A"
+      ],
+      "block_entity_id": "H384",
+      "endblk_entity_id": "H385",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H399",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        921
+      ],
+      "source_index": 242,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H4CD",
+        "H4CE",
+        "H4CF",
+        "H4D0",
+        "H4D1",
+        "H4D2"
+      ],
+      "block_entity_id": "H39A",
+      "endblk_entity_id": "H39B",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H3AB",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        939
+      ],
+      "source_index": 248,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H52F",
+        "H530",
+        "H531",
+        "H532",
+        "H533",
+        "H534",
+        "H535",
+        "H536"
+      ],
+      "block_entity_id": "H3AC",
+      "endblk_entity_id": "H3AD",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H3C1",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        961
+      ],
+      "source_index": 254,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H541",
+        "H542",
+        "H543",
+        "H544",
+        "H545",
+        "H546",
+        "H547",
+        "H548",
+        "H549",
+        "H54A"
+      ],
+      "block_entity_id": "H3C2",
+      "endblk_entity_id": "H3C3",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H3DC",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        988
+      ],
+      "source_index": 271,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H555",
+        "H556",
+        "H557",
+        "H558",
+        "H559",
+        "H55A",
+        "H55B",
+        "H55C",
+        "H55D",
+        "H55E"
+      ],
+      "block_entity_id": "H3DD",
+      "endblk_entity_id": "H3DE",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H3F7",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1015
+      ],
+      "source_index": 288,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H6E5",
+        "H6E6",
+        "H6E7",
+        "H6E8",
+        "H6E9",
+        "H6EA",
+        "H6EB",
+        "H6EC",
+        "H6ED",
+        "H6EE"
+      ],
+      "block_entity_id": "H3F8",
+      "endblk_entity_id": "H3F9",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H412",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1042
+      ],
+      "source_index": 292,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H6EF",
+        "H6F0",
+        "H6F1",
+        "H6F2",
+        "H6F3",
+        "H6F4",
+        "H6F5",
+        "H6F6"
+      ],
+      "block_entity_id": "H413",
+      "endblk_entity_id": "H414",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H428",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1064
+      ],
+      "source_index": 298,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H6DD",
+        "H6DE",
+        "H6DF",
+        "H6E0",
+        "H6E1",
+        "H6E2",
+        "H6E3",
+        "H6E4"
+      ],
+      "block_entity_id": "H429",
+      "endblk_entity_id": "H42A",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H43E",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1086
+      ],
+      "source_index": 304,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H521",
+        "H522",
+        "H523",
+        "H524",
+        "H525",
+        "H526"
+      ],
+      "block_entity_id": "H43F",
+      "endblk_entity_id": "H440",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H46B",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1131
+      ],
+      "source_index": 315,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H712",
+        "H713",
+        "H714",
+        "H715",
+        "H716",
+        "H717",
+        "H718",
+        "H719",
+        "H71A",
+        "H71B"
+      ],
+      "block_entity_id": "H46C",
+      "endblk_entity_id": "H46D",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H485",
+      "name": "*D",
+      "handle": [
+        0,
+        2,
+        1157
+      ],
+      "source_index": 321,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "entity_ids": [
+        "H4F1",
+        "H4F2",
+        "H4F3",
+        "H4F4",
+        "H4F5",
+        "H4F6",
+        "H4F7",
+        "H4F8",
+        "H4F9",
+        "H4FA"
+      ],
+      "block_entity_id": "H486",
+      "endblk_entity_id": "H487",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H5F1",
+      "name": "*U",
+      "handle": [
+        0,
+        2,
+        1521
+      ],
+      "source_index": 429,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 1,
+      "block_entity_id": "H5F2",
+      "endblk_entity_id": "H5F3",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H626",
+      "name": "GENAXEH",
+      "handle": [
+        0,
+        2,
+        1574
+      ],
+      "source_index": 475,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "H627"
+      ],
+      "block_entity_id": "H628",
+      "endblk_entity_id": "H629",
+      "layout_id": "H0"
+    },
+    {
+      "id": "H634",
+      "name": "_ACMFILLEDHALF",
+      "handle": [
+        0,
+        2,
+        1588
+      ],
+      "source_index": 489,
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anonymous": 0,
+      "entity_ids": [
+        "H637",
+        "H638"
+      ],
+      "block_entity_id": "H635",
+      "endblk_entity_id": "H636",
+      "layout_id": "H0"
+    }
+  ],
+  "entities": [
+    {
+      "id": "H25C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        604
+      ],
+      "source_index": 151,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        10.0,
+        100.0,
+        0.0
+      ],
+      "end": [
+        160.0,
+        100.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H25D",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        605
+      ],
+      "source_index": 152,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        85.0,
+        100.0,
+        0.0
+      ],
+      "radius": 15.0,
+      "start_angle": 1.8407291226283,
+      "end_angle": 1.3008635309615
+    },
+    {
+      "id": "H25E",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        606
+      ],
+      "source_index": 153,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        84.82,
+        180.05673586729165,
+        0.0
+      ],
+      "end": [
+        84.99999999999997,
+        13.10698902465356,
+        0.0
+      ]
+    },
+    {
+      "id": "H25F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        607
+      ],
+      "source_index": 154,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        40.0,
+        36.0,
+        0.0
+      ],
+      "end": [
+        144.18832241554537,
+        36.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H260",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        608
+      ],
+      "source_index": 155,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        84.99999999999997,
+        36.0,
+        0.0
+      ],
+      "radius": 20.0
+    },
+    {
+      "id": "H261",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        609
+      ],
+      "source_index": 156,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        84.99999999999997,
+        36.0,
+        0.0
+      ],
+      "radius": 11.0
+    },
+    {
+      "id": "H262",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        610
+      ],
+      "source_index": 157,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        35.0,
+        140.0,
+        0.0
+      ],
+      "end": [
+        34.99999999999999,
+        57.28685939913862,
+        0.0
+      ]
+    },
+    {
+      "id": "H263",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        611
+      ],
+      "source_index": 158,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        34.99999999999999,
+        100.0,
+        0.0
+      ],
+      "radius": 10.0
+    },
+    {
+      "id": "H264",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        612
+      ],
+      "source_index": 159,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        85.0,
+        100.0,
+        0.0
+      ],
+      "radius": 25.0,
+      "start_angle": 3.88257639280942,
+      "end_angle": 5.54220156795996
+    },
+    {
+      "id": "H265",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        613
+      ],
+      "source_index": 160,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        34.99999999999999,
+        100.0,
+        0.0
+      ],
+      "radius": 18.0,
+      "start_angle": 2.50892265257126,
+      "end_angle": 5.33220124061086
+    },
+    {
+      "id": "H266",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        614
+      ],
+      "source_index": 161,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        54.75,
+        72.32442412523274,
+        0.0
+      ],
+      "radius": 16.0,
+      "start_angle": 0.74098373921963,
+      "end_angle": 2.19060858702107
+    },
+    {
+      "id": "H267",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        615
+      ],
+      "source_index": 162,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        84.99999999999997,
+        63.33939444035326,
+        0.0
+      ],
+      "radius": 80.0,
+      "start_angle": 1.5707963267949,
+      "end_angle": 2.50892265257126
+    },
+    {
+      "id": "H284",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        644
+      ],
+      "source_index": 172,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.16666666666667,
+        0.0
+      ],
+      "end": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H285",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        645
+      ],
+      "source_index": 173,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        -1.0,
+        -0.16666666666667,
+        0.0
+      ]
+    },
+    {
+      "id": "H286",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        646
+      ],
+      "source_index": 174,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.16666666666667,
+        0.0
+      ],
+      "end": [
+        -1.0,
+        -0.16666666666667,
+        0.0
+      ]
+    },
+    {
+      "id": "H292",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        658
+      ],
+      "source_index": 179,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        135.0,
+        139.99999999999997,
+        0.0
+      ],
+      "end": [
+        134.99999999999994,
+        57.28685939913859,
+        0.0
+      ]
+    },
+    {
+      "id": "H293",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        659
+      ],
+      "source_index": 180,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        134.99999999999997,
+        99.99999999999997,
+        0.0
+      ],
+      "radius": 10.0
+    },
+    {
+      "id": "H294",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        660
+      ],
+      "source_index": 181,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        134.99999999999997,
+        99.99999999999997,
+        0.0
+      ],
+      "radius": 18.0,
+      "start_angle": 4.09257672015851,
+      "end_angle": 0.63267000101853
+    },
+    {
+      "id": "H295",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        661
+      ],
+      "source_index": 182,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        115.24999999999994,
+        72.32442412523272,
+        0.0
+      ],
+      "radius": 16.0,
+      "start_angle": 0.95098406656872,
+      "end_angle": 2.40060891437017
+    },
+    {
+      "id": "H296",
+      "type": "ARC",
+      "handle": [
+        0,
+        2,
+        662
+      ],
+      "source_index": 183,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        84.99999999999996,
+        63.33939444035326,
+        0.0
+      ],
+      "radius": 80.0,
+      "start_angle": 0.63267000101853,
+      "end_angle": 1.5707963267949
+    },
+    {
+      "id": "H29D",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        669
+      ],
+      "source_index": 184,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        20.54697018437083,
+        89.27107045653972,
+        0.0
+      ],
+      "end": [
+        68.94107798263425,
+        24.07896717393304,
+        0.0
+      ]
+    },
+    {
+      "id": "H2A0",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        672
+      ],
+      "source_index": 187,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        149.45302981562915,
+        89.27107045653969,
+        0.0
+      ],
+      "end": [
+        101.0589220173657,
+        24.07896717393303,
+        0.0
+      ]
+    },
+    {
+      "id": "H2A9",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        681
+      ],
+      "source_index": 188,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        51.0,
+        160.0,
+        0.0
+      ],
+      "radius": 17.0
+    },
+    {
+      "id": "H2AB",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        683
+      ],
+      "source_index": 189,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        51.0,
+        179.2706747379509,
+        0.0
+      ],
+      "end": [
+        50.99999999999999,
+        121.54902131255972,
+        0.0
+      ]
+    },
+    {
+      "id": "H2AC",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        684
+      ],
+      "source_index": 190,
+      "layer": "Dotted",
+      "layer_handle": [
+        5,
+        2,
+        591,
+        591
+      ],
+      "start": [
+        14.98603980797998,
+        160.0,
+        0.0
+      ],
+      "end": [
+        100.19235770483283,
+        160.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H2AD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        685
+      ],
+      "source_index": 191,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        60.1792652307626,
+        174.30877667109644,
+        0.0
+      ],
+      "end": [
+        128.1965422624121,
+        130.67481406904236,
+        0.0
+      ]
+    },
+    {
+      "id": "H2AE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        686
+      ],
+      "source_index": 192,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        34.64667551057998,
+        164.64421986384534,
+        0.0
+      ],
+      "end": [
+        17.68471524649646,
+        104.91740926760095,
+        0.0
+      ]
+    },
+    {
+      "id": "H2B6",
+      "type": "CIRCLE",
+      "handle": [
+        0,
+        2,
+        694
+      ],
+      "source_index": 198,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "center": [
+        51.0,
+        160.0,
+        0.0
+      ],
+      "radius": 10.0
+    },
+    {
+      "id": "H329",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        809
+      ],
+      "source_index": 210,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "{\\H11.11111x;%%C22}",
+      "measurement": 22.00000000000001,
+      "text_position": [
+        60.2524464130309,
+        26.0375352668484
+      ],
+      "block_handle": [
+        5,
+        2,
+        811,
+        811
+      ],
+      "block_id": "H32B"
+    },
+    {
+      "id": "H340",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        832
+      ],
+      "source_index": 217,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "{\\H11.11111x;%%C40}",
+      "measurement": 40.00000000000001,
+      "text_position": [
+        123.59347409930409,
+        27.83587435142328
+      ],
+      "block_handle": [
+        5,
+        2,
+        833,
+        833
+      ],
+      "block_id": "H341"
+    },
+    {
+      "id": "H356",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        854
+      ],
+      "source_index": 223,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R80}",
+      "measurement": 80.00000000000001,
+      "text_position": [
+        121.18423588850408,
+        159.11953292436573
+      ],
+      "block_handle": [
+        5,
+        2,
+        855,
+        855
+      ],
+      "block_id": "H357"
+    },
+    {
+      "id": "H36C",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        876
+      ],
+      "source_index": 229,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "{\\H11.11111x;%%C20}",
+      "measurement": 20.0,
+      "text_position": [
+        158.5928720541846,
+        131.6600968541777
+      ],
+      "block_handle": [
+        5,
+        2,
+        877,
+        877
+      ],
+      "block_id": "H36D"
+    },
+    {
+      "id": "H382",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        898
+      ],
+      "source_index": 235,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R18}",
+      "measurement": 18.00000000000003,
+      "text_position": [
+        151.5996428837951,
+        81.3774567110777
+      ],
+      "block_handle": [
+        5,
+        2,
+        899,
+        899
+      ],
+      "block_id": "H383"
+    },
+    {
+      "id": "H398",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        920
+      ],
+      "source_index": 241,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "{\\H11.11111x;%%C30}",
+      "measurement": 30.0,
+      "text_position": [
+        88.27214104143832,
+        105.33175662916483
+      ],
+      "block_handle": [
+        5,
+        2,
+        921,
+        921
+      ],
+      "block_id": "H399"
+    },
+    {
+      "id": "H3AA",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        938
+      ],
+      "source_index": 247,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R25}",
+      "measurement": 24.99999999999997,
+      "text_position": [
+        68.34477924785736,
+        70.23128062456567
+      ],
+      "block_handle": [
+        5,
+        2,
+        939,
+        939
+      ],
+      "block_id": "H3AB"
+    },
+    {
+      "id": "H3C0",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        960
+      ],
+      "source_index": 253,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;60}",
+      "measurement": 60.0,
+      "text_position": [
+        8.02339386483532,
+        130.00000000000003
+      ],
+      "block_handle": [
+        5,
+        2,
+        961,
+        961
+      ],
+      "block_id": "H3C1"
+    },
+    {
+      "id": "H3DB",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        987
+      ],
+      "source_index": 270,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;64}",
+      "measurement": 64.00000000000003,
+      "text_position": [
+        8.09912861500291,
+        68.00000000000001
+      ],
+      "block_handle": [
+        5,
+        2,
+        988,
+        988
+      ],
+      "block_id": "H3DC"
+    },
+    {
+      "id": "H3F6",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1014
+      ],
+      "source_index": 287,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;34}",
+      "measurement": 34.0,
+      "text_position": [
+        68.0,
+        176.83786642305984
+      ],
+      "block_handle": [
+        5,
+        2,
+        1015,
+        1015
+      ],
+      "block_id": "H3F7"
+    },
+    {
+      "id": "H411",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1041
+      ],
+      "source_index": 291,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "{\\H11.11111x;%%C20}",
+      "measurement": 20.00000000000001,
+      "text_position": [
+        76.19393067394267,
+        171.13839197838567
+      ],
+      "block_handle": [
+        5,
+        2,
+        1042,
+        1042
+      ],
+      "block_id": "H412"
+    },
+    {
+      "id": "H427",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1063
+      ],
+      "source_index": 297,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_DIAMETER",
+      "text": "{\\H11.11111x;%%C34}",
+      "measurement": 34.00000000000004,
+      "text_position": [
+        24.93136401610682,
+        174.24510373212706
+      ],
+      "block_handle": [
+        5,
+        2,
+        1064,
+        1064
+      ],
+      "block_id": "H428"
+    },
+    {
+      "id": "H43D",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1085
+      ],
+      "source_index": 303,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_RADIUS",
+      "text": "{\\H11.11111x;R16}",
+      "measurement": 16.00000000000004,
+      "text_position": [
+        116.96541070824912,
+        81.20344597844611
+      ],
+      "block_handle": [
+        5,
+        2,
+        1086,
+        1086
+      ],
+      "block_id": "H43E"
+    },
+    {
+      "id": "H44F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1103
+      ],
+      "source_index": 309,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        85.0,
+        123.0,
+        0.0
+      ],
+      "end": [
+        81.0,
+        123.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H450",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1104
+      ],
+      "source_index": 310,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        81.0,
+        123.0,
+        0.0
+      ],
+      "end": [
+        81.0,
+        114.45683229480096,
+        0.0
+      ]
+    },
+    {
+      "id": "H451",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1105
+      ],
+      "source_index": 311,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        84.99999999999997,
+        123.0,
+        0.0
+      ],
+      "end": [
+        88.99999999999997,
+        123.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H452",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1106
+      ],
+      "source_index": 312,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        88.99999999999997,
+        123.0,
+        0.0
+      ],
+      "end": [
+        88.99999999999997,
+        114.45683229480096,
+        0.0
+      ]
+    },
+    {
+      "id": "H46A",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1130
+      ],
+      "source_index": 314,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;38}",
+      "measurement": 37.99979972308621,
+      "text_position": [
+        62.73881684210621,
+        104.0001001384569
+      ],
+      "block_handle": [
+        5,
+        2,
+        1131,
+        1131
+      ],
+      "block_id": "H46B"
+    },
+    {
+      "id": "H484",
+      "type": "DIMENSION",
+      "handle": [
+        0,
+        2,
+        1156
+      ],
+      "source_index": 320,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "dimension_type": "DIMENSION_LINEAR",
+      "text": "{\\H11.11111x;8}",
+      "measurement": 7.99999999999997,
+      "text_position": [
+        84.99999999999999,
+        129.8764424556116
+      ],
+      "block_handle": [
+        5,
+        2,
+        1157,
+        1157
+      ],
+      "block_id": "H485"
+    },
+    {
+      "id": "H4CD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1229
+      ],
+      "source_index": 326,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        90.87919399573573,
+        105.3317566291648,
+        0.0
+      ],
+      "end": [
+        91.05919399573574,
+        105.33175662916481,
+        0.0
+      ]
+    },
+    {
+      "id": "H4CE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1230
+      ],
+      "source_index": 327,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        91.05919399573574,
+        105.33175662916481,
+        0.0
+      ],
+      "end": [
+        96.12587855120123,
+        109.79015967509827,
+        0.0
+      ]
+    },
+    {
+      "id": "H4CF",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1231
+      ],
+      "source_index": 328,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;%%C30}",
+      "position": [
+        88.27214104143832,
+        105.33175662916483,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H4F1",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1265
+      ],
+      "source_index": 332,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        81.0,
+        123.0625,
+        0.0
+      ],
+      "end": [
+        81.0,
+        130.0564424556116,
+        0.0
+      ]
+    },
+    {
+      "id": "H4F2",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1266
+      ],
+      "source_index": 333,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        88.99999999999997,
+        123.0625,
+        0.0
+      ],
+      "end": [
+        88.99999999999997,
+        130.0564424556116,
+        0.0
+      ]
+    },
+    {
+      "id": "H4F3",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1267
+      ],
+      "source_index": 334,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        81.18,
+        129.8764424556116,
+        0.0
+      ],
+      "end": [
+        84.25106418594814,
+        129.8764424556116,
+        0.0
+      ]
+    },
+    {
+      "id": "H4F4",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1268
+      ],
+      "source_index": 335,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        88.81999999999996,
+        129.8764424556116,
+        0.0
+      ],
+      "end": [
+        85.74893581405183,
+        129.8764424556116,
+        0.0
+      ]
+    },
+    {
+      "id": "H4F7",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1271
+      ],
+      "source_index": 338,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;8}",
+      "position": [
+        84.99999999999999,
+        129.8764424556116,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H503",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1283
+      ],
+      "source_index": 342,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        155.98581909988718,
+        131.6600968541777,
+        0.0
+      ],
+      "end": [
+        155.8058190998872,
+        131.66009685417774,
+        0.0
+      ]
+    },
+    {
+      "id": "H504",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1284
+      ],
+      "source_index": 343,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        155.8058190998872,
+        131.66009685417774,
+        0.0
+      ],
+      "end": [
+        140.59074585062842,
+        108.50740623419856,
+        0.0
+      ]
+    },
+    {
+      "id": "H505",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1285
+      ],
+      "source_index": 344,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;%%C20}",
+      "position": [
+        158.5928720541846,
+        131.6600968541777,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H507",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1287
+      ],
+      "source_index": 346,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        134.90999999999997,
+        99.99999999999996,
+        0.0
+      ],
+      "end": [
+        135.08999999999997,
+        99.99999999999996,
+        0.0
+      ]
+    },
+    {
+      "id": "H508",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1288
+      ],
+      "source_index": 347,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        134.99999999999994,
+        99.90999999999995,
+        0.0
+      ],
+      "end": [
+        134.99999999999994,
+        100.08999999999995,
+        0.0
+      ]
+    },
+    {
+      "id": "H513",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1299
+      ],
+      "source_index": 350,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        149.11810151312662,
+        81.37745671107771,
+        0.0
+      ],
+      "end": [
+        148.93810151312653,
+        81.37745671107771,
+        0.0
+      ]
+    },
+    {
+      "id": "H514",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1300
+      ],
+      "source_index": 351,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        148.93810151312653,
+        81.37745671107771,
+        0.0
+      ],
+      "end": [
+        145.89358579208232,
+        85.4452004963812,
+        0.0
+      ]
+    },
+    {
+      "id": "H515",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1301
+      ],
+      "source_index": 352,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;R18}",
+      "position": [
+        151.5996428837951,
+        81.3774567110777,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H517",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1303
+      ],
+      "source_index": 354,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        134.90999999999997,
+        100.0,
+        0.0
+      ],
+      "end": [
+        135.09,
+        100.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "H518",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1304
+      ],
+      "source_index": 355,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        134.99999999999997,
+        99.91,
+        0.0
+      ],
+      "end": [
+        135.0,
+        100.09000000000002,
+        0.0
+      ]
+    },
+    {
+      "id": "H521",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1313
+      ],
+      "source_index": 358,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        114.4865978502682,
+        81.20344597844613,
+        0.0
+      ],
+      "end": [
+        114.3065978502682,
+        81.20344597844613,
+        0.0
+      ]
+    },
+    {
+      "id": "H522",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1314
+      ],
+      "source_index": 359,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        114.3065978502682,
+        81.20344597844613,
+        0.0
+      ],
+      "end": [
+        113.57852252071413,
+        88.05587552159922,
+        0.0
+      ]
+    },
+    {
+      "id": "H523",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1315
+      ],
+      "source_index": 360,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;R16}",
+      "position": [
+        116.96541070824912,
+        81.20344597844611,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H52F",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1327
+      ],
+      "source_index": 364,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        70.831777643901,
+        70.23128062456568,
+        0.0
+      ],
+      "end": [
+        71.01177764390101,
+        70.23128062456568,
+        0.0
+      ]
+    },
+    {
+      "id": "H530",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1328
+      ],
+      "source_index": 365,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        71.01177764390101,
+        70.23128062456568,
+        0.0
+      ],
+      "end": [
+        74.29133514485,
+        77.21059682615464,
+        0.0
+      ]
+    },
+    {
+      "id": "H531",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1329
+      ],
+      "source_index": 366,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;R25}",
+      "position": [
+        68.34477924785736,
+        70.23128062456567,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H533",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1331
+      ],
+      "source_index": 368,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.90999999999998,
+        100.00000000000003,
+        0.0
+      ],
+      "end": [
+        85.09,
+        100.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "H534",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1332
+      ],
+      "source_index": 369,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.99999999999999,
+        99.91,
+        0.0
+      ],
+      "end": [
+        85.0,
+        100.09000000000002,
+        0.0
+      ]
+    },
+    {
+      "id": "H541",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1345
+      ],
+      "source_index": 372,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        9.9375,
+        100.00000000000006,
+        0.0
+      ],
+      "end": [
+        7.84339386483529,
+        100.00000000000006,
+        0.0
+      ]
+    },
+    {
+      "id": "H542",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1346
+      ],
+      "source_index": 373,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        14.92353980797999,
+        160.00000000000006,
+        0.0
+      ],
+      "end": [
+        7.84339386483528,
+        160.00000000000006,
+        0.0
+      ]
+    },
+    {
+      "id": "H543",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1347
+      ],
+      "source_index": 374,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        8.02339386483529,
+        100.18000000000006,
+        0.0
+      ],
+      "end": [
+        8.02339386483528,
+        128.88885412667128,
+        0.0
+      ]
+    },
+    {
+      "id": "H544",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1348
+      ],
+      "source_index": 375,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        8.02339386483528,
+        159.82000000000005,
+        0.0
+      ],
+      "end": [
+        8.02339386483528,
+        131.11114587332884,
+        0.0
+      ]
+    },
+    {
+      "id": "H547",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1351
+      ],
+      "source_index": 378,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;60}",
+      "position": [
+        8.02339386483532,
+        130.00000000000003,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H555",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1365
+      ],
+      "source_index": 382,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        9.9375,
+        100.00000000000006,
+        0.0
+      ],
+      "end": [
+        7.91912861500289,
+        100.00000000000006,
+        0.0
+      ]
+    },
+    {
+      "id": "H556",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1366
+      ],
+      "source_index": 383,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        39.93750000000001,
+        36.00000000000001,
+        0.0
+      ],
+      "end": [
+        7.9191286150029,
+        36.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "H557",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1367
+      ],
+      "source_index": 384,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        8.09912861500289,
+        99.82000000000005,
+        0.0
+      ],
+      "end": [
+        8.09912861500289,
+        69.11114587332881,
+        0.0
+      ]
+    },
+    {
+      "id": "H558",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1368
+      ],
+      "source_index": 385,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        8.0991286150029,
+        36.18000000000001,
+        0.0
+      ],
+      "end": [
+        8.0991286150029,
+        66.88885412667125,
+        0.0
+      ]
+    },
+    {
+      "id": "H55B",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1371
+      ],
+      "source_index": 388,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;64}",
+      "position": [
+        8.09912861500291,
+        68.00000000000001,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H567",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1383
+      ],
+      "source_index": 392,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        62.85267808560936,
+        26.0375352668484,
+        0.0
+      ],
+      "end": [
+        63.03267808560934,
+        26.0375352668484,
+        0.0
+      ]
+    },
+    {
+      "id": "H568",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1384
+      ],
+      "source_index": 393,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        63.03267808560934,
+        26.0375352668484,
+        0.0
+      ],
+      "end": [
+        74.81814616548014,
+        31.3823975384975,
+        0.0
+      ]
+    },
+    {
+      "id": "H569",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1385
+      ],
+      "source_index": 394,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;%%C22}",
+      "position": [
+        60.2524464130309,
+        26.0375352668484,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H56B",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1387
+      ],
+      "source_index": 396,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.90999999999997,
+        36.00000000000002,
+        0.0
+      ],
+      "end": [
+        85.08999999999999,
+        36.00000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "H56C",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1388
+      ],
+      "source_index": 397,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        85.0,
+        35.91000000000003,
+        0.0
+      ],
+      "end": [
+        84.99999999999999,
+        36.09000000000003,
+        0.0
+      ]
+    },
+    {
+      "id": "H627",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1575
+      ],
+      "source_index": 476,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H638",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1592
+      ],
+      "source_index": 493,
+      "layer": "0",
+      "layer_handle": [
+        5,
+        1,
+        16,
+        16
+      ],
+      "start": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        -0.8,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H6D5",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1749
+      ],
+      "source_index": 517,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        118.70815154321076,
+        159.11953292436576,
+        0.0
+      ],
+      "end": [
+        118.52815154321077,
+        159.11953292436576,
+        0.0
+      ]
+    },
+    {
+      "id": "H6D6",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1750
+      ],
+      "source_index": 518,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        118.52815154321077,
+        159.11953292436576,
+        0.0
+      ],
+      "end": [
+        111.4910890196797,
+        139.0167001703501,
+        0.0
+      ]
+    },
+    {
+      "id": "H6D7",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1751
+      ],
+      "source_index": 519,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;R80}",
+      "position": [
+        121.18423588850408,
+        159.11953292436573,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H6D9",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1753
+      ],
+      "source_index": 521,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.91,
+        63.33939444035327,
+        0.0
+      ],
+      "end": [
+        85.09,
+        63.33939444035327,
+        0.0
+      ]
+    },
+    {
+      "id": "H6DA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1754
+      ],
+      "source_index": 522,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        85.0,
+        63.24939444035326,
+        0.0
+      ],
+      "end": [
+        85.0,
+        63.42939444035326,
+        0.0
+      ]
+    },
+    {
+      "id": "H6DD",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1757
+      ],
+      "source_index": 525,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        27.53773484223235,
+        174.24510373212703,
+        0.0
+      ],
+      "end": [
+        27.71773484223235,
+        174.24510373212703,
+        0.0
+      ]
+    },
+    {
+      "id": "H6DE",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1758
+      ],
+      "source_index": 526,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        27.71773484223235,
+        174.24510373212703,
+        0.0
+      ],
+      "end": [
+        36.34539602125621,
+        168.96632490077104,
+        0.0
+      ]
+    },
+    {
+      "id": "H6DF",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1759
+      ],
+      "source_index": 527,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;%%C34}",
+      "position": [
+        24.93136401610682,
+        174.24510373212706,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H6E1",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1761
+      ],
+      "source_index": 529,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        50.90999999999996,
+        159.99999999999991,
+        0.0
+      ],
+      "end": [
+        51.08999999999997,
+        159.99999999999991,
+        0.0
+      ]
+    },
+    {
+      "id": "H6E2",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1762
+      ],
+      "source_index": 530,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        50.99999999999996,
+        159.90999999999994,
+        0.0
+      ],
+      "end": [
+        50.99999999999997,
+        160.08999999999995,
+        0.0
+      ]
+    },
+    {
+      "id": "H6E5",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1765
+      ],
+      "source_index": 533,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        85.0,
+        172.60484454944208,
+        0.0
+      ],
+      "end": [
+        85.0,
+        177.01786642305984,
+        0.0
+      ]
+    },
+    {
+      "id": "H6E6",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1766
+      ],
+      "source_index": 534,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        51.0,
+        172.0926651779472,
+        0.0
+      ],
+      "end": [
+        51.0,
+        177.01786642305984,
+        0.0
+      ]
+    },
+    {
+      "id": "H6E7",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1767
+      ],
+      "source_index": 535,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.82,
+        176.83786642305984,
+        0.0
+      ],
+      "end": [
+        69.51769426377899,
+        176.83786642305984,
+        0.0
+      ]
+    },
+    {
+      "id": "H6E8",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1768
+      ],
+      "source_index": 536,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        51.18,
+        176.83786642305984,
+        0.0
+      ],
+      "end": [
+        66.48230573622101,
+        176.83786642305984,
+        0.0
+      ]
+    },
+    {
+      "id": "H6EB",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1771
+      ],
+      "source_index": 539,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;34}",
+      "position": [
+        68.0,
+        176.83786642305984,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H6EF",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1775
+      ],
+      "source_index": 543,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        73.58687771964526,
+        171.1383919783857,
+        0.0
+      ],
+      "end": [
+        73.40687771964525,
+        171.13839197838567,
+        0.0
+      ]
+    },
+    {
+      "id": "H6F0",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1776
+      ],
+      "source_index": 544,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        73.40687771964525,
+        171.13839197838567,
+        0.0
+      ],
+      "end": [
+        60.11582944758872,
+        164.53145158668548,
+        0.0
+      ]
+    },
+    {
+      "id": "H6F1",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1777
+      ],
+      "source_index": 545,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;%%C20}",
+      "position": [
+        76.19393067394267,
+        171.13839197838567,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H6F3",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1779
+      ],
+      "source_index": 547,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        50.91,
+        159.99999999999994,
+        0.0
+      ],
+      "end": [
+        51.09,
+        159.99999999999994,
+        0.0
+      ]
+    },
+    {
+      "id": "H6F4",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1780
+      ],
+      "source_index": 548,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        51.0,
+        159.90999999999997,
+        0.0
+      ],
+      "end": [
+        50.99999999999999,
+        160.08999999999997,
+        0.0
+      ]
+    },
+    {
+      "id": "H6F7",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1783
+      ],
+      "source_index": 551,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        123.59347409930409,
+        27.83587435142328,
+        0.0
+      ],
+      "end": [
+        104.74308442253731,
+        31.82351613380774,
+        0.0
+      ]
+    },
+    {
+      "id": "H6F8",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1784
+      ],
+      "source_index": 552,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;%%C40}",
+      "position": [
+        126.2005270536015,
+        27.83587435142328,
+        0.0
+      ],
+      "text_height": 0.18
+    },
+    {
+      "id": "H6FA",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1786
+      ],
+      "source_index": 554,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.90999999999998,
+        36.00000000000001,
+        0.0
+      ],
+      "end": [
+        85.09,
+        36.0,
+        0.0
+      ]
+    },
+    {
+      "id": "H6FB",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1787
+      ],
+      "source_index": 555,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.99999999999999,
+        35.91,
+        0.0
+      ],
+      "end": [
+        85.0,
+        36.09000000000001,
+        0.0
+      ]
+    },
+    {
+      "id": "H712",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1810
+      ],
+      "source_index": 558,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.85998698623304,
+        85.00020027691383,
+        0.0
+      ],
+      "end": [
+        62.5588168421062,
+        85.00020027691383,
+        0.0
+      ]
+    },
+    {
+      "id": "H713",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1811
+      ],
+      "source_index": 559,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        84.93750000000003,
+        123.00000000000006,
+        0.0
+      ],
+      "end": [
+        62.55881684210619,
+        123.00000000000006,
+        0.0
+      ]
+    },
+    {
+      "id": "H714",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1812
+      ],
+      "source_index": 560,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        62.7388168421062,
+        85.18020027691384,
+        0.0
+      ],
+      "end": [
+        62.7388168421062,
+        102.88827213695626,
+        0.0
+      ]
+    },
+    {
+      "id": "H715",
+      "type": "LINE",
+      "handle": [
+        0,
+        2,
+        1813
+      ],
+      "source_index": 561,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "start": [
+        62.73881684210619,
+        122.82000000000005,
+        0.0
+      ],
+      "end": [
+        62.7388168421062,
+        105.11192813995763,
+        0.0
+      ]
+    },
+    {
+      "id": "H718",
+      "type": "MTEXT",
+      "handle": [
+        0,
+        2,
+        1816
+      ],
+      "source_index": 564,
+      "layer": "Dimensions",
+      "layer_handle": [
+        5,
+        2,
+        807,
+        807
+      ],
+      "text": "\\A1;{\\H11.11111x;38}",
+      "position": [
+        62.73881684210621,
+        104.0001001384569,
+        0.0
+      ],
+      "text_height": 0.18
+    }
+  ],
+  "statistics": {
+    "raw_entity_counts": {
+      "ARC": 8,
+      "BLOCK": 22,
+      "CIRCLE": 6,
+      "DIMENSION_DIAMETER": 6,
+      "DIMENSION_LINEAR": 5,
+      "DIMENSION_RADIUS": 4,
+      "ENDBLK": 22,
+      "HATCH": 4,
+      "LINE": 75,
+      "MTEXT": 15,
+      "POINT": 35,
+      "SOLID": 20,
+      "TRACE": 1
+    },
+    "extracted_entity_counts": {
+      "ARC": 8,
+      "CIRCLE": 6,
+      "DIMENSION": 15,
+      "LINE": 75,
+      "MTEXT": 15
+    },
+    "skipped_entity_counts": {
+      "BLOCK": 22,
+      "ENDBLK": 22,
+      "HATCH": 4,
+      "POINT": 35,
+      "SOLID": 20,
+      "TRACE": 1
+    }
+  }
+}

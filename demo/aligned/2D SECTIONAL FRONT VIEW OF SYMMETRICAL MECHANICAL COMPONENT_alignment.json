@@ -1,0 +1,197 @@
+{
+  "schema_version": "cad-ocr-alignment-v1",
+  "drawing_key": "2D SECTIONAL FRONT VIEW OF SYMMETRICAL MECHANICAL COMPONENT.dwg",
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        3.612233415055029,
+        -0.01041149137754008,
+        599.2351652153706
+      ],
+      [
+        0.03403299937864815,
+        -3.6350178727048807,
+        896.9296062460396
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 5,
+    "inlier_anchor_count": 5,
+    "rmse_px": 0.765973784432331,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "anchors": [
+    {
+      "text": "R10",
+      "native_id": "NATIVE_H345",
+      "ocr_id": "OCR_0006",
+      "cad": [
+        136.97276197345144,
+        87.50868034033283
+      ],
+      "pixel": [
+        1093.5,
+        584.5
+      ],
+      "inlier": true,
+      "error_px": 1.0805231818009833
+    },
+    {
+      "text": "R108",
+      "native_id": "NATIVE_H369",
+      "ocr_id": "OCR_0008",
+      "cad": [
+        140.18053918105136,
+        11.27852427190714
+      ],
+      "pixel": [
+        1105.5,
+        860.0
+      ],
+      "inlier": true,
+      "error_px": 0.7029493501950007
+    },
+    {
+      "text": "R28",
+      "native_id": "NATIVE_H32F",
+      "ocr_id": "OCR_0007",
+      "cad": [
+        162.38123698688312,
+        84.50263581268891
+      ],
+      "pixel": [
+        1184.5,
+        595.5
+      ],
+      "inlier": true,
+      "error_px": 0.46569115388361243
+    },
+    {
+      "text": "R64",
+      "native_id": "NATIVE_H37F",
+      "ocr_id": "OCR_0003",
+      "cad": [
+        116.1243428003261,
+        189.82102034841208
+      ],
+      "pixel": [
+        1017.0,
+        210.0
+      ],
+      "inlier": true,
+      "error_px": 0.9202661000354058
+    },
+    {
+      "text": "R80",
+      "native_id": "NATIVE_H357",
+      "ocr_id": "OCR_0002",
+      "cad": [
+        78.06992044317684,
+        188.98148770330744
+      ],
+      "pixel": [
+        879.0,
+        213.0
+      ],
+      "inlier": true,
+      "error_px": 0.4562379983727951
+    }
+  ],
+  "matches": [
+    {
+      "native_item_id": "NATIVE_H32F",
+      "ocr_item_id": "OCR_0007",
+      "text_similarity": 1.0,
+      "distance_px": 0.46569115388361243,
+      "score": 0.9982526581729365,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H357",
+      "ocr_item_id": "OCR_0002",
+      "text_similarity": 1.0,
+      "distance_px": 0.4562379983727951,
+      "score": 0.9982356075061021,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H369",
+      "ocr_item_id": "OCR_0008",
+      "text_similarity": 1.0,
+      "distance_px": 0.7029493501950007,
+      "score": 0.9973614399367687,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H37F",
+      "ocr_item_id": "OCR_0003",
+      "text_similarity": 1.0,
+      "distance_px": 0.9202661000354058,
+      "score": 0.9965485021248672,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H345",
+      "ocr_item_id": "OCR_0006",
+      "text_similarity": 1.0,
+      "distance_px": 1.0805231818009833,
+      "score": 0.9959425380682463,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4C0",
+      "ocr_item_id": "OCR_0009",
+      "text_similarity": 1.0,
+      "distance_px": 4.801776080012115,
+      "score": 0.9816203396999545,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H4A5",
+      "ocr_item_id": "OCR_0010",
+      "text_similarity": 1.0,
+      "distance_px": 3.815196157760933,
+      "score": 0.9790195144083965,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H577",
+      "ocr_item_id": "OCR_0001",
+      "text_similarity": 1.0,
+      "distance_px": 1.6474290221960597,
+      "score": 0.9438216411667648,
+      "status": "confirmed"
+    }
+  ],
+  "unmatched": {
+    "native_item_ids": [
+      "NATIVE_H31A",
+      "NATIVE_H395",
+      "NATIVE_H3AB",
+      "NATIVE_H54D"
+    ],
+    "ocr_item_ids": [
+      "OCR_0004",
+      "OCR_0005"
+    ]
+  },
+  "candidate_count": 9,
+  "statistics": {
+    "confirmed": 8,
+    "conflict": 0,
+    "ambiguous": 0,
+    "cad_only": 4,
+    "ocr_only": 2
+  }
+}

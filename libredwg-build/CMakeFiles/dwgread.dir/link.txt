@@ -1,0 +1,1 @@
+/usr/bin/cc  -DLTO -O3 -DNDEBUG -ftrivial-auto-var-init=zero -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fno-delete-null-pointer-checks CMakeFiles/dwgread.dir/programs/dwgread.c.o -o dwgread  -Wl,-rpath,/home/lysq/CAD/libredwg-build: libredwg.so -lm 

@@ -1,0 +1,264 @@
+{
+  "schema_version": "cad-vision-v1",
+  "drawing_key": "2d-front-view-of-aluminum-t-slot-extrusion-profile",
+  "image": {
+    "source_file": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left",
+    "sha256": "f3c4b7fe7b0fff09d362d4830c445efec03096392064dc02f025e814f6043b6b"
+  },
+  "model": {
+    "name": "deepseek-v4-flash-vision-exp",
+    "prompt_version": "cad-vision-prompt-v1",
+    "detail": "original"
+  },
+  "drawing_type": "front_view",
+  "summary": "图中为铝型材截面的二维正视图，展示了复杂的对称截面轮廓，包含内部空腔、槽口及多个圆角特征。图中标注了详细的尺寸、半径和角度信息，并使用中心线表示对称关系。",
+  "observations": [
+    {
+      "id": "VIS_0001",
+      "observation_type": "orthographic_view",
+      "description": "截面形状的主视图，带有大量标注。",
+      "region_px": [
+        600.0,
+        500.0,
+        1600.0,
+        1400.0
+      ],
+      "region_normalized": [
+        0.3125,
+        0.46296296296296297,
+        0.8333333333333334,
+        1.2962962962962963
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0002",
+      "observation_type": "symmetry",
+      "description": "水平和垂直中心线穿过截面中心，表明该轮廓在水平和垂直方向上都是对称的。",
+      "region_px": [
+        400.0,
+        800.0,
+        1700.0,
+        900.0
+      ],
+      "region_normalized": [
+        0.20833333333333334,
+        0.7407407407407407,
+        0.8854166666666666,
+        0.8333333333333334
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0003",
+      "observation_type": "centerline",
+      "description": "用作对称轴的竖直点划线。",
+      "region_px": [
+        1100.0,
+        600.0,
+        1110.0,
+        1300.0
+      ],
+      "region_normalized": [
+        0.5729166666666666,
+        0.5555555555555556,
+        0.578125,
+        1.2037037037037037
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0004",
+      "observation_type": "feature_candidate",
+      "description": "截面主体轮廓，边缘呈圆角矩形，四个角有内凹槽。",
+      "region_px": [
+        900.0,
+        550.0,
+        1300.0,
+        1250.0
+      ],
+      "region_normalized": [
+        0.46875,
+        0.5092592592592593,
+        0.6770833333333334,
+        1.1574074074074074
+      ],
+      "candidate_feature": {
+        "value": "profile_body"
+      },
+      "model_confidence": 0.6,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0005",
+      "observation_type": "feature_candidate",
+      "description": "中央圆形通孔。",
+      "region_px": [
+        1250.0,
+        1000.0,
+        1350.0,
+        1100.0
+      ],
+      "region_normalized": [
+        0.6510416666666666,
+        0.9259259259259259,
+        0.703125,
+        1.0185185185185186
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0006",
+      "observation_type": "feature_candidate",
+      "description": "四个角落的凹槽特征，形状为T型槽。",
+      "region_px": [
+        1000.0,
+        850.0,
+        1200.0,
+        1000.0
+      ],
+      "region_normalized": [
+        0.5208333333333334,
+        0.7870370370370371,
+        0.625,
+        0.9259259259259259
+      ],
+      "candidate_feature": {
+        "value": "t-slot"
+      },
+      "model_confidence": 0.4,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0007",
+      "observation_type": "feature_candidate",
+      "description": "轮廓外部四个圆弧转角，标注半径R4和R2.2等。",
+      "region_px": [
+        880.0,
+        580.0,
+        990.0,
+        700.0
+      ],
+      "region_normalized": [
+        0.4583333333333333,
+        0.5370370370370371,
+        0.515625,
+        0.6481481481481481
+      ],
+      "candidate_feature": {
+        "value": "fillet"
+      },
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0008",
+      "observation_type": "technical_requirement",
+      "description": "图中标注了多个半径值，包括R0.45, R2.5, R0.5, R1, R5, R1.5, R4, R2.2及3xR0.5。",
+      "region_px": [
+        900.0,
+        650.0,
+        1500.0,
+        900.0
+      ],
+      "region_normalized": [
+        0.46875,
+        0.6018518518518519,
+        0.78125,
+        0.8333333333333334
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0009",
+      "observation_type": "leader_relation",
+      "description": "尺寸标注引线指向特定特征，例如90度角标注指示两边的夹角。",
+      "region_px": [
+        1300.0,
+        800.0,
+        1500.0,
+        900.0
+      ],
+      "region_normalized": [
+        0.6770833333333334,
+        0.7407407407407407,
+        0.78125,
+        0.8333333333333334
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0010",
+      "observation_type": "title_block",
+      "description": "文件标题栏显示该图纸为2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE。",
+      "region_px": [
+        600.0,
+        20.0,
+        1200.0,
+        80.0
+      ],
+      "region_normalized": [
+        0.3125,
+        0.018518518518518517,
+        0.625,
+        0.07407407407407407
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0011",
+      "observation_type": "other",
+      "description": "背景为黑色，图形轮廓由青蓝色点线表示，尺寸标注线和文字为黄色。",
+      "region_px": null,
+      "region_normalized": null,
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    }
+  ],
+  "statistics": {
+    "observation_count": 11,
+    "candidate_count": 11
+  }
+}

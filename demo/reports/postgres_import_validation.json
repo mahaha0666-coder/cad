@@ -1,0 +1,310 @@
+{
+  "schema_version": "cad-postgres-validation-v1",
+  "record_count": 6,
+  "totals": {
+    "drawings": 6,
+    "drawing_revisions": 6,
+    "cad_entities": 850,
+    "ocr_items": 93,
+    "unified_features": 371,
+    "current_vision_runs": 6,
+    "current_vision_observations": 68,
+    "vision_evidence_links": 68,
+    "current_semantic_chunks": 222
+  },
+  "orphan_counts": {
+    "native_annotation_entity_orphans": 0,
+    "feature_cad_evidence_orphans": 0,
+    "feature_native_evidence_orphans": 0,
+    "feature_ocr_evidence_orphans": 0,
+    "feature_vision_evidence_orphans": 0,
+    "semantic_chunk_source_orphans": 0
+  },
+  "records": [
+    {
+      "drawing_key": "2d-front-view-of-aluminum-t-slot-extrusion-profile",
+      "revision_id": "4914da67-626a-4853-bbe4-834a94ed7a25",
+      "expected": {
+        "entity_counts": {
+          "CIRCLE": 1,
+          "LWPOLYLINE": 12,
+          "LINE": 134,
+          "ARC": 14,
+          "INSERT": 5,
+          "DIMENSION": 41,
+          "MTEXT": 33
+        },
+        "ocr_count": 29,
+        "feature_count": 54,
+        "feature_statuses": {
+          "confirmed": 26,
+          "conflict": 2,
+          "cad_only": 14,
+          "ocr_only": 1,
+          "vision_only": 11
+        }
+      },
+      "actual": {
+        "entity_counts": {
+          "ARC": 14,
+          "CIRCLE": 1,
+          "DIMENSION": 41,
+          "INSERT": 5,
+          "LINE": 134,
+          "LWPOLYLINE": 12,
+          "MTEXT": 33
+        },
+        "ocr_count": 29,
+        "feature_count": 54,
+        "feature_statuses": {
+          "cad_only": 14,
+          "confirmed": 26,
+          "conflict": 2,
+          "ocr_only": 1,
+          "vision_only": 11
+        }
+      },
+      "checks": {
+        "entity_counts": true,
+        "ocr_count": true,
+        "feature_count": true,
+        "feature_statuses": true
+      },
+      "ok": true
+    },
+    {
+      "drawing_key": "2d-orthographic-projection-of-a-mechanical-fixture-bracket",
+      "revision_id": "99e3a1dd-7a51-4fc9-9c76-7751f85fc41f",
+      "expected": {
+        "entity_counts": {
+          "LWPOLYLINE": 5,
+          "LINE": 83,
+          "DIMENSION": 40,
+          "ARC": 10,
+          "MTEXT": 11
+        },
+        "ocr_count": 11,
+        "feature_count": 54,
+        "feature_statuses": {
+          "confirmed": 9,
+          "conflict": 1,
+          "cad_only": 30,
+          "ocr_only": 1,
+          "vision_only": 13
+        }
+      },
+      "actual": {
+        "entity_counts": {
+          "ARC": 10,
+          "DIMENSION": 40,
+          "LINE": 83,
+          "LWPOLYLINE": 5,
+          "MTEXT": 11
+        },
+        "ocr_count": 11,
+        "feature_count": 54,
+        "feature_statuses": {
+          "cad_only": 30,
+          "confirmed": 9,
+          "conflict": 1,
+          "ocr_only": 1,
+          "vision_only": 13
+        }
+      },
+      "checks": {
+        "entity_counts": true,
+        "ocr_count": true,
+        "feature_count": true,
+        "feature_statuses": true
+      },
+      "ok": true
+    },
+    {
+      "drawing_key": "2d-profile-drawing-with-radial-and-angular-dimension",
+      "revision_id": "a5821455-8697-4120-a3cc-8d88bdba0212",
+      "expected": {
+        "entity_counts": {
+          "LINE": 77,
+          "CIRCLE": 7,
+          "ARC": 23,
+          "DIMENSION": 20,
+          "MTEXT": 20
+        },
+        "ocr_count": 21,
+        "feature_count": 26,
+        "feature_statuses": {
+          "confirmed": 19,
+          "conflict": 1,
+          "ocr_only": 1,
+          "vision_only": 5
+        }
+      },
+      "actual": {
+        "entity_counts": {
+          "ARC": 23,
+          "CIRCLE": 7,
+          "DIMENSION": 20,
+          "LINE": 77,
+          "MTEXT": 20
+        },
+        "ocr_count": 21,
+        "feature_count": 26,
+        "feature_statuses": {
+          "confirmed": 19,
+          "conflict": 1,
+          "ocr_only": 1,
+          "vision_only": 5
+        }
+      },
+      "checks": {
+        "entity_counts": true,
+        "ocr_count": true,
+        "feature_count": true,
+        "feature_statuses": true
+      },
+      "ok": true
+    },
+    {
+      "drawing_key": "2d-sectional-front-view-of-a-mechanical-mounting-plate",
+      "revision_id": "43bb7961-a82b-4685-9d93-e7ad21e3af3a",
+      "expected": {
+        "entity_counts": {
+          "LINE": 75,
+          "ARC": 8,
+          "CIRCLE": 6,
+          "DIMENSION": 15,
+          "MTEXT": 15
+        },
+        "ocr_count": 14,
+        "feature_count": 34,
+        "feature_statuses": {
+          "confirmed": 7,
+          "conflict": 1,
+          "cad_only": 8,
+          "ocr_only": 6,
+          "vision_only": 12
+        }
+      },
+      "actual": {
+        "entity_counts": {
+          "ARC": 8,
+          "CIRCLE": 6,
+          "DIMENSION": 15,
+          "LINE": 75,
+          "MTEXT": 15
+        },
+        "ocr_count": 14,
+        "feature_count": 34,
+        "feature_statuses": {
+          "cad_only": 8,
+          "confirmed": 7,
+          "conflict": 1,
+          "ocr_only": 6,
+          "vision_only": 12
+        }
+      },
+      "checks": {
+        "entity_counts": true,
+        "ocr_count": true,
+        "feature_count": true,
+        "feature_statuses": true
+      },
+      "ok": true
+    },
+    {
+      "drawing_key": "2d-sectional-front-view-of-symmetrical-mechanical-component",
+      "revision_id": "ce680c5b-dac6-4a13-853e-a46c3fc67164",
+      "expected": {
+        "entity_counts": {
+          "CIRCLE": 1,
+          "ARC": 34,
+          "LINE": 34,
+          "DIMENSION": 10,
+          "MTEXT": 10
+        },
+        "ocr_count": 10,
+        "feature_count": 24,
+        "feature_statuses": {
+          "confirmed": 8,
+          "cad_only": 4,
+          "ocr_only": 2,
+          "vision_only": 10
+        }
+      },
+      "actual": {
+        "entity_counts": {
+          "ARC": 34,
+          "CIRCLE": 1,
+          "DIMENSION": 10,
+          "LINE": 34,
+          "MTEXT": 10
+        },
+        "ocr_count": 10,
+        "feature_count": 24,
+        "feature_statuses": {
+          "cad_only": 4,
+          "confirmed": 8,
+          "ocr_only": 2,
+          "vision_only": 10
+        }
+      },
+      "checks": {
+        "entity_counts": true,
+        "ocr_count": true,
+        "feature_count": true,
+        "feature_statuses": true
+      },
+      "ok": true
+    },
+    {
+      "drawing_key": "2d-sectional-front-view-of-toothed-mechanical-component",
+      "revision_id": "1c2a9c98-7650-4754-94c1-989621e8a95c",
+      "expected": {
+        "entity_counts": {
+          "ARC": 27,
+          "LINE": 35,
+          "INSERT": 23,
+          "CIRCLE": 1,
+          "DIMENSION": 10,
+          "MTEXT": 10
+        },
+        "ocr_count": 8,
+        "feature_count": 24,
+        "feature_statuses": {
+          "confirmed": 5,
+          "conflict": 1,
+          "cad_only": 6,
+          "ocr_only": 2,
+          "vision_only": 10
+        }
+      },
+      "actual": {
+        "entity_counts": {
+          "ARC": 27,
+          "CIRCLE": 1,
+          "DIMENSION": 10,
+          "INSERT": 23,
+          "LINE": 35,
+          "MTEXT": 10
+        },
+        "ocr_count": 8,
+        "feature_count": 24,
+        "feature_statuses": {
+          "cad_only": 6,
+          "confirmed": 5,
+          "conflict": 1,
+          "ocr_only": 2,
+          "vision_only": 10
+        }
+      },
+      "checks": {
+        "entity_counts": true,
+        "ocr_count": true,
+        "feature_count": true,
+        "feature_statuses": true
+      },
+      "ok": true
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": "cad-ocr-alignment-v1",
+  "drawing_key": "2D SECTIONAL FRONT VIEW OF A MECHANICAL MOUNTING PLATE.dwg",
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        6.025604057985663,
+        0.003459693808224964,
+        493.36492184847015
+      ],
+      [
+        0.010601786720857802,
+        -6.044599500197688,
+        1122.5288320902757
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 7,
+    "inlier_anchor_count": 7,
+    "rmse_px": 0.5451325315419248,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "anchors": [
+    {
+      "text": "38",
+      "native_id": "NATIVE_H46A",
+      "ocr_id": "OCR_0007",
+      "cad": [
+        62.73881684210621,
+        104.0001001384569
+      ],
+      "pixel": [
+        871.5,
+        494.5
+      ],
+      "inlier": true,
+      "error_px": 0.26967258372081726
+    },
+    {
+      "text": "60",
+      "native_id": "NATIVE_H3C0",
+      "ocr_id": "OCR_0005",
+      "cad": [
+        8.02339386483532,
+        130.00000000000003
+      ],
+      "pixel": [
+        542.0,
+        336.5
+      ],
+      "inlier": true,
+      "error_px": 0.35437704456697383
+    },
+    {
+      "text": "64",
+      "native_id": "NATIVE_H3DB",
+      "ocr_id": "OCR_0012",
+      "cad": [
+        8.09912861500291,
+        68.00000000000001
+      ],
+      "pixel": [
+        542.5,
+        711.5
+      ],
+      "inlier": true,
+      "error_px": 0.12748914507520037
+    },
+    {
+      "text": "8",
+      "native_id": "NATIVE_H484",
+      "ocr_id": "OCR_0006",
+      "cad": [
+        84.99999999999999,
+        129.8764424556116
+      ],
+      "pixel": [
+        1006.5,
+        339.5
+      ],
+      "inlier": true,
+      "error_px": 1.231398920054769
+    },
+    {
+      "text": "R16",
+      "native_id": "NATIVE_H43D",
+      "ocr_id": "OCR_0009",
+      "cad": [
+        116.96541070824912,
+        81.20344597844611
+      ],
+      "pixel": [
+        1198.5,
+        633.0
+      ],
+      "inlier": true,
+      "error_px": 0.09932938918810981
+    },
+    {
+      "text": "R18",
+      "native_id": "NATIVE_H382",
+      "ocr_id": "OCR_0010",
+      "cad": [
+        151.5996428837951,
+        81.3774567110777
+      ],
+      "pixel": [
+        1407.0,
+        632.0
+      ],
+      "inlier": true,
+      "error_px": 0.27271792259497474
+    },
+    {
+      "text": "R80",
+      "native_id": "NATIVE_H356",
+      "ocr_id": "OCR_0003",
+      "cad": [
+        121.18423588850408,
+        159.11953292436573
+      ],
+      "pixel": [
+        1224.0,
+        161.5
+      ],
+      "inlier": true,
+      "error_px": 0.514822077231941
+    }
+  ],
+  "matches": [
+    {
+      "native_item_id": "NATIVE_H43D",
+      "ocr_item_id": "OCR_0009",
+      "text_similarity": 1.0,
+      "distance_px": 0.09932938918810981,
+      "score": 0.9996260147905445,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3DB",
+      "ocr_item_id": "OCR_0012",
+      "text_similarity": 1.0,
+      "distance_px": 0.12748914507520037,
+      "score": 0.999521415705968,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H46A",
+      "ocr_item_id": "OCR_0007",
+      "text_similarity": 1.0,
+      "distance_px": 0.26967258372081726,
+      "score": 0.9989837278110469,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H382",
+      "ocr_item_id": "OCR_0010",
+      "text_similarity": 1.0,
+      "distance_px": 0.27271792259497474,
+      "score": 0.9989748077902689,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3C0",
+      "ocr_item_id": "OCR_0005",
+      "text_similarity": 1.0,
+      "distance_px": 0.35437704456697383,
+      "score": 0.9986700860828739,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H356",
+      "ocr_item_id": "OCR_0003",
+      "text_similarity": 1.0,
+      "distance_px": 0.514822077231941,
+      "score": 0.9979104172103802,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H484",
+      "ocr_item_id": "OCR_0006",
+      "text_similarity": 1.0,
+      "distance_px": 1.231398920054769,
+      "score": 0.9953797540497946,
+      "status": "confirmed"
+    },
+    {
+      "native_item_id": "NATIVE_H3AA",
+      "ocr_item_id": "OCR_0011",
+      "text_similarity": 0.8571428571428571,
+      "distance_px": 2.3411103964102473,
+      "score": 0.9124664074420329,
+      "status": "conflict"
+    }
+  ],
+  "unmatched": {
+    "native_item_ids": [
+      "NATIVE_H329",
+      "NATIVE_H340",
+      "NATIVE_H36C",
+      "NATIVE_H398",
+      "NATIVE_H3F6",
+      "NATIVE_H411",
+      "NATIVE_H427",
+      "NATIVE_H6F8"
+    ],
+    "ocr_item_ids": [
+      "OCR_0001",
+      "OCR_0002",
+      "OCR_0004",
+      "OCR_0008",
+      "OCR_0013",
+      "OCR_0014"
+    ]
+  },
+  "candidate_count": 8,
+  "statistics": {
+    "confirmed": 7,
+    "conflict": 1,
+    "ambiguous": 0,
+    "cad_only": 8,
+    "ocr_only": 6
+  }
+}

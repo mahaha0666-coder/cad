@@ -1,0 +1,352 @@
+{
+  "schema_version": "cad-vision-v1",
+  "drawing_key": "2d-orthographic-projection-of-a-mechanical-fixture-bracket",
+  "image": {
+    "source_file": "2D ORTHOGRAPHIC PROJECTION OF A MECHANICAL FIXTURE BRACKET.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left",
+    "sha256": "60ece67c2afe5303c42fad33579b4c3fbc3cdd6577b57ad5f9365fb4005ff6fa"
+  },
+  "model": {
+    "name": "deepseek-v4-flash-vision-exp",
+    "prompt_version": "cad-vision-prompt-v1",
+    "detail": "original"
+  },
+  "drawing_type": "orthographic projection",
+  "summary": "图纸显示一个机械夹具支架的二维正投影，包含上下两个视图，标注了半径、距离和孔径尺寸，并显示了中心线、虚线和对称关系。",
+  "observations": [
+    {
+      "id": "VIS_0001",
+      "observation_type": "orthographic_view",
+      "description": "顶部的视图，显示支架的主视图轮廓，包含一个半圆切口和矩形底座。",
+      "region_px": [
+        375.0,
+        40.0,
+        560.0,
+        400.0
+      ],
+      "region_normalized": [
+        0.1953125,
+        0.037037037037037035,
+        0.2916666666666667,
+        0.37037037037037035
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0002",
+      "observation_type": "orthographic_view",
+      "description": "底部的视图，显示支架的俯视或剖视轮廓，包含四个圆形特征和内部虚线表示的隐藏特征。",
+      "region_px": [
+        370.0,
+        430.0,
+        560.0,
+        815.0
+      ],
+      "region_normalized": [
+        0.19270833333333334,
+        0.39814814814814814,
+        0.2916666666666667,
+        0.7546296296296297
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0003",
+      "observation_type": "centerline",
+      "description": "贯穿上下视图的垂直中心线，指示零件的对称轴。",
+      "region_px": [
+        465.0,
+        40.0,
+        470.0,
+        815.0
+      ],
+      "region_normalized": [
+        0.2421875,
+        0.037037037037037035,
+        0.24479166666666666,
+        0.7546296296296297
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0004",
+      "observation_type": "centerline",
+      "description": "上视图中标示半圆横向中心线与垂直中心线相交。",
+      "region_px": [
+        375.0,
+        115.0,
+        560.0,
+        120.0
+      ],
+      "region_normalized": [
+        0.1953125,
+        0.10648148148148148,
+        0.2916666666666667,
+        0.1111111111111111
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0005",
+      "observation_type": "symmetry",
+      "description": "上视图左右两侧的轮廓线相对垂直中心线对称。",
+      "region_px": [
+        375.0,
+        40.0,
+        560.0,
+        400.0
+      ],
+      "region_normalized": [
+        0.1953125,
+        0.037037037037037035,
+        0.2916666666666667,
+        0.37037037037037035
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0006",
+      "observation_type": "symmetry",
+      "description": "下视图的四个圆孔排列成对称的矩形模式。",
+      "region_px": [
+        395.0,
+        500.0,
+        535.0,
+        720.0
+      ],
+      "region_normalized": [
+        0.20572916666666666,
+        0.46296296296296297,
+        0.2786458333333333,
+        0.6666666666666666
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0007",
+      "observation_type": "feature_candidate",
+      "description": "上视图顶部中心的一个半圆形凹槽或切口，标注有半径 R20.00。",
+      "region_px": [
+        425.0,
+        40.0,
+        510.0,
+        115.0
+      ],
+      "region_normalized": [
+        0.22135416666666666,
+        0.037037037037037035,
+        0.265625,
+        0.10648148148148148
+      ],
+      "candidate_feature": {
+        "value": "半圆切口"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0008",
+      "observation_type": "feature_candidate",
+      "description": "上视图中间偏下的一个台阶结构，标注有高度 10.00。",
+      "region_px": [
+        375.0,
+        145.0,
+        560.0,
+        180.0
+      ],
+      "region_normalized": [
+        0.1953125,
+        0.13425925925925927,
+        0.2916666666666667,
+        0.16666666666666666
+      ],
+      "candidate_feature": {
+        "value": "台阶或凸台"
+      },
+      "model_confidence": 0.7,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0009",
+      "observation_type": "feature_candidate",
+      "description": "上视图底部的一系列虚线，指示隐藏的矩形特征或孔。",
+      "region_px": [
+        380.0,
+        250.0,
+        550.0,
+        330.0
+      ],
+      "region_normalized": [
+        0.19791666666666666,
+        0.23148148148148148,
+        0.2864583333333333,
+        0.3055555555555556
+      ],
+      "candidate_feature": {
+        "value": "内部槽孔"
+      },
+      "model_confidence": 0.7,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0010",
+      "observation_type": "feature_candidate",
+      "description": "下视图四个角的圆形特征，左侧两个标注为 R5.00，右侧标注有 4xR5.00。",
+      "region_px": [
+        395.0,
+        500.0,
+        535.0,
+        720.0
+      ],
+      "region_normalized": [
+        0.20572916666666666,
+        0.46296296296296297,
+        0.2786458333333333,
+        0.6666666666666666
+      ],
+      "candidate_feature": {
+        "value": "圆孔"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0011",
+      "observation_type": "hatch",
+      "description": "下视图中心区域由虚线交错构成的正方形区块，可能代表剖切或材料去除区域。",
+      "region_px": [
+        430.0,
+        540.0,
+        510.0,
+        670.0
+      ],
+      "region_normalized": [
+        0.22395833333333334,
+        0.5,
+        0.265625,
+        0.6203703703703703
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": "虚线图案可能表示剖切或内部结构，不能确认。",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0012",
+      "observation_type": "title_block",
+      "description": "截图下方显示 AutoCAD Mechanical 版本和布局选项卡（Model, Layout1, Layout2），真正的标题栏内容不可见。",
+      "region_px": [
+        0.0,
+        955.0,
+        1000.0,
+        1000.0
+      ],
+      "region_normalized": [
+        0.0,
+        0.8842592592592593,
+        0.5208333333333334,
+        0.9259259259259259
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": "标题栏具体内容未捕捉到。",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0013",
+      "observation_type": "leader_relation",
+      "description": "标注 R10.00 和 R20.00 有引线指向半圆切口的内外轮廓。",
+      "region_px": [
+        280.0,
+        110.0,
+        380.0,
+        210.0
+      ],
+      "region_normalized": [
+        0.14583333333333334,
+        0.10185185185185185,
+        0.19791666666666666,
+        0.19444444444444445
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0014",
+      "observation_type": "leader_relation",
+      "description": "标注 4xR5.00 有引线指向下视图中右上角的圆孔。",
+      "region_px": [
+        510.0,
+        510.0,
+        600.0,
+        590.0
+      ],
+      "region_normalized": [
+        0.265625,
+        0.4722222222222222,
+        0.3125,
+        0.5462962962962963
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0015",
+      "observation_type": "technical_requirement",
+      "description": "未在图中发现明确的技术要求文字说明。",
+      "region_px": null,
+      "region_normalized": null,
+      "candidate_feature": null,
+      "model_confidence": 0.1,
+      "status": "candidate",
+      "uncertainty": "未观测到技术要求文字。",
+      "properties": {}
+    }
+  ],
+  "statistics": {
+    "observation_count": 15,
+    "candidate_count": 15
+  }
+}

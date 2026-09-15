@@ -1,0 +1,4 @@
+version=v1.19.0
+asset=qdrant-x86_64-unknown-linux-gnu.tar.gz
+sha256=e4405091f67d02f96fb941695ef8a6974e677632507ff7b04a3fcbb332ad9c19
+source=https://github.com/qdrant/qdrant/releases/tag/v1.19.0

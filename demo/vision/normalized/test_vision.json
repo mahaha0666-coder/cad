@@ -1,0 +1,252 @@
+{
+  "schema_version": "cad-vision-v1",
+  "drawing_key": "2d-profile-drawing-with-radial-and-angular-dimension",
+  "image": {
+    "source_file": "2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left",
+    "sha256": "316bf5d398df3ebc8698174c2df23f4562e1eb985f28fe07361bbe6bc138f8a2"
+  },
+  "model": {
+    "name": "deepseek-v4-flash-vision-exp",
+    "prompt_version": "cad-vision-prompt-v1",
+    "detail": "original"
+  },
+  "drawing_type": "2D profile drawing",
+  "summary": "Drawing shows a 2D profile with a complex outline, multiple circular features, linear, radial, and angular dimensions, centerlines, and a title bar.",
+  "observations": [
+    {
+      "id": "VIS_0001",
+      "observation_type": "orthographic_view",
+      "description": "A single 2D top view of a profile with multiple circular features and curved boundaries.",
+      "region_px": [
+        150.0,
+        200.0,
+        900.0,
+        800.0
+      ],
+      "region_normalized": [
+        0.078125,
+        0.18518518518518517,
+        0.46875,
+        0.7407407407407407
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0002",
+      "observation_type": "centerline",
+      "description": "Green centerlines crossing at circular features and extending between them.",
+      "region_px": [
+        450.0,
+        300.0,
+        800.0,
+        500.0
+      ],
+      "region_normalized": [
+        0.234375,
+        0.2777777777777778,
+        0.4166666666666667,
+        0.46296296296296297
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.7,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0003",
+      "observation_type": "feature_candidate",
+      "description": "A circular feature with R15 dimension, located on the right side.",
+      "region_px": [
+        740.0,
+        280.0,
+        840.0,
+        380.0
+      ],
+      "region_normalized": [
+        0.3854166666666667,
+        0.25925925925925924,
+        0.4375,
+        0.35185185185185186
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": "Detected as a feature candidate, not a confirmed hole.",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0004",
+      "observation_type": "feature_candidate",
+      "description": "A circular feature with R40 dimension, located in the middle-right area.",
+      "region_px": [
+        520.0,
+        300.0,
+        620.0,
+        400.0
+      ],
+      "region_normalized": [
+        0.2708333333333333,
+        0.2777777777777778,
+        0.3229166666666667,
+        0.37037037037037035
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": "Detected as a feature candidate, not a confirmed hole.",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0005",
+      "observation_type": "feature_candidate",
+      "description": "A circular feature with R30 dimension, located at the middle.",
+      "region_px": [
+        460.0,
+        320.0,
+        560.0,
+        420.0
+      ],
+      "region_normalized": [
+        0.23958333333333334,
+        0.2962962962962963,
+        0.2916666666666667,
+        0.3888888888888889
+      ],
+      "candidate_feature": {
+        "value": "hole"
+      },
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": "Detected as a feature candidate, not a confirmed hole.",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0006",
+      "observation_type": "feature_candidate",
+      "description": "A curved slot-like feature on the left side, dimensioned with R100 and R10.",
+      "region_px": [
+        200.0,
+        400.0,
+        450.0,
+        750.0
+      ],
+      "region_normalized": [
+        0.10416666666666667,
+        0.37037037037037035,
+        0.234375,
+        0.6944444444444444
+      ],
+      "candidate_feature": {
+        "value": "slot"
+      },
+      "model_confidence": 0.5,
+      "status": "candidate",
+      "uncertainty": "Detected as a feature candidate, not a confirmed slot.",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0007",
+      "observation_type": "leader_relation",
+      "description": "Leader lines connecting dimension text to specific features, such as leader for R15.",
+      "region_px": [
+        800.0,
+        250.0,
+        850.0,
+        300.0
+      ],
+      "region_normalized": [
+        0.4166666666666667,
+        0.23148148148148148,
+        0.4427083333333333,
+        0.2777777777777778
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0008",
+      "observation_type": "title_block",
+      "description": "Title bar at the top of the window containing the drawing name.",
+      "region_px": [
+        100.0,
+        0.0,
+        1000.0,
+        30.0
+      ],
+      "region_normalized": [
+        0.052083333333333336,
+        0.0,
+        0.5208333333333334,
+        0.027777777777777776
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0009",
+      "observation_type": "other",
+      "description": "Multiple radial dimensions are present, including R40, R10, R90, R100, R20, R70, R30, and R15.",
+      "region_px": [
+        200.0,
+        100.0,
+        900.0,
+        700.0
+      ],
+      "region_normalized": [
+        0.10416666666666667,
+        0.09259259259259259,
+        0.46875,
+        0.6481481481481481
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0010",
+      "observation_type": "other",
+      "description": "Angular dimensions 10° and 50° are present, indicating relative angles between features.",
+      "region_px": [
+        350.0,
+        300.0,
+        450.0,
+        450.0
+      ],
+      "region_normalized": [
+        0.18229166666666666,
+        0.2777777777777778,
+        0.234375,
+        0.4166666666666667
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    }
+  ],
+  "statistics": {
+    "observation_count": 10,
+    "candidate_count": 10
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": "cad-vision-v1",
+  "drawing_key": "2d-profile-drawing-with-radial-and-angular-dimension",
+  "image": {
+    "source_file": "2D PROFILE DRAWING WITH RADIAL AND ANGULAR DIMENSION.png",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_system": "pixel_top_left",
+    "sha256": "316bf5d398df3ebc8698174c2df23f4562e1eb985f28fe07361bbe6bc138f8a2"
+  },
+  "model": {
+    "name": "deepseek-v4-flash-vision-exp",
+    "prompt_version": "cad-vision-prompt-v1",
+    "detail": "original"
+  },
+  "drawing_type": "2D_profile",
+  "summary": "工程图显示一个复杂的 2D 轮廓，包含多个带径向和线性尺寸标注的圆弧和圆。可见绿色中心线，表明对称或参考轴线，以及水平和垂直方向的精确坐标。存在多条指向特定特征的引线。",
+  "observations": [
+    {
+      "id": "VIS_0001",
+      "observation_type": "centerline",
+      "description": "绿色中心线穿过中央孔，并沿水平方向延伸，提供对称参考。",
+      "region_px": [
+        360.0,
+        350.0,
+        780.0,
+        380.0
+      ],
+      "region_normalized": [
+        0.1875,
+        0.32407407407407407,
+        0.40625,
+        0.35185185185185186
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.95,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0002",
+      "observation_type": "leader_relation",
+      "description": "引线从文字 'R 10 X 3' 指向左上角带圆角的槽状特征。",
+      "region_px": [
+        270.0,
+        150.0,
+        450.0,
+        240.0
+      ],
+      "region_normalized": [
+        0.140625,
+        0.1388888888888889,
+        0.234375,
+        0.2222222222222222
+      ],
+      "candidate_feature": {
+        "value": "slot_with_round_end"
+      },
+      "model_confidence": 0.7,
+      "status": "candidate",
+      "uncertainty": "槽特征，具体为槽还是跑道形轮廓需进一步确认。",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0003",
+      "observation_type": "feature_candidate",
+      "description": "中央区域有一排圆形特征，属于候选孔。",
+      "region_px": [
+        450.0,
+        320.0,
+        690.0,
+        530.0
+      ],
+      "region_normalized": [
+        0.234375,
+        0.2962962962962963,
+        0.359375,
+        0.49074074074074076
+      ],
+      "candidate_feature": {
+        "value": "circular_holes"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": "确认孔位及其精确直径需模型数据支持。",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0004",
+      "observation_type": "feature_candidate",
+      "description": "右侧有两个较大的圆形特征，也属于候选孔。",
+      "region_px": [
+        730.0,
+        320.0,
+        840.0,
+        540.0
+      ],
+      "region_normalized": [
+        0.3802083333333333,
+        0.2962962962962963,
+        0.4375,
+        0.5
+      ],
+      "candidate_feature": {
+        "value": "circular_holes"
+      },
+      "model_confidence": 0.8,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0005",
+      "observation_type": "angular_dimension",
+      "description": "标注了一个 10° 的角度，指示特征之间的角位置。",
+      "region_px": [
+        370.0,
+        320.0,
+        450.0,
+        370.0
+      ],
+      "region_normalized": [
+        0.19270833333333334,
+        0.2962962962962963,
+        0.234375,
+        0.3425925925925926
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0006",
+      "observation_type": "radial_dimension",
+      "description": "标注了多个半径值，如 R 40, R 10, R 100, R 20，代表轮廓的曲率半径。",
+      "region_px": [
+        380.0,
+        180.0,
+        550.0,
+        220.0
+      ],
+      "region_normalized": [
+        0.19791666666666666,
+        0.16666666666666666,
+        0.2864583333333333,
+        0.2037037037037037
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    },
+    {
+      "id": "VIS_0007",
+      "observation_type": "linear_dimension",
+      "description": "指明了孔间水平距离的尺寸标注，如 30 和 70。",
+      "region_px": [
+        500.0,
+        240.0,
+        790.0,
+        280.0
+      ],
+      "region_normalized": [
+        0.2604166666666667,
+        0.2222222222222222,
+        0.4114583333333333,
+        0.25925925925925924
+      ],
+      "candidate_feature": null,
+      "model_confidence": 0.9,
+      "status": "candidate",
+      "uncertainty": "数值字形在低分辨率下不易辨认，但位置明确。",
+      "properties": {}
+    },
+    {
+      "id": "VIS_0008",
+      "observation_type": "other",
+      "description": "AutoCAD 软件标题栏和界面元素可见，包括模型/布局标签和标准右上角方向指示。",
+      "region_px": [
+        0.0,
+        0.0,
+        1919.0,
+        1079.0
+      ],
+      "region_normalized": [
+        0.0,
+        0.0,
+        0.9994791666666667,
+        0.9990740740740741
+      ],
+      "candidate_feature": null,
+      "model_confidence": 1.0,
+      "status": "candidate",
+      "uncertainty": null,
+      "properties": {}
+    }
+  ],
+  "statistics": {
+    "observation_count": 8,
+    "candidate_count": 8
+  }
+}

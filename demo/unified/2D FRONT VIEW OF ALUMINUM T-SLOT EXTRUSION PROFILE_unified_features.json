@@ -1,0 +1,3284 @@
+{
+  "schema_version": "cad-unified-features-v2",
+  "drawing": {
+    "source_file": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE.dwg",
+    "source_format": "DWG",
+    "parser": "LibreDWG"
+  },
+  "sources": {
+    "structured_json": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_structured.json",
+    "native_text_json": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_native_text.json",
+    "ocr_json": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_ocr.json",
+    "alignment_json": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_alignment.json",
+    "vision_json": "2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE_vision.json"
+  },
+  "registration": {
+    "method": "text-anchor-ransac-affine",
+    "cad_to_image_matrix": [
+      [
+        14.377110742166064,
+        0.055739015332626235,
+        -261.81575509279253
+      ],
+      [
+        -0.008400800054295093,
+        -14.385853379126235,
+        1711.009563984335
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "anchor_count": 7,
+    "inlier_anchor_count": 7,
+    "rmse_px": 2.057927457886812,
+    "pixel_content_bounds": [
+      0.0,
+      4.0,
+      1920.0,
+      1075.0
+    ],
+    "status": "registered"
+  },
+  "features": [
+    {
+      "id": "UF_0001",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H615",
+        "HDEB"
+      ],
+      "ocr_item_ids": [
+        "OCR_0015"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "8",
+        "text_raw": "8",
+        "dimension_kind": "linear",
+        "value": 8,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          57.99422254834474,
+          80.0
+        ],
+        "pixel_projected": [
+          576.4327261171941,
+          559.6540957863033
+        ],
+        "pixel": [
+          576.5,
+          560.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H615",
+          "text_raw": "{\\H11.11111x;8}",
+          "display_text_raw": "\\A1;{\\H11.11111x;8}",
+          "entity_ids": [
+            "H615",
+            "HDEB"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0015",
+          "text_raw": "8",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              562.0,
+              541.0
+            ],
+            [
+              591.0,
+              541.0
+            ],
+            [
+              591.0,
+              579.0
+            ],
+            [
+              562.0,
+              579.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9986780545891617,
+        "text_similarity": 1.0,
+        "distance_px": 0.35238544289020496
+      }
+    },
+    {
+      "id": "UF_0002",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H37B",
+        "H88C"
+      ],
+      "ocr_item_ids": [
+        "OCR_0023"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "15.5",
+        "text_raw": "15.5",
+        "dimension_kind": "linear",
+        "value": 15.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          80.0,
+          73.54248314291908
+        ],
+        "pixel_projected": [
+          892.4522898759952,
+          652.3661203490947
+        ],
+        "pixel": [
+          892.0,
+          652.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H37B",
+          "text_raw": "{\\H11.11111x;15.5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;15.5}",
+          "entity_ids": [
+            "H37B",
+            "H88C"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0023",
+          "text_raw": "15.5",
+          "confidence": 0.9999,
+          "polygon_px": [
+            [
+              847.0,
+              629.0
+            ],
+            [
+              937.0,
+              629.0
+            ],
+            [
+              937.0,
+              676.0
+            ],
+            [
+              847.0,
+              676.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9982261687140194,
+        "text_similarity": 1.0,
+        "distance_px": 0.4716883429281635
+      }
+    },
+    {
+      "id": "UF_0003",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H41C",
+        "H8CC"
+      ],
+      "ocr_item_ids": [
+        "OCR_0009"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R5",
+        "text_raw": "R5",
+        "dimension_kind": "radius",
+        "value": 5.00000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          82.98211291814708,
+          90.03998024082284
+        ],
+        "pixel_projected": [
+          936.2460117895299,
+          415.010493841726
+        ],
+        "pixel": [
+          936.0,
+          414.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H41C",
+          "text_raw": "{\\H11.11111x;R5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R5}",
+          "entity_ids": [
+            "H41C",
+            "H8CC"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0009",
+          "text_raw": "R5",
+          "confidence": 0.99992,
+          "polygon_px": [
+            [
+              903.0,
+              391.0
+            ],
+            [
+              969.0,
+              391.0
+            ],
+            [
+              969.0,
+              438.0
+            ],
+            [
+              903.0,
+              438.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9978709515199465,
+        "text_similarity": 1.0,
+        "distance_px": 0.5666795946809311
+      }
+    },
+    {
+      "id": "UF_0004",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H6C3",
+        "HD7D"
+      ],
+      "ocr_item_ids": [
+        "OCR_0025"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R4",
+        "text_raw": "R4",
+        "dimension_kind": "radius",
+        "value": 4,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          119.87035423042684,
+          55.89741345975715
+        ],
+        "pixel_projected": [
+          1464.6892691666158,
+          905.8705628015439
+        ],
+        "pixel": [
+          1464.5,
+          906.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H6C3",
+          "text_raw": "{\\H11.11111x;R4}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R4}",
+          "entity_ids": [
+            "H6C3",
+            "HD7D"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0025",
+          "text_raw": "R4",
+          "confidence": 0.99574,
+          "polygon_px": [
+            [
+              1432.0,
+              883.0
+            ],
+            [
+              1497.0,
+              883.0
+            ],
+            [
+              1497.0,
+              930.0
+            ],
+            [
+              1432.0,
+              930.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.997322208541375,
+        "text_similarity": 1.0,
+        "distance_px": 0.6572777223000037
+      }
+    },
+    {
+      "id": "UF_0005",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H57D",
+        "H10C1"
+      ],
+      "ocr_item_ids": [
+        "OCR_0027"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "36",
+        "text_raw": "36",
+        "dimension_kind": "linear",
+        "value": 35.90000000004201,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          71.60830918520037,
+          52.47829764760269
+        ],
+        "pixel_projected": [
+          770.6299247593105,
+          955.4629013520865
+        ],
+        "pixel": [
+          771.5,
+          955.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H57D",
+          "text_raw": "{\\H11.11111x;36}",
+          "display_text_raw": "\\A1;{\\H11.11111x;36}",
+          "entity_ids": [
+            "H57D",
+            "H10C1"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0027",
+          "text_raw": "36",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              742.0,
+              933.0
+            ],
+            [
+              801.0,
+              933.0
+            ],
+            [
+              801.0,
+              978.0
+            ],
+            [
+              742.0,
+              978.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.996733253266086,
+        "text_similarity": 1.0,
+        "distance_px": 0.8708657957104083
+      }
+    },
+    {
+      "id": "UF_0006",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H4B1",
+        "HB55"
+      ],
+      "ocr_item_ids": [
+        "OCR_0005"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R0.45",
+        "text_raw": "R0.45",
+        "dimension_kind": "radius",
+        "value": 0.45,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          79.35330036849527,
+          99.0588669064618
+        ],
+        "pixel_projected": [
+          884.576875762763,
+          285.2965975555512
+        ],
+        "pixel": [
+          885.5,
+          285.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H4B1",
+          "text_raw": "{\\H11.11111x;R0.45}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R0.45}",
+          "entity_ids": [
+            "H4B1",
+            "HB55"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0005",
+          "text_raw": "R0.45",
+          "confidence": 0.99923,
+          "polygon_px": [
+            [
+              829.0,
+              264.0
+            ],
+            [
+              942.0,
+              264.0
+            ],
+            [
+              942.0,
+              306.0
+            ],
+            [
+              829.0,
+              306.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9963254916705432,
+        "text_similarity": 1.0,
+        "distance_px": 0.9696022211885003
+      }
+    },
+    {
+      "id": "UF_0007",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H5E7",
+        "HD65"
+      ],
+      "ocr_item_ids": [
+        "OCR_0010"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R0.45",
+        "text_raw": "R0.45",
+        "dimension_kind": "radius",
+        "value": 0.45,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          133.4483623359537,
+          86.32242413329408
+        ],
+        "pixel_projected": [
+          1661.5976554942317,
+          468.06675406246086
+        ],
+        "pixel": [
+          1660.5,
+          468.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H5E7",
+          "text_raw": "{\\H11.11111x;R0.45}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R0.45}",
+          "entity_ids": [
+            "H5E7",
+            "HD65"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0010",
+          "text_raw": "R0.45",
+          "confidence": 0.99931,
+          "polygon_px": [
+            [
+              1601.0,
+              447.0
+            ],
+            [
+              1720.0,
+              447.0
+            ],
+            [
+              1720.0,
+              489.0
+            ],
+            [
+              1601.0,
+              489.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9958416870647707,
+        "text_similarity": 1.0,
+        "distance_px": 1.099683449394476
+      }
+    },
+    {
+      "id": "UF_0008",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H5B1",
+        "HD13"
+      ],
+      "ocr_item_ids": [
+        "OCR_0013"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "40",
+        "text_raw": "40",
+        "dimension_kind": "linear",
+        "value": 40.00000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          126.8485761026393,
+          81.23314981177856
+        ],
+        "pixel_projected": [
+          1566.4281268038085,
+          541.3357517424824
+        ],
+        "pixel": [
+          1565.5,
+          542.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H5B1",
+          "text_raw": "{\\H11.11111x;40}",
+          "display_text_raw": "\\A1;{\\H11.11111x;40}",
+          "entity_ids": [
+            "H5B1",
+            "HD13"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0013",
+          "text_raw": "40",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              1536.0,
+              517.0
+            ],
+            [
+              1595.0,
+              517.0
+            ],
+            [
+              1595.0,
+              567.0
+            ],
+            [
+              1536.0,
+              567.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.99571949452321,
+        "text_similarity": 1.0,
+        "distance_px": 1.1413347938106757
+      }
+    },
+    {
+      "id": "UF_0009",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H3E7",
+        "HD27"
+      ],
+      "ocr_item_ids": [
+        "OCR_0012"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "14",
+        "text_raw": "14",
+        "dimension_kind": "linear",
+        "value": 14.09999999999991,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          117.65976995417395,
+          84.22033269802859
+        ],
+        "pixel_projected": [
+          1434.486145851724,
+          498.43977004744534
+        ],
+        "pixel": [
+          1434.0,
+          499.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H3E7",
+          "text_raw": "{\\H11.11111x;14}",
+          "display_text_raw": "\\A1;{\\H11.11111x;14}",
+          "entity_ids": [
+            "H3E7",
+            "HD27"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0012",
+          "text_raw": "14",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              1406.0,
+              477.0
+            ],
+            [
+              1462.0,
+              477.0
+            ],
+            [
+              1462.0,
+              522.0
+            ],
+            [
+              1406.0,
+              522.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9956251022686814,
+        "text_similarity": 1.0,
+        "distance_px": 1.1663727283516303
+      }
+    },
+    {
+      "id": "UF_0010",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "HA69",
+        "HDE1"
+      ],
+      "ocr_item_ids": [
+        "OCR_0019"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "14",
+        "text_raw": "14",
+        "dimension_kind": "linear",
+        "value": 14.27631183774012,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          52.78458433098149,
+          76.03323857473009
+        ],
+        "pixel_projected": [
+          501.31207716363804,
+          616.7631091692294
+        ],
+        "pixel": [
+          502.5,
+          616.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_HA69",
+          "text_raw": "{\\H11.11111x;14}",
+          "display_text_raw": "\\A1;{\\H11.11111x;14}",
+          "entity_ids": [
+            "HA69",
+            "HDE1"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0019",
+          "text_raw": "14",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              475.0,
+              594.0
+            ],
+            [
+              530.0,
+              594.0
+            ],
+            [
+              530.0,
+              639.0
+            ],
+            [
+              475.0,
+              639.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9954363315269554,
+        "text_similarity": 1.0,
+        "distance_px": 1.2167115928118941
+      }
+    },
+    {
+      "id": "UF_0011",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H649",
+        "HCC3"
+      ],
+      "ocr_item_ids": [
+        "OCR_0011"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "20",
+        "text_raw": "20",
+        "dimension_kind": "linear",
+        "value": 20,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          48.46695192801462,
+          84.88415087127265
+        ],
+        "pixel_projected": [
+          439.73033909842354,
+          489.47145416618764
+        ],
+        "pixel": [
+          438.5,
+          489.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H649",
+          "text_raw": "{\\H11.11111x;20}",
+          "display_text_raw": "\\A1;{\\H11.11111x;20}",
+          "entity_ids": [
+            "H649",
+            "HCC3"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0011",
+          "text_raw": "20",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              410.0,
+              467.0
+            ],
+            [
+              467.0,
+              467.0
+            ],
+            [
+              467.0,
+              512.0
+            ],
+            [
+              410.0,
+              512.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9953844867186609,
+        "text_similarity": 1.0,
+        "distance_px": 1.2306702083570955
+      }
+    },
+    {
+      "id": "UF_0012",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H3CD",
+        "HD4F"
+      ],
+      "ocr_item_ids": [
+        "OCR_0018"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "8",
+        "text_raw": "8",
+        "dimension_kind": "linear",
+        "value": 7.99999999999997,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          108.47527857765999,
+          80.0
+        ],
+        "pixel_projected": [
+          1302.2044590321493,
+          559.2300145280715
+        ],
+        "pixel": [
+          1301.0,
+          559.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H3CD",
+          "text_raw": "{\\H11.11111x;8}",
+          "display_text_raw": "\\A1;{\\H11.11111x;8}",
+          "entity_ids": [
+            "H3CD",
+            "HD4F"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0018",
+          "text_raw": "8",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              1287.0,
+              540.0
+            ],
+            [
+              1315.0,
+              540.0
+            ],
+            [
+              1315.0,
+              579.0
+            ],
+            [
+              1287.0,
+              579.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9953701969290434,
+        "text_similarity": 1.0,
+        "distance_px": 1.234347485588452
+      }
+    },
+    {
+      "id": "UF_0013",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H401",
+        "HD1D"
+      ],
+      "ocr_item_ids": [
+        "OCR_0021"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "20",
+        "text_raw": "20",
+        "dimension_kind": "linear",
+        "value": 19.99999999999996,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          121.97740235714082,
+          76.36514766135207
+        ],
+        "pixel_projected": [
+          1496.1233847739431,
+          611.4070386844548
+        ],
+        "pixel": [
+          1495.0,
+          612.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H401",
+          "text_raw": "{\\H11.11111x;20}",
+          "display_text_raw": "\\A1;{\\H11.11111x;20}",
+          "entity_ids": [
+            "H401",
+            "HD1D"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0021",
+          "text_raw": "20",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              1465.0,
+              588.0
+            ],
+            [
+              1525.0,
+              588.0
+            ],
+            [
+              1525.0,
+              636.0
+            ],
+            [
+              1465.0,
+              636.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9952359718549851,
+        "text_similarity": 1.0,
+        "distance_px": 1.2702741720039528
+      }
+    },
+    {
+      "id": "UF_0014",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H549",
+        "H1050"
+      ],
+      "ocr_item_ids": [
+        "OCR_0001"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "23.6",
+        "text_raw": "23.6",
+        "dimension_kind": "linear",
+        "value": 23.59999999999997,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          84.25524099746508,
+          112.73842391908018
+        ],
+        "pixel_projected": [
+          955.815104075055,
+          88.46331585752341
+        ],
+        "pixel": [
+          954.5,
+          89.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H549",
+          "text_raw": "{\\H11.11111x;23.6}",
+          "display_text_raw": "\\A1;{\\H11.11111x;23.6}",
+          "entity_ids": [
+            "H549",
+            "H1050"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0001",
+          "text_raw": "23.6",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              909.0,
+              67.0
+            ],
+            [
+              1000.0,
+              67.0
+            ],
+            [
+              1000.0,
+              111.0
+            ],
+            [
+              909.0,
+              111.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9946725099835366,
+        "text_similarity": 1.0,
+        "distance_px": 1.420397337723575
+      }
+    },
+    {
+      "id": "UF_0015",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H6AD",
+        "H10AB"
+      ],
+      "ocr_item_ids": [
+        "OCR_0028"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R2.2",
+        "text_raw": "R2.2",
+        "dimension_kind": "radius",
+        "value": 2.19999999999999,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          115.23721074794236,
+          51.13488700614722
+        ],
+        "pixel_projected": [
+          1397.812593699572,
+          974.4224921894057
+        ],
+        "pixel": [
+          1396.5,
+          973.75
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H6AD",
+          "text_raw": "{\\H11.11111x;R2.2}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R2.2}",
+          "entity_ids": [
+            "H6AD",
+            "H10AB"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0028",
+          "text_raw": "R2.2",
+          "confidence": 0.99998,
+          "polygon_px": [
+            [
+              1348.0,
+              950.0
+            ],
+            [
+              1446.0,
+              953.0
+            ],
+            [
+              1445.0,
+              997.0
+            ],
+            [
+              1347.0,
+              995.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9944683564337085,
+        "text_similarity": 1.0,
+        "distance_px": 1.4748382843444112
+      }
+    },
+    {
+      "id": "UF_0016",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H663",
+        "HCB9"
+      ],
+      "ocr_item_ids": [
+        "OCR_0022"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "23.6",
+        "text_raw": "23.6",
+        "dimension_kind": "linear",
+        "value": 23.59999999999998,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          45.80994851825244,
+          74.15241986387929
+        ],
+        "pixel_projected": [
+          400.9321307147932,
+          643.8788838971604
+        ],
+        "pixel": [
+          399.5,
+          643.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H663",
+          "text_raw": "{\\H11.11111x;23.6}",
+          "display_text_raw": "\\A1;{\\H11.11111x;23.6}",
+          "entity_ids": [
+            "H663",
+            "HCB9"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0022",
+          "text_raw": "23.6",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              354.0,
+              622.0
+            ],
+            [
+              445.0,
+              622.0
+            ],
+            [
+              445.0,
+              665.0
+            ],
+            [
+              354.0,
+              665.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9944442431250281,
+        "text_similarity": 1.0,
+        "distance_px": 1.4814018333258447
+      }
+    },
+    {
+      "id": "UF_0017",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H67D",
+        "HCAF"
+      ],
+      "ocr_item_ids": [
+        "OCR_0014"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "36.4",
+        "text_raw": "36.4",
+        "dimension_kind": "linear",
+        "value": 36.39999999999998,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          40.05310490049578,
+          80.56933108520872
+        ],
+        "pixel_projected": [
+          318.5230248099274,
+          551.614502012422
+        ],
+        "pixel": [
+          317.0,
+          551.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H67D",
+          "text_raw": "{\\H11.11111x;36.4}",
+          "display_text_raw": "\\A1;{\\H11.11111x;36.4}",
+          "entity_ids": [
+            "H67D",
+            "HCAF"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0014",
+          "text_raw": "36.4",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              271.0,
+              529.0
+            ],
+            [
+              363.0,
+              529.0
+            ],
+            [
+              363.0,
+              574.0
+            ],
+            [
+              271.0,
+              574.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9942720390738823,
+        "text_similarity": 1.0,
+        "distance_px": 1.527322913631366
+      }
+    },
+    {
+      "id": "UF_0018",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H440",
+        "HBAF"
+      ],
+      "ocr_item_ids": [
+        "OCR_0006"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R1",
+        "text_raw": "R1",
+        "dimension_kind": "radius",
+        "value": 1,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          82.17718682067786,
+          94.72353920653134
+        ],
+        "pixel_projected": [
+          924.934557111956,
+          347.64026329175476
+        ],
+        "pixel": [
+          927.0,
+          347.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H440",
+          "text_raw": "{\\H11.11111x;R1}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R1}",
+          "entity_ids": [
+            "H440",
+            "HBAF"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0006",
+          "text_raw": "R1",
+          "confidence": 0.99963,
+          "polygon_px": [
+            [
+              895.0,
+              326.0
+            ],
+            [
+              959.0,
+              326.0
+            ],
+            [
+              959.0,
+              369.0
+            ],
+            [
+              895.0,
+              369.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9922182499322661,
+        "text_similarity": 1.0,
+        "distance_px": 2.07020001806237
+      }
+    },
+    {
+      "id": "UF_0019",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H597",
+        "H10B7"
+      ],
+      "ocr_item_ids": [
+        "OCR_0029"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "40",
+        "text_raw": "40",
+        "dimension_kind": "linear",
+        "value": 40,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          80.19015630179183,
+          49.79147636469179
+        ],
+        "pixel_projected": [
+          893.8623303542003,
+          994.0430240022356
+        ],
+        "pixel": [
+          896.0,
+          993.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H597",
+          "text_raw": "{\\H11.11111x;40}",
+          "display_text_raw": "\\A1;{\\H11.11111x;40}",
+          "entity_ids": [
+            "H597",
+            "H10B7"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0029",
+          "text_raw": "40",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              866.0,
+              971.0
+            ],
+            [
+              926.0,
+              971.0
+            ],
+            [
+              926.0,
+              1016.0
+            ],
+            [
+              866.0,
+              1016.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9917286400807747,
+        "text_similarity": 1.0,
+        "distance_px": 2.2055626451267605
+      }
+    },
+    {
+      "id": "UF_0020",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H33D",
+        "H1032"
+      ],
+      "ocr_item_ids": [
+        "OCR_0026"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "31",
+        "text_raw": "31",
+        "dimension_kind": "linear",
+        "value": 31,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          78.67125523983627,
+          54.23959038670523
+        ],
+        "pixel_projected": [
+          872.2728550757457,
+          930.0658678520384
+        ],
+        "pixel": [
+          874.5,
+          930.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H33D",
+          "text_raw": "{\\H11.11111x;31}",
+          "display_text_raw": "\\A1;{\\H11.11111x;31}",
+          "entity_ids": [
+            "H33D",
+            "H1032"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0026",
+          "text_raw": "31",
+          "confidence": 0.9993,
+          "polygon_px": [
+            [
+              847.0,
+              906.0
+            ],
+            [
+              902.0,
+              906.0
+            ],
+            [
+              902.0,
+              954.0
+            ],
+            [
+              847.0,
+              954.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9916095547519079,
+        "text_similarity": 1.0,
+        "distance_px": 2.2281187328245635
+      }
+    },
+    {
+      "id": "UF_0021",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H52F",
+        "H105A"
+      ],
+      "ocr_item_ids": [
+        "OCR_0002"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "20",
+        "text_raw": "20",
+        "dimension_kind": "linear",
+        "value": 20.00000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          74.86037727132862,
+          109.03751571522173
+        ],
+        "pixel_projected": [
+          820.5378228977125,
+          141.78296301953696
+        ],
+        "pixel": [
+          818.0,
+          142.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H52F",
+          "text_raw": "{\\H11.11111x;20}",
+          "display_text_raw": "\\A1;{\\H11.11111x;20}",
+          "entity_ids": [
+            "H52F",
+            "H105A"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0002",
+          "text_raw": "20",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              789.0,
+              119.0
+            ],
+            [
+              847.0,
+              119.0
+            ],
+            [
+              847.0,
+              165.0
+            ],
+            [
+              789.0,
+              165.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9904479252771317,
+        "text_similarity": 1.0,
+        "distance_px": 2.5470865927648805
+      }
+    },
+    {
+      "id": "UF_0022",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H515",
+        "H103C"
+      ],
+      "ocr_item_ids": [
+        "OCR_0003"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "14",
+        "text_raw": "14",
+        "dimension_kind": "linear",
+        "value": 14.10000000000002,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          81.4242427042292,
+          105.7860656658576
+        ],
+        "pixel_projected": [
+          914.7260104990452,
+          188.50270497815677
+        ],
+        "pixel": [
+          912.5,
+          187.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H515",
+          "text_raw": "{\\H11.11111x;14}",
+          "display_text_raw": "\\A1;{\\H11.11111x;14}",
+          "entity_ids": [
+            "H515",
+            "H103C"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0003",
+          "text_raw": "14",
+          "confidence": 0.99997,
+          "polygon_px": [
+            [
+              887.0,
+              162.0
+            ],
+            [
+              941.0,
+              165.0
+            ],
+            [
+              938.0,
+              212.0
+            ],
+            [
+              884.0,
+              209.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9899269431333879,
+        "text_similarity": 1.0,
+        "distance_px": 2.6857484977632393
+      }
+    },
+    {
+      "id": "UF_0023",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H4FB",
+        "HF6C"
+      ],
+      "ocr_item_ids": [
+        "OCR_0004"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "8",
+        "text_raw": "8",
+        "dimension_kind": "linear",
+        "value": 8.00000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          80.0,
+          102.35704367680148
+        ],
+        "pixel_projected": [
+          894.0583851073962,
+          237.84407732470527
+        ],
+        "pixel": [
+          891.0,
+          237.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H4FB",
+          "text_raw": "{\\H11.11111x;8}",
+          "display_text_raw": "\\A1;{\\H11.11111x;8}",
+          "entity_ids": [
+            "H4FB",
+            "HF6C"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0004",
+          "text_raw": "8",
+          "confidence": 0.99999,
+          "polygon_px": [
+            [
+              877.0,
+              219.0
+            ],
+            [
+              905.0,
+              219.0
+            ],
+            [
+              905.0,
+              256.0
+            ],
+            [
+              877.0,
+              256.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9884582033579775,
+        "text_similarity": 1.0,
+        "distance_px": 3.0776791045393446
+      }
+    },
+    {
+      "id": "UF_0024",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H42E",
+        "H8D8"
+      ],
+      "ocr_item_ids": [
+        "OCR_0008"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R5",
+        "text_raw": "R5",
+        "dimension_kind": "radius",
+        "value": 5.00000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          85.53369088112015,
+          92.7437199154333
+        ],
+        "pixel_projected": [
+          973.0810345176425,
+          376.09345601116365
+        ],
+        "pixel": [
+          970.0,
+          376.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H42E",
+          "text_raw": "{\\H11.11111x;R5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R5}",
+          "entity_ids": [
+            "H42E",
+            "H8D8"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0008",
+          "text_raw": "R5",
+          "confidence": 0.99993,
+          "polygon_px": [
+            [
+              937.0,
+              353.0
+            ],
+            [
+              1003.0,
+              353.0
+            ],
+            [
+              1003.0,
+              399.0
+            ],
+            [
+              937.0,
+              399.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9884373065860197,
+        "text_similarity": 1.0,
+        "distance_px": 3.0824515770614216
+      }
+    },
+    {
+      "id": "UF_0025",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H5FD",
+        "HACA"
+      ],
+      "ocr_item_ids": [
+        "OCR_0020"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R1.5",
+        "text_raw": "R1.5",
+        "dimension_kind": "radius",
+        "value": 1.49999999999999,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          66.12651302292942,
+          75.49516494942361
+        ],
+        "pixel_projected": [
+          693.1004717878051,
+          624.3916745747836
+        ],
+        "pixel": [
+          689.0,
+          624.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H5FD",
+          "text_raw": "{\\H11.11111x;R1.5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R1.5}",
+          "entity_ids": [
+            "H5FD",
+            "HACA"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0020",
+          "text_raw": "R1.5",
+          "confidence": 0.99993,
+          "polygon_px": [
+            [
+              637.0,
+              601.0
+            ],
+            [
+              741.0,
+              601.0
+            ],
+            [
+              741.0,
+              648.0
+            ],
+            [
+              637.0,
+              648.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9846143660085895,
+        "text_similarity": 1.0,
+        "distance_px": 4.10190239770946
+      }
+    },
+    {
+      "id": "UF_0026",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H697",
+        "H101C"
+      ],
+      "ocr_item_ids": [
+        "OCR_0024"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "3XR0.5",
+        "text_raw": "3xR0.5",
+        "dimension_kind": "radius",
+        "value": 0.49999999999996,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          86.08731109806325,
+          57.21872014752653
+        ],
+        "pixel_projected": [
+          979.0603651789805,
+          887.1462431130153
+        ],
+        "pixel": [
+          979.5,
+          887.25
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H697",
+          "text_raw": "{\\H11.11111x;3xR0.5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;3xR0.5}",
+          "entity_ids": [
+            "H697",
+            "H101C"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0024",
+          "text_raw": "3xR0.5",
+          "confidence": 0.99984,
+          "polygon_px": [
+            [
+              910.0,
+              867.0
+            ],
+            [
+              1049.0,
+              865.0
+            ],
+            [
+              1049.0,
+              907.0
+            ],
+            [
+              910.0,
+              910.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "confirmed",
+        "score": 0.9482980777730349,
+        "text_similarity": 1.0,
+        "distance_px": 0.45171259385739027
+      }
+    },
+    {
+      "id": "UF_0027",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H361",
+        "H8A0"
+      ],
+      "ocr_item_ids": [
+        "OCR_0016"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "15.5",
+        "text_raw": "15.5",
+        "dimension_kind": "linear",
+        "value": 15.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          74.1593463575756,
+          80.0
+        ],
+        "pixel_projected": [
+          808.8405012833315,
+          559.5182958133291
+        ],
+        "pixel": [
+          815.5,
+          558.5
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H361",
+          "text_raw": "{\\H11.11111x;15.5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;15.5}",
+          "entity_ids": [
+            "H361",
+            "H8A0"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0016",
+          "text_raw": "5.5",
+          "confidence": 0.99923,
+          "polygon_px": [
+            [
+              780.0,
+              535.0
+            ],
+            [
+              851.0,
+              535.0
+            ],
+            [
+              851.0,
+              582.0
+            ],
+            [
+              780.0,
+              582.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "conflict",
+        "score": 0.8961266886605098,
+        "text_similarity": 0.8571428571428571,
+        "distance_px": 6.73690207148309
+      }
+    },
+    {
+      "id": "UF_0028",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H6D9"
+      ],
+      "ocr_item_ids": [
+        "OCR_0007"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R2.5",
+        "text_raw": "R2.5",
+        "dimension_kind": "radius",
+        "value": 2.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          73.22294629246244,
+          93.78159127337541
+        ],
+        "pixel_projected": [
+          796.1459461755227,
+          361.2662109332225
+        ],
+        "pixel": [
+          803.0,
+          364.0
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H6D9",
+          "text_raw": "{\\H11.11111x;R2.5}",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H6D9"
+          ]
+        },
+        "image_ocr": {
+          "item_id": "OCR_0007",
+          "text_raw": "R2.5 R0.5",
+          "confidence": 0.97713,
+          "polygon_px": [
+            [
+              706.0,
+              337.0
+            ],
+            [
+              901.0,
+              343.0
+            ],
+            [
+              900.0,
+              391.0
+            ],
+            [
+              705.0,
+              385.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "conflict",
+        "score": 0.7878514045363441,
+        "text_similarity": 0.6666666666666666,
+        "distance_px": 7.379136568086018
+      }
+    },
+    {
+      "id": "UF_0029",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H395",
+        "H952"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "90°",
+        "text_raw": "90°",
+        "dimension_kind": "angle",
+        "value": 89.99999999999905,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          92.0663160420805,
+          80.00000000000003
+        ],
+        "pixel_projected": [
+          1066.2909874940688,
+          559.3678629414308
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H395",
+          "text_raw": "{\\H11.11111x;<>}",
+          "display_text_raw": "\\A1;{\\H11.11111x;90°}",
+          "entity_ids": [
+            "H395",
+            "H952"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0030",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H456"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD1=0.4500",
+        "text_raw": "rad1=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          86.79467480344626,
+          98.37008706894186
+        ],
+        "pixel_projected": [
+          991.5239481780524,
+          295.14276980985437
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H456",
+          "text_raw": "rad1=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H456"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0031",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H468"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD2=0.4500",
+        "text_raw": "rad2=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          73.6553453352169,
+          98.6975637061922
+        ],
+        "pixel_projected": [
+          802.6366065608175,
+          290.54211980099194
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H468",
+          "text_raw": "rad2=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H468"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0032",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H46E"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD3=0.4500",
+        "text_raw": "rad3=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          98.52809285926031,
+          86.26941664081117
+        ],
+        "pixel_projected": [
+          1159.5421194960932,
+          469.1226702790309
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H46E",
+          "text_raw": "rad3=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H46E"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0033",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H488"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD4=0.4500",
+        "text_raw": "rad4=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          98.35108302659094,
+          73.92410244870698
+        ],
+        "pixel_projected": [
+          1156.309113872314,
+          646.7220371901001
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H488",
+          "text_raw": "rad4=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H488"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0034",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H499"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD5=0.4500",
+        "text_raw": "rad5=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          86.49391516469827,
+          61.70945122855203
+        ],
+        "pixel_projected": [
+          985.1564658017875,
+          822.5398284168324
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H499",
+          "text_raw": "rad5=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H499"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0035",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H49F"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD6=0.4500",
+        "text_raw": "rad6=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          75.03387259641678,
+          62.49999999991601
+        ],
+        "pixel_projected": [
+          820.4382290977554,
+          811.2633832291717
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H49F",
+          "text_raw": "rad6=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H49F"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0036",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H4A5"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD7=0.4500",
+        "text_raw": "rad7=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.5,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          61.60387946276692,
+          73.6710288680274
+        ],
+        "pixel_projected": [
+          627.9763926981025,
+          650.671422525581
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H4A5",
+          "text_raw": "rad7=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H4A5"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0037",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H4AB"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "RAD8=0.4500",
+        "text_raw": "rad8=0.4500",
+        "dimension_kind": "radius",
+        "value": 0.49999999999999,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          61.78176877749832,
+          86.38548742639405
+        ],
+        "pixel_projected": [
+          631.2426184763747,
+          467.7615914973769
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H4AB",
+          "text_raw": "rad8=0.4500",
+          "display_text_raw": null,
+          "entity_ids": [
+            "H4AB"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0038",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H4C7",
+        "H4D6"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "Ø6.8000",
+        "text_raw": "∅6.8000",
+        "dimension_kind": "diameter",
+        "value": 6.80000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          85.21805622790981,
+          85.22047311616869
+        ],
+        "pixel_projected": [
+          968.1237817856771,
+          484.32443298397675
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H4C7",
+          "text_raw": "",
+          "display_text_raw": "\\A1;∅6.8000",
+          "entity_ids": [
+            "H4C7",
+            "H4D6"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0039",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H563",
+        "H1102"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "36.4",
+        "text_raw": "36.4",
+        "dimension_kind": "linear",
+        "value": 36.39999999999997,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          79.7716956622302,
+          115.38595665519108
+        ],
+        "pixel_projected": [
+          891.5022471406327,
+          50.413963467290614
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H563",
+          "text_raw": "{\\H11.11111x;36.4}",
+          "display_text_raw": "\\A1;{\\H11.11111x;36.4}",
+          "entity_ids": [
+            "H563",
+            "H1102"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0040",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H5D5",
+        "H5E2"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R0.5000",
+        "text_raw": "R0.5000",
+        "dimension_kind": "radius",
+        "value": 0.50000000000001,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          96.89508648427778,
+          83.56394993117374
+        ],
+        "pixel_projected": [
+          1135.913405949896,
+          508.0568362460258
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H5D5",
+          "text_raw": "",
+          "display_text_raw": "\\A1;R0.5000",
+          "entity_ids": [
+            "H5D5",
+            "H5E2"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0041",
+      "feature_type": "dimension_annotation",
+      "source_entity_ids": [
+        "H6EB",
+        "HB8F"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R0.5",
+        "text_raw": "R0.5",
+        "dimension_kind": "radius",
+        "value": 0.49999999999996,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          77.02557756561187,
+          93.31077169783337
+        ],
+        "pixel_projected": [
+          850.7905540816759,
+          368.0074071699869
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_H6EB",
+          "text_raw": "{\\H11.11111x;R0.5}",
+          "display_text_raw": "\\A1;{\\H11.11111x;R0.5}",
+          "entity_ids": [
+            "H6EB",
+            "HB8F"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0042",
+      "feature_type": "native_text_annotation",
+      "source_entity_ids": [
+        "HB97"
+      ],
+      "ocr_item_ids": [],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "R2.5",
+        "text_raw": "R2.5",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "cad": [
+          70.34781696660978,
+          93.7815912733754,
+          0.0
+        ],
+        "pixel_projected": [
+          754.8098934596898,
+          361.29036431981945
+        ]
+      },
+      "evidence": {
+        "cad_native": {
+          "item_id": "NATIVE_HB97",
+          "text_raw": "\\A1;{\\H11.11111x;R2.5}",
+          "display_text_raw": null,
+          "entity_ids": [
+            "HB97"
+          ]
+        },
+        "image_ocr": null,
+        "vision": []
+      },
+      "fusion": {
+        "status": "cad_only",
+        "score": null
+      }
+    },
+    {
+      "id": "UF_0043",
+      "feature_type": "dimension_candidate",
+      "source_entity_ids": [],
+      "ocr_item_ids": [
+        "OCR_0017"
+      ],
+      "vision_item_ids": [],
+      "canonical": {
+        "text": "06",
+        "text_raw": "06",
+        "dimension_kind": "numeric",
+        "value": 6,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1064.75,
+          559.5
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": {
+          "item_id": "OCR_0017",
+          "text_raw": "06",
+          "confidence": 0.9988,
+          "polygon_px": [
+            [
+              1028.0,
+              538.0
+            ],
+            [
+              1100.0,
+              535.0
+            ],
+            [
+              1102.0,
+              581.0
+            ],
+            [
+              1029.0,
+              584.0
+            ]
+          ]
+        },
+        "vision": []
+      },
+      "fusion": {
+        "status": "ocr_only",
+        "score": 0.9988
+      }
+    },
+    {
+      "id": "UF_0044",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0001"
+      ],
+      "canonical": {
+        "text": "截面形状的主视图，带有大量标注。",
+        "text_raw": "截面形状的主视图，带有大量标注。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1100.0,
+          950.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0001",
+            "observation_type": "orthographic_view",
+            "description": "截面形状的主视图，带有大量标注。",
+            "region_px": [
+              600.0,
+              500.0,
+              1600.0,
+              1400.0
+            ],
+            "model_confidence": 0.9,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.9,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0045",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0002"
+      ],
+      "canonical": {
+        "text": "水平和垂直中心线穿过截面中心，表明该轮廓在水平和垂直方向上都是对称的。",
+        "text_raw": "水平和垂直中心线穿过截面中心，表明该轮廓在水平和垂直方向上都是对称的。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1050.0,
+          850.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0002",
+            "observation_type": "symmetry",
+            "description": "水平和垂直中心线穿过截面中心，表明该轮廓在水平和垂直方向上都是对称的。",
+            "region_px": [
+              400.0,
+              800.0,
+              1700.0,
+              900.0
+            ],
+            "model_confidence": 0.95,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.95,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0046",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0003"
+      ],
+      "canonical": {
+        "text": "用作对称轴的竖直点划线。",
+        "text_raw": "用作对称轴的竖直点划线。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1105.0,
+          950.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0003",
+            "observation_type": "centerline",
+            "description": "用作对称轴的竖直点划线。",
+            "region_px": [
+              1100.0,
+              600.0,
+              1110.0,
+              1300.0
+            ],
+            "model_confidence": 0.95,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.95,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0047",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0004"
+      ],
+      "canonical": {
+        "text": "截面主体轮廓，边缘呈圆角矩形，四个角有内凹槽。",
+        "text_raw": "截面主体轮廓，边缘呈圆角矩形，四个角有内凹槽。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1100.0,
+          900.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0004",
+            "observation_type": "feature_candidate",
+            "description": "截面主体轮廓，边缘呈圆角矩形，四个角有内凹槽。",
+            "region_px": [
+              900.0,
+              550.0,
+              1300.0,
+              1250.0
+            ],
+            "model_confidence": 0.6,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.6,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0048",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0005"
+      ],
+      "canonical": {
+        "text": "中央圆形通孔。",
+        "text_raw": "中央圆形通孔。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1300.0,
+          1050.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0005",
+            "observation_type": "feature_candidate",
+            "description": "中央圆形通孔。",
+            "region_px": [
+              1250.0,
+              1000.0,
+              1350.0,
+              1100.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0049",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0006"
+      ],
+      "canonical": {
+        "text": "四个角落的凹槽特征，形状为T型槽。",
+        "text_raw": "四个角落的凹槽特征，形状为T型槽。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1100.0,
+          925.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0006",
+            "observation_type": "feature_candidate",
+            "description": "四个角落的凹槽特征，形状为T型槽。",
+            "region_px": [
+              1000.0,
+              850.0,
+              1200.0,
+              1000.0
+            ],
+            "model_confidence": 0.4,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.4,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0050",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0007"
+      ],
+      "canonical": {
+        "text": "轮廓外部四个圆弧转角，标注半径R4和R2.2等。",
+        "text_raw": "轮廓外部四个圆弧转角，标注半径R4和R2.2等。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          935.0,
+          640.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0007",
+            "observation_type": "feature_candidate",
+            "description": "轮廓外部四个圆弧转角，标注半径R4和R2.2等。",
+            "region_px": [
+              880.0,
+              580.0,
+              990.0,
+              700.0
+            ],
+            "model_confidence": 0.5,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.5,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0051",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0008"
+      ],
+      "canonical": {
+        "text": "图中标注了多个半径值，包括R0.45, R2.5, R0.5, R1, R5, R1.5, R4, R2.2及3xR0.5。",
+        "text_raw": "图中标注了多个半径值，包括R0.45, R2.5, R0.5, R1, R5, R1.5, R4, R2.2及3xR0.5。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1200.0,
+          775.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0008",
+            "observation_type": "technical_requirement",
+            "description": "图中标注了多个半径值，包括R0.45, R2.5, R0.5, R1, R5, R1.5, R4, R2.2及3xR0.5。",
+            "region_px": [
+              900.0,
+              650.0,
+              1500.0,
+              900.0
+            ],
+            "model_confidence": 0.9,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.9,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0052",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0009"
+      ],
+      "canonical": {
+        "text": "尺寸标注引线指向特定特征，例如90度角标注指示两边的夹角。",
+        "text_raw": "尺寸标注引线指向特定特征，例如90度角标注指示两边的夹角。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          1400.0,
+          850.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0009",
+            "observation_type": "leader_relation",
+            "description": "尺寸标注引线指向特定特征，例如90度角标注指示两边的夹角。",
+            "region_px": [
+              1300.0,
+              800.0,
+              1500.0,
+              900.0
+            ],
+            "model_confidence": 0.8,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.8,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0053",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0010"
+      ],
+      "canonical": {
+        "text": "文件标题栏显示该图纸为2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE。",
+        "text_raw": "文件标题栏显示该图纸为2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {
+        "pixel": [
+          900.0,
+          50.0
+        ]
+      },
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0010",
+            "observation_type": "title_block",
+            "description": "文件标题栏显示该图纸为2D FRONT VIEW OF ALUMINUM T-SLOT EXTRUSION PROFILE。",
+            "region_px": [
+              600.0,
+              20.0,
+              1200.0,
+              80.0
+            ],
+            "model_confidence": 0.9,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.9,
+        "vision_match_score": null
+      }
+    },
+    {
+      "id": "UF_0054",
+      "feature_type": "vision_observation",
+      "source_entity_ids": [],
+      "ocr_item_ids": [],
+      "vision_item_ids": [
+        "VIS_0011"
+      ],
+      "canonical": {
+        "text": "背景为黑色，图形轮廓由青蓝色点线表示，尺寸标注线和文字为黄色。",
+        "text_raw": "背景为黑色，图形轮廓由青蓝色点线表示，尺寸标注线和文字为黄色。",
+        "dimension_kind": null,
+        "value": null,
+        "unit": null
+      },
+      "position": {},
+      "evidence": {
+        "cad_native": null,
+        "image_ocr": null,
+        "vision": [
+          {
+            "item_id": "VIS_0011",
+            "observation_type": "other",
+            "description": "背景为黑色，图形轮廓由青蓝色点线表示，尺寸标注线和文字为黄色。",
+            "region_px": null,
+            "model_confidence": 0.9,
+            "status": "candidate"
+          }
+        ]
+      },
+      "fusion": {
+        "status": "vision_only",
+        "score": 0.9,
+        "vision_match_score": null
+      }
+    }
+  ],
+  "statistics": {
+    "feature_count": 54,
+    "fusion_status_counts": {
+      "cad_only": 14,
+      "confirmed": 26,
+      "conflict": 2,
+      "ocr_only": 1,
+      "vision_only": 11
+    },
+    "feature_type_counts": {
+      "dimension_annotation": 41,
+      "dimension_candidate": 1,
+      "native_text_annotation": 1,
+      "vision_observation": 11
+    },
+    "vision_observation_count": 11,
+    "vision_attached_feature_count": 0,
+    "vision_only_feature_count": 11
+  }
+}
